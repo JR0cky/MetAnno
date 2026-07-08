@@ -4,7 +4,7 @@ import threading
 from pathlib import Path
 from typing import Dict, List, Any, Optional
 import bcrypt
-from backend import config
+import config
 
 # Firebase imports inside function/class or protected block to prevent import errors if not installed
 db_firestore = None

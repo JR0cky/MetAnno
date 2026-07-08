@@ -5,8 +5,8 @@ from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 import jwt
 import bcrypt
 
-from backend import config
-from backend.db import DatabaseClient
+import config
+from db import DatabaseClient
 
 # Security
 security = HTTPBearer()

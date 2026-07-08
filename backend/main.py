@@ -5,15 +5,15 @@ from fastapi import FastAPI, Depends, HTTPException, status, UploadFile, File, F
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, EmailStr
 
-from backend import config
-from backend.auth import (
+import config
+from auth import (
     verify_password,
     get_password_hash,
     create_access_token,
     get_current_user,
     get_admin_user,
 )
-from backend.db import DatabaseClient
+from db import DatabaseClient
 
 app = FastAPI(
     title="Metaphor Annotation Tool API",
