@@ -813,4 +813,5 @@ if __name__ == "__main__":
     import os
     port = int(os.getenv("PORT", 8421))
     host = os.getenv("HOST", "127.0.0.1")
-    uvicorn.run("backend.main:app" if not getattr(sys, "frozen", False) else "main:app", host=host, port=port, reload=False)
+    # Use the app object directly to avoid import issues when bundled with PyInstaller
+    uvicorn.run(app, host=host, port=port, reload=False)
