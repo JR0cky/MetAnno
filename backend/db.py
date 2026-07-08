@@ -182,9 +182,13 @@ class LocalDatabase:
             # 2. Bundled resource path (inside PyInstaller sys._MEIPASS)
             import sys
             if getattr(sys, 'frozen', False):
+                # Check both root and _internal (PyInstaller 6 directory layouts)
                 bundle_path = Path(sys._MEIPASS) / "data" / filename
                 if bundle_path.exists():
                     return bundle_path
+                bundle_path_internal = Path(sys._MEIPASS) / "_internal" / "data" / filename
+                if bundle_path_internal.exists():
+                    return bundle_path_internal
                     
             # 3. Relative fallback path inside package
             local_fallback = Path(__file__).resolve().parent / "data" / filename

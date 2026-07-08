@@ -795,6 +795,8 @@ import sys
 
 if getattr(sys, "frozen", False):
     frontend_dist_path = Path(sys._MEIPASS) / "frontend" / "dist"
+    if not frontend_dist_path.exists():
+        frontend_dist_path = Path(sys._MEIPASS) / "_internal" / "frontend" / "dist"
 else:
     frontend_dist_path = Path(__file__).resolve().parent.parent / "frontend" / "dist"
 
