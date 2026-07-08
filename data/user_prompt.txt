@@ -1,0 +1,613 @@
+Below is a list of unique SOURCE concepts extracted from the Master Metaphor List.
+
+For each concept provide:
+
+- original_label
+- normalized_label
+- confidence (0–1)
+- explanation
+
+Normalize each concept independently.
+
+Give a structured output in json format.
+
+Input
+
+(Determined By) Manner Of Contact
+1 On 1 Physical Aggression
+A Battle
+A Battleground
+A Benefical Possession
+A Body
+A Body (Food)
+A Body (Perception)
+A Body Of Water
+A Bounded Region
+A Brittle Object
+A Builder
+A Burden Which Slows Down Motion
+A Canonical Shape
+A Captor
+A Car
+A Changer
+A Child
+A Child Of That Property
+A Circle
+A Com-
+A Constructed Object
+A Container
+A Container For Objects
+A Container For The Self
+A Cover
+A Cutting Instrument
+A Defense
+A Different Path
+A Diversion Which Moves You A Different Direction
+A Fighter
+A Fluid
+A Force
+A Force Between Desired And Desirer.
+A Game
+A Guide In The Search
+A Journey
+A Landmark
+A Landscape We Move Through
+A Light Source
+A Line
+A Liquid
+A Location (Here)
+A Location Along A Path
+A Locked Container For Its Solution
+A Machine
+A Mobile Entity In Landscape
+A Moving Object
+A Moving Object.
+A Parent
+A Physical Property
+A Place Of Confinement
+A Possession
+A Pursuer
+A Race
+A Region In A Landscape
+A Resource
+A Setback Which Returns You To Prior Location
+A Ship
+A Solid
+A Straight Path
+A Substance
+A Substance Contained In Affecting Causes
+A Substance Directed At An Affected Party
+A Substance Inside The Person
+A Substance That Comes From The Laugher
+A Tangle
+A Target
+A Tempting Possible Partner
+A Tide
+A Train
+A Traveler
+A Unity (Of Two Complementary Parts)
+A Virus
+A War
+A Wax Tablet/Paper
+A Weapon
+Abilities To Possess
+Ability To Grab (Length Of Reach) A Really First-Rate Sports Car Is Still Out Of My Reach.
+Ability To Navigate
+Absorbing
+Accidently Touching It With Eyes Or Glance
+Accounting
+Accumulating Credit:Putting Money Into Society.
+Accumulating Debt.
+Accumulating Debt:Taking Money From Society.
+Acquiring A Possession
+Adding Up/Figuring Out
+Adherence
+Adversaries
+Adversity Due To Bad Weather
+Aids To Motion
+Aids To Vision.
+Aligned
+Alive
+Allowing Motion Of Possessions Relative To Affected Parties
+Allowing Motion To A New Location
+An  Object  Easily  Accessable  Without Effort On The Part Of The Experiencer
+An Achievement
+An Activated Machine
+An Addictive Substance
+An Animal
+An Animal.
+An Attack By The Disease
+An Enemy
+An Example Of A Causation Metaphor, Because We Want To Generalize Over Examples Such As:
+An External Event Exerting Force On Present Events
+An Instrument Of Constraint
+An Object
+An Object In Water
+An Object That Has Been Destroyed
+An Obstable
+An Offensive Weapon
+An Older Sibling
+Appetite
+Approaching The Object
+Areas
+Arriving
+Attached To Person Held Responsible.
+Attacking A Fortification
+Attacks By The Patient
+Avoiding Contact
+Backward Movement
+Balance
+Batteries
+Becoming Electrified
+Being Above
+Being Above In Explicit Ranking
+Being Crooked.
+Being Cured Of The Disease
+Being Easily Physically Manipulated
+Being Farther Along On A Path
+Being Forced To Move To A Harmful Location
+Being Given An Undesirable Possession
+Being Immoral.
+Being In A Harmful Location
+Being In Pain
+Being In Water He'S Afraid To Take The Plunge.
+Being Moral.
+Being On The Mind
+Being Placed Near Object
+Being Straight.
+Beings With A Life Cycle
+Beings With Life Cycles
+Bigger
+Birthing
+Blinding
+Building/Forming/Shaping
+Buildings
+Burdens
+Burdens (On Lap)
+Burdens (On Shoulder Or Back)
+Buying Into It He Bought Into The Beliefs Of One Of Those Cults.
+Buying It
+Careful Motion
+Caring For A Child Or Pet
+Carried In The Hands
+Causal Relations
+Causation Is Control Over Motion Of An Affected Party
+Causation Is Control Over Motion Of An Object Relative To Affected Party
+Causing Functional Objects To Be Nonfunctional
+Causing Object To Be Nonfunctional By Destroying It
+Causing Object To Be Nonfunctional By Preventing Operation
+Centrality
+Change
+Change Of Direction
+Change Of Shape
+Children
+Children (W.R.T Development)
+Children / Pets
+Cleanliness
+Climate
+Closeness
+Cloth
+Clothes
+Clothing For Facts
+Co-Location
+Cold
+Coldness She Was Frigid.
+Collocation
+Commercial Transaction
+Commodities
+Comparison  Of  Physical Properties
+Comparison Of Distance
+Comparison Of Possessions
+Compatibility Of Shape
+Competition
+Competition For Desired Objects
+Components Of Object
+Considering Entering A Relationship
+Constrained Movement
+Constructed Objects
+Contact With Physical Self
+Contact With The Ground
+Contagious Diseases
+Contained In The Problem
+Contained In The Stimulus
+Containers
+Containers For Money
+Containing The Spread Of The Disease
+Containment In A Prescribed Shape
+Contents
+Contracts Social Contract.
+Control  Over  Location  Of  An Object Relative To An Affected Party
+Control  Over  Location  Of Affected Party Relative To A Location
+Control In Liquid
+Control Over An Entity Relative To A Location
+Control Over An Object Relative To A Possessor
+Control Over Motion.
+Control Over Possessions
+Control Over Relative Location
+Control Over Their Forward Motion
+Counting The Factors
+Covered By The Theory
+Covers
+Covers For The Facts
+Covers/Clothes
+Crossroads
+Cultivating A Plant
+Cultivation
+Death/ Success Is Life
+Debts
+Deciding To Acquire A Possession
+Defenders
+Defensible Positions
+Depth
+Desired Co-Locational Relations
+Desired Possessions
+Destinations
+Determined By The Distance Between A And B
+Determined By The Vertical Distance Between A And B
+Difficulty In Exploring Water
+Difficulty Is Moving
+Digestion
+Direct Motion To A Destination
+Directed Motion To A Destination
+Disassembling Object
+Distance Between
+Distinct Individuals
+Drowning
+Dying
+Easy Motion
+Eating
+Eating, Or Being Eaten.
+Electromagnetic Forces
+Ending The Relationship
+Entering A Relationship
+Entities
+Entities Inside A Person
+Entities Within A Person
+Established By Physical Contact
+Examining
+Exploration
+Exploring A Landscape
+Exploring Water
+External Forces That Control Motion
+Failing To Locate Object In Landscape
+Fashions
+Feeding
+Fighting A War
+Final Locations
+Finding Object In Water
+Fire
+Fittingness
+Flow Of Water
+Following
+Following A Path
+Following A Path, Thinking Is Moving)
+Food
+Forces
+Forces Affecting Forward Motion
+Forces Between The Desired And The Desirer
+Forces Moving Properties Relative To Affected Parties
+Forces Moving Toward Your Destination Everything'S Going My Way.
+Forces That Affect Motion He Was Blown About By The Winds Of War.
+Forces Tow  Ard Closeness
+Forming Memories
+Fortifications
+Forward Motion
+Forward Movement
+Foundations
+Frozen
+Gain In Possessions
+Gaining A Child Or Pet
+Gaining Physical Control Over The Material
+Getting A Burden
+Getting A Good Thing In Compensation
+Getting A Possession
+Getting Burned/Cooked
+Getting Destroyed
+Getting Lost/Turning Aside
+Getting Money He Profitted From Experience.
+Getting Object
+Getting/Losing
+Getting/Losing (Object)
+Giving A Headstart
+Giving An Object
+Giving Birth
+Giving Held Objects
+Giving Money
+Giving Possessions
+Giving Them Hope
+Governed By The Theory
+Grabbing
+Grasping
+Gravity
+Grounds
+Growth Of A Plant
+Guarantees
+Guided Motion
+Guides
+Guides To Our Movement
+Guiding
+Hand Control
+Hardness Of Object
+Having A Form
+Having A Harmful Possession
+Having A Needed Possession Taken Or Losing A Needed Possession
+Having Held Objects Taken
+Having Ideas Develop/Grow
+Having Ideas Register
+Having It In Hand
+Having The Bad Thing Taken Away
+Having/Not Having Hope
+Healing
+Health
+Health/Fitness
+Heat
+Heavier
+Higher
+Higher On List
+Holding
+Hot Fluid In A Container
+Hunger
+Impediments To Seeing.
+Impediments To Travel
+Impressions
+Infected
+Inflation
+Ingesting  A  Substance  Compulsively
+Injuries
+Intelligent People With Independent Wills
+Interaction Between Two Moving Individuals.
+Interiority
+Irregular
+Its  Offspring
+Journey Destinations
+Keeping  The  Affected  Party  From  A  New Location
+Keeping  The  Affected  Party  From  A  New Location.
+Killing
+Kinship
+Lack Of Cover
+Lack Of Direction
+Lack Of Motion
+Lacking A Desired Possesion
+Lacking A Needed Possession
+Landmarks
+Leaders Of The Competing Believers
+Leaving A Location
+Ledger Entries
+Length
+Letting Go Of A Held Object
+Life
+Light
+Light / Badness Is Darkness
+Light Sources
+Linguistic Communication
+Linked Objects
+Liquids In The Eyes
+Liquids Within A Person
+Location Out Of Container
+Location Up Here
+Locations
+Looking For Object In Water
+Looking For Solution In Object
+Looking For Solution In The Landscape
+Losing A Possession
+Losing Money He Paid With His Life For My/His Mistake.
+Love Objects
+Lovers
+Loving A Partner
+Lower Number
+Lowering
+Machines
+Madness
+Magic
+Maintaining Location Up Here
+Maintaining Position
+Making
+Making Visible
+Manipulating An Object
+Manipulating With Eyes Or Glance
+Manner Of Motion
+Material
+Means To Opening
+Measured In Distance To Destination Or In Distance From Starting Point
+Mental Motion Of A Property Back To Its Source
+Mixing Liquids
+Money
+Motion
+Motion  (Location)
+Motion  Of  A  Commerial  Object  Relative  To An Affected Party
+Motion Within A Location
+Movement Away From Physical Closeness
+Movement Of A Liquid
+Movement Tow  Ard Physical Closeness
+Moving Despite Obstacles
+Moving Entities
+Moving In The Ideascape
+Moving Objects
+Moving The Affected Party To A New Location
+Moving To A Location (Here)
+Musical Harmony
+Nausea
+Necessary Prerequisties For Plant Life China Is A Fertile Ground For Revolt.
+Net Balances
+No Longer Having In Possession
+No Longer Wearing
+Not Expressed Builds Pressure Inside The Person
+Not Seeing Reality.
+Nourishment
+Object Buried In Landscape.
+Objects
+Objects Within Reach
+Obstacles To Motion
+Open Paths
+Opposing Forces Things Are Going Against Me.
+Out Of Bounded Region
+Outgrowing
+Outside Container
+Owning Goods He Took Stock Of What He Believed.
+Parents, Effects Are Offspring
+Parents, Results Are Offspring
+Path
+Path Over Which Motion Occurs
+Paths
+Paths For Properties Moving Relative To Affected Parties
+Paths In Landscape
+Paths On Which Thought Travels
+Paths To Solutions
+Payments
+People
+People (W.R.T Life Cycle)
+People (W.R.T. Family Tree Structure)
+People (W.R.T. Opinions)
+People In A Single Boat:
+Perceptions
+Physical Benefit
+Physical Bonding
+Physical Closeness
+Physical Control
+Physical Distance
+Physical Fitness
+Physical Forces
+Physical Forces.
+Physical Harm
+Physical Impact
+Physical Injury
+Physical Injury Due To Neglect
+Physical Injury Due To Predation By Vicious Animals
+Physical Injury Due To Sickness
+Physical Injury Due To Wounding
+Physical Manipulation
+Physical Properties
+Place Where Predation Occurs
+Placed Near Person Held Responsible
+Plants
+Plants (W.R.T. Life Cycle)
+Points (Set Up In Spatial Configuration)
+Position
+Possessing An Object
+Possessions
+Precedence
+Predators
+Preparing Food
+Preparing Food By Chewing
+Preparing Food By Cooking
+Preventing Forward Motion
+Preventing Forward Motion Toward A Goal
+Preventing Forward Motion Toward A Goal.
+Prevention Of Motion
+Projectiles, Which The Sender Conveys In Some Manner:
+Provisions
+Purity
+Pursuer
+Raising
+Receiving Burdens
+Reception
+Recollocating
+Reconstructing
+Record Of Transactions
+Regaining A Possession
+Regular
+Regurgitating
+Relative Motion
+Removed From Container
+Replacement
+Resources
+Resurrecting
+Retaining A Held Object
+Retreating From A Position
+Retrieving Objects
+Returning To A Past Location
+Reviewing
+Rights Of Way
+Rooting Of A Plant
+Routes
+Routes You Have To Travel On
+Saying. (I Am Aware Of What Your Point Is)
+Scars
+Seeing
+Seeing Despite Visual Hindrance He Saw Through Her Lies.
+Seeing In A Different Light
+Seeing New Land Or Objects
+Seeing Where You Are Going
+Self-Propelled Motion
+Self-Propelled Motion.
+Selling Out
+Setting Up Target
+Shape Recognition
+Shapes
+Shaping Forces
+Shooting At Target
+Shopping
+Showing
+Siblings
+Single Attacks
+Size
+Smooth Water
+Solving A Puzzle
+Something Moving (No Reference Point)
+Something Moving Toward You
+Source
+Source  Of Moving Entity
+Source Of Moving Entity
+Sources Of Properties Moving Relative  To Affected Parties
+Speech
+Speed Of Motion
+Speed Of Motion To A Destination
+Spreading The Disease
+Starting Out For A Destination
+Still Rough Around The Edges, Why Don'T You Fix It?
+Storing Objects
+Straightness
+Strength Of An Object
+Striking A Solution
+Structures
+Struggling
+Supporters
+Suspension
+Swallowing
+Taking An Object.
+Taking In
+Taking Money
+Temporal Precedence
+Territory
+The Distance Travelled
+The End Of The Path
+The Mother Of The Parts
+The Offspring Of The Initial Thing
+The Prey
+The Price Of A Good
+The Purposeful Prevention Of Sight:
+The Resilience Of The Object
+The Source Of The Conclusion
+The Strength Of The Object
+The Weight Of The Object.
+Thinking
+Tightness
+Touching It With Eyes Or Glance
+Touching, Eyes Are Limbs
+Trailblazing
+Transactions
+Transfer
+Transferring An Object
+Trying To Grab
+Trying To Sell It
+Undercurrents
+Understood To Have Conventionalized Meaning Can Be
+Untangling
+Up
+Up / Bad Is Down
+Up / Immoral Is Down
+Vertical Movement.
+Verticality
+Visibility
+War
+Warmth
+Water Controlling Motion
+Wealth
+Weapons
+Weighing
+Weight
+White/ Badness Is Black
+Whole
+Within Container
+Within Region
+Writing

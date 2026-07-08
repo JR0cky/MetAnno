@@ -1,0 +1,1113 @@
+DOMAINS GROUPED BY ORIGINAL MASTER METAPHOR LIST CHAPTERS
+================================================================================
+
+CHAPTER: EMOTIONS
+-----------------
+  TARGET DOMAINS (146 unique abstract concepts):
+    - 1C.  Lack Of Facial Expression
+    - A Force
+    - A Prior Related Thing
+    - A Problem
+    - A.K.A. Reasoning
+    - Ability To Get (Purchasing Power)
+    - Achieving Purpose
+    - Actions That Promote Well-Being
+    - Affection
+    - Anger
+    - Approaches To A Solution
+    - Aspects Of Problem
+    - Aspects Of The Self
+    - Assigning Obligation
+    - Avoiding Emotional Effect
+    - Being Assigned Obligation
+    - Being Defeated
+    - Being Hopeful/Hopeless
+    - Being Immoral
+    - Being Moral
+    - Benefitting
+    - Calculation
+    - Cash
+    - Causes
+    - Cessation Of Function
+    - Change Aw  Ay From Emotional Intimacy
+    - Change To  Ward Emotional Intimacy
+    - Complience
+    - Computers/Programs
+    - Conceit
+    - Conditions
+    - Control In A Financial Situation
+    - Darkness
+    - Degree Of Functioning
+    - Desire
+    - Desires
+    - Destructive Computer Code
+    - Difficulty
+    - Difficulty In Solving
+    - Discovered Solution
+    - Disgust
+    - Dislike
+    - Diverging From The Path
+    - Doing Immoral Deeds
+    - Doing Moral Deeds
+    - Duties
+    - Effect On Emotional Self
+    - Effects Of Humor
+    - Emotion
+    - Emotional Bonding
+    - Emotional Distance
+    - Emotional Intimacy
+    - Emotional Self
+    - Emotional Stability
+    - Emotions
+    - Euphoric States
+    - Evidence
+    - Exchanges Of Rights
+    - External Appearance
+    - Facial Expressions
+    - Failing To Solve
+    - Fear
+    - Force
+    - Form
+    - Gain/Loss Of Money
+    - Gaining  Physical  Intimacy  (Against  Resistance)
+    - Gaining Physical Intimacy (Against Resistance)
+    - Getting
+    - Giving Possessions
+    - Giving Up A Possession
+    - Good
+    - Goodness
+    - Having Possesions Taken
+    - Hope
+    - Inclinations To  Ward Intimacy
+    - Infection
+    - Intense Emotions
+    - Interpersonal Harmony
+    - Intoxication
+    - Investigating A Problem
+    - Investigating Problem
+    - Investments
+    - Joining Another On An Investment
+    - Lack Of Lust
+    - Laughter
+    - Light
+    - Love
+    - Loved One
+    - Lust
+    - Lustful Person
+    - Machines
+    - Making Someone Hopeful
+    - Means To Solving
+    - Medical Procedures
+    - Medicine
+    - Members Of A Natural Group
+    - Money
+    - Money Which Cannot Be Accessed
+    - Moral
+    - Moral Account
+    - Morality
+    - Obligations
+    - Paths
+    - People
+    - People/Bodies
+    - Personality
+    - Possessing
+    - Potential Laughter
+    - Potential Laughter That
+    - Presenting Problem
+    - Problem
+    - Progress In The Relationship
+    - Receiving Credit Or Blame (Responsibility)
+    - Relationship
+    - Responsibilities
+    - Responsibilties
+    - Retaining A Possession
+    - Rights
+    - Sex
+    - Sexuality
+    - Shapes
+    - Society
+    - Solution
+    - Solving
+    - Something Having An Abstract Property
+    - Stances
+    - Strength Of Hope
+    - Strong Emotion
+    - Strong Emotions
+    - Taking On Responsibilities
+    - The Body
+    - The Disease
+    - The Immune System
+    - The Relationship
+    - The Solution
+    - The Subsequent Thing
+    - The Whole
+    - Treating Illness
+    - Trying To Get
+    - Trying To Solve
+    - Trying To Solve A Problem
+    - Trying To Solve Problem
+    - Type Of Emotional Effect
+    - Walking On The Path
+    - What Springs  From  Something
+    - Winning The War
+
+  SOURCE DOMAINS (192 unique concrete domains):
+    - (Determined By) Manner Of Contact
+    - A Battleground
+    - A Benefical Possession
+    - A Body
+    - A Body Of Water
+    - A Brittle Object
+    - A Car
+    - A Child
+    - A Child Of That Property
+    - A Com-
+    - A Constructed Object
+    - A Container For The Self
+    - A Cover
+    - A Defense
+    - A Fluid
+    - A Force Between Desired And Desirer.
+    - A Game
+    - A Guide In The Search
+    - A Journey
+    - A Line
+    - A Liquid
+    - A Locked Container For Its Solution
+    - A Mobile Entity In Landscape
+    - A Moving Object
+    - A Moving Object.
+    - A Possession
+    - A Region In A Landscape
+    - A Ship
+    - A Solid
+    - A Straight Path
+    - A Substance
+    - A Substance Contained In Affecting Causes
+    - A Substance Directed At An Affected Party
+    - A Substance Inside The Person
+    - A Substance That Comes From The Laugher
+    - A Tangle
+    - A Target
+    - A Train
+    - A Unity (Of Two Complementary Parts)
+    - A Virus
+    - A War
+    - A Weapon
+    - Ability To Grab (Length Of Reach) A Really First-Rate Sports Car Is Still Out Of My Reach.
+    - Accumulating Credit:Putting Money Into Society.
+    - Accumulating Debt.
+    - Accumulating Debt:Taking Money From Society.
+    - Adherence
+    - An Achievement
+    - An Activated Machine
+    - An Animal
+    - An Animal.
+    - An Attack By The Disease
+    - An Enemy
+    - An Object In Water
+    - An Offensive Weapon
+    - An Older Sibling
+    - Attached To Person Held Responsible.
+    - Attacks By The Patient
+    - Avoiding Contact
+    - Balance
+    - Batteries
+    - Becoming Electrified
+    - Being Crooked.
+    - Being Cured Of The Disease
+    - Being Immoral.
+    - Being Moral.
+    - Being Placed Near Object
+    - Being Straight.
+    - Blinding
+    - Buildings
+    - Burdens
+    - Burdens (On Lap)
+    - Burdens (On Shoulder Or Back)
+    - Carried In The Hands
+    - Children
+    - Cleanliness
+    - Cold
+    - Coldness She Was Frigid.
+    - Components Of Object
+    - Contact With Physical Self
+    - Contact With The Ground
+    - Contained In The Problem
+    - Containers
+    - Containers For Money
+    - Contracts Social Contract.
+    - Control In Liquid
+    - Covers
+    - Covers/Clothes
+    - Debts
+    - Difficulty In Exploring Water
+    - Disassembling Object
+    - Distinct Individuals
+    - Dying
+    - Eating
+    - Electromagnetic Forces
+    - Established By Physical Contact
+    - Exploring A Landscape
+    - Exploring Water
+    - Failing To Locate Object In Landscape
+    - Fighting A War
+    - Finding Object In Water
+    - Fire
+    - Following
+    - Following A Path, Thinking Is Moving)
+    - Forces
+    - Forces Between The Desired And The Desirer
+    - Forces Tow  Ard Closeness
+    - Forward Motion
+    - Frozen
+    - Getting A Burden
+    - Getting Burned/Cooked
+    - Getting Destroyed
+    - Getting Money He Profitted From Experience.
+    - Getting Object
+    - Giving Held Objects
+    - Giving Possessions
+    - Giving Them Hope
+    - Grabbing
+    - Guarantees
+    - Guides
+    - Hardness Of Object
+    - Having Held Objects Taken
+    - Having/Not Having Hope
+    - Health
+    - Heat
+    - Holding
+    - Hot Fluid In A Container
+    - Hunger
+    - Inflation
+    - Injuries
+    - Intelligent People With Independent Wills
+    - Its  Offspring
+    - Killing
+    - Kinship
+    - Lack Of Cover
+    - Letting Go Of A Held Object
+    - Light
+    - Light / Badness Is Darkness
+    - Liquids In The Eyes
+    - Liquids Within A Person
+    - Looking For Object In Water
+    - Looking For Solution In Object
+    - Looking For Solution In The Landscape
+    - Machines
+    - Madness
+    - Magic
+    - Maintaining Position
+    - Material
+    - Means To Opening
+    - Mixing Liquids
+    - Motion
+    - Movement Away From Physical Closeness
+    - Movement Of A Liquid
+    - Movement Tow  Ard Physical Closeness
+    - Musical Harmony
+    - Nausea
+    - Not Expressed Builds Pressure Inside The Person
+    - Object Buried In Landscape.
+    - Parents, Effects Are Offspring
+    - Parents, Results Are Offspring
+    - Paths In Landscape
+    - Payments
+    - People
+    - Physical Bonding
+    - Physical Closeness
+    - Physical Distance
+    - Physical Forces
+    - Placed Near Person Held Responsible
+    - Plants
+    - Possessions
+    - Purity
+    - Receiving Burdens
+    - Record Of Transactions
+    - Removed From Container
+    - Retaining A Held Object
+    - Setting Up Target
+    - Shooting At Target
+    - Siblings
+    - Straightness
+    - Strength Of An Object
+    - Striking A Solution
+    - The Mother Of The Parts
+    - The Offspring Of The Initial Thing
+    - Thinking
+    - Tightness
+    - Trying To Grab
+    - Untangling
+    - Up
+    - Up / Bad Is Down
+    - Up / Immoral Is Down
+    - Warmth
+    - White/ Badness Is Black
+
+================================================================================
+
+CHAPTER: EVENT STRUCTURE
+------------------------
+  TARGET DOMAINS (193 unique abstract concepts):
+    - 1A.  Thinking
+    - 1B. Thinking
+    - 2A.  Being In Control Of S.T.
+    - 2A.  Better Rank
+    - 2C.  Better Rank
+    - A Different Means Of Achieving The Purpose
+    - A Difficult Situation
+    - A Powerful Enduring Directed Force
+    - A Repeating Causal Sequence
+    - A Schedule
+    - A Stage In An Action
+    - Abilities
+    - Ability To Cope
+    - Acting  Compulsively
+    - Acting On
+    - Action
+    - Active
+    - Adversity
+    - Aids To Action
+    - Allowing A New State
+    - Allowing Change Of Properties
+    - Amount
+    - Appropriateness Of A State
+    - Attributes
+    - Available Opportunities
+    - Being Better In A Dynamic Situation
+    - Being Better In A Static Situation
+    - Being Defeated
+    - Being Harmed
+    - Being Involved In Events
+    - Believing
+    - Beneficial Events
+    - Bounded) Time
+    - Career
+    - Career Progress
+    - Careful Action
+    - Causal Means
+    - Causal Precedence
+    - Causation
+    - Caused Change Of Action
+    - Caused Change Of State
+    - Caused Inability To Act
+    - Causes
+    - Causes And Effects
+    - Causing A New Action
+    - Causing A New State
+    - Causing Beneficial Effects
+    - Causing Detrimental Effects
+    - Change
+    - Change Of State
+    - Change Within A State
+    - Communication
+    - Comparing And Seeking
+    - Comparison  Of  Properties
+    - Comparison Of Importance
+    - Comparison Of Properties
+    - Comparison Of States
+    - Competators Or Antagonists
+    - Competition
+    - Compulsive Behavior
+    - Continuing To Act Despite Difficulty,
+    - Control
+    - Control Over Action
+    - Control Over The Progress Of External Events
+    - Counselors
+    - Creating
+    - Creation
+    - Desires  That Control  Action
+    - Difference Between
+    - Difficult Subjects
+    - Difficulties
+    - Difficulty
+    - Disparity
+    - Easy Action
+    - Easy Events To Deal With
+    - Economic Harm
+    - Efficient Purposeful Action
+    - Environmental Harm
+    - Evaluative Comparison Of A And B In A Static Situation
+    - Evaluative) Comparison Of States In A Dynamic Situation
+    - Existence
+    - Experiencing Harm
+    - Explanation
+    - External Conditions
+    - External Events Affecting Progress
+    - External Events Detrimental To Action
+    - External Events That Affect Action
+    - Failure
+    - Final States
+    - Flow Of Events
+    - Foreseeable Future Events
+    - Gain In Well-Being
+    - Getting A Property
+    - Guided Action
+    - Harm
+    - Harming
+    - Harming Yourself
+    - Having Beneficial Things Happen To One
+    - Having Detrimental Things Happen To One
+    - Helping
+    - Hidden Events With Causal Power
+    - Historical Events
+    - Ideal Physical State
+    - Ideas
+    - Imperfect
+    - Importance
+    - Interaction  Between  Progress  And  External  Events Affecting Progress
+    - Knowing What Will Happen
+    - Knowledge Of Past Events
+    - Lack Of Change Resulting From Action
+    - Lack Of Progress Tow  Ard The Destination
+    - Lack Of Purpose
+    - Life
+    - Life States
+    - Linear Scales
+    - Long-Term Effects Of The Harm
+    - Longterm Purposeful Activity
+    - Longterm Purposeful Change
+    - Longterm Purposes
+    - Losing A Property
+    - Love
+    - Maintaining Existence
+    - Major Choices
+    - Manner Of Action
+    - Material Resources And Talents
+    - Means Of Change
+    - Means Of Change Of Action
+    - Means Of Change Of State
+    - Mental Control
+    - Mental Fitness
+    - More
+    - Necessary Prerequisite  For  Change
+    - Necessary Prerequisite For Change
+    - Necessary Prerequisite For Change Of Action
+    - Necessary Prerequisite For Change Of State
+    - Necessary Prerequisites
+    - Necessary Prerequisties
+    - Negative Progress
+    - Non-Evaluative)  Comparison  Between  A  And  B
+    - Non-Evaluative) Comparison Of Properties
+    - Obligations/Agreements
+    - Obstacles To Action
+    - Opportunities
+    - People With A Common Fate
+    - Perfect
+    - Person In Situation
+    - Political Harm
+    - Preventing  A  New Action
+    - Preventing  A  New State
+    - Progress
+    - Properties
+    - Psychological Harm
+    - Purposeful Action
+    - Purposes
+    - Reducing The Effect Of Future Harm
+    - Regaing A Property
+    - Reganing A Property
+    - Related Metaphors: Well-Being
+    - Remembering
+    - Restitution
+    - Restoration
+    - Rights
+    - Rights To Act
+    - Self-Initiated Change Of State
+    - Self-Initiated Change Of State (Action)
+    - Self-Initiated, Long-Term, Purposeful Change
+    - Self-Motivated Action
+    - Serendipitous Opportunity
+    - Similarity
+    - Social Interaction
+    - Speed Of Action
+    - Speed Of Progress
+    - Stages Of Life
+    - Starting A Purposeful Action
+    - States
+    - Status
+    - Stopping Being In A State
+    - Success Or Failure In An Adversative Situation
+    - Taking (Using) An Opportunity
+    - The End Of Action
+    - The Harm
+    - The Means For Achieving Purposes
+    - The Mind
+    - The Past
+    - The Person Leading A Life
+    - The Progress Of External Events
+    - Things You Gauge Your Progress By
+    - Thinking
+    - Time
+    - Understanding
+    - Understanding/Learning
+    - Value
+    - Well-Being
+
+  SOURCE DOMAINS (246 unique concrete domains):
+    - 1 On 1 Physical Aggression
+    - A Body
+    - A Burden Which Slows Down Motion
+    - A Canonical Shape
+    - A Captor
+    - A Changer
+    - A Circle
+    - A Container
+    - A Different Path
+    - A Diversion Which Moves You A Different Direction
+    - A Fighter
+    - A Journey
+    - A Landscape We Move Through
+    - A Location (Here)
+    - A Location Along A Path
+    - A Moving Object
+    - A Physical Property
+    - A Place Of Confinement
+    - A Pursuer
+    - A Race
+    - A Resource
+    - A Setback Which Returns You To Prior Location
+    - A Tide
+    - A Traveler
+    - Abilities To Possess
+    - Ability To Navigate
+    - Adversaries
+    - Adversity Due To Bad Weather
+    - Aids To Motion
+    - Alive
+    - Allowing Motion Of Possessions Relative To Affected Parties
+    - Allowing Motion To A New Location
+    - An  Object  Easily  Accessable  Without Effort On The Part Of The Experiencer
+    - An Addictive Substance
+    - An External Event Exerting Force On Present Events
+    - An Instrument Of Constraint
+    - An Object
+    - An Obstable
+    - Backward Movement
+    - Being Above
+    - Being Above In Explicit Ranking
+    - Being Farther Along On A Path
+    - Being Forced To Move To A Harmful Location
+    - Being Given An Undesirable Possession
+    - Being In A Harmful Location
+    - Being In Pain
+    - Being In Water He'S Afraid To Take The Plunge.
+    - Bigger
+    - Birthing
+    - Careful Motion
+    - Causing Functional Objects To Be Nonfunctional
+    - Causing Object To Be Nonfunctional By Destroying It
+    - Causing Object To Be Nonfunctional By Preventing Operation
+    - Centrality
+    - Change
+    - Change Of Direction
+    - Change Of Shape
+    - Climate
+    - Closeness
+    - Commercial Transaction
+    - Comparison  Of  Physical Properties
+    - Comparison Of Distance
+    - Comparison Of Possessions
+    - Competition For Desired Objects
+    - Containers
+    - Containment In A Prescribed Shape
+    - Contents
+    - Control  Over  Location  Of  An Object Relative To An Affected Party
+    - Control  Over  Location  Of Affected Party Relative To A Location
+    - Control Over An Entity Relative To A Location
+    - Control Over An Object Relative To A Possessor
+    - Control Over Motion.
+    - Control Over Possessions
+    - Control Over Relative Location
+    - Control Over Their Forward Motion
+    - Crossroads
+    - Cultivation
+    - Death/ Success Is Life
+    - Depth
+    - Desired Possessions
+    - Destinations
+    - Determined By The Distance Between A And B
+    - Determined By The Vertical Distance Between A And B
+    - Difficulty Is Moving
+    - Digestion
+    - Direct Motion To A Destination
+    - Directed Motion To A Destination
+    - Distance Between
+    - Drowning
+    - Easy Motion
+    - Eating
+    - Eating, Or Being Eaten.
+    - Entities
+    - Entities Inside A Person
+    - External Forces That Control Motion
+    - Feeding
+    - Final Locations
+    - Fittingness
+    - Flow Of Water
+    - Food
+    - Forces Affecting Forward Motion
+    - Forces Moving Properties Relative To Affected Parties
+    - Forces Moving Toward Your Destination Everything'S Going My Way.
+    - Forces That Affect Motion He Was Blown About By The Winds Of War.
+    - Forward Motion
+    - Forward Movement
+    - Gain In Possessions
+    - Gaining Physical Control Over The Material
+    - Getting A Good Thing In Compensation
+    - Getting A Possession
+    - Getting Lost/Turning Aside
+    - Getting Money He Profitted From Experience.
+    - Getting/Losing
+    - Getting/Losing (Object)
+    - Giving A Headstart
+    - Giving An Object
+    - Giving Money
+    - Guided Motion
+    - Guides
+    - Hand Control
+    - Having A Form
+    - Having A Harmful Possession
+    - Having A Needed Possession Taken Or Losing A Needed Possession
+    - Having It In Hand
+    - Having The Bad Thing Taken Away
+    - Healing
+    - Health/Fitness
+    - Heavier
+    - Higher
+    - Higher On List
+    - Impediments To Travel
+    - Ingesting  A  Substance  Compulsively
+    - Interaction Between Two Moving Individuals.
+    - Interiority
+    - Irregular
+    - Journey Destinations
+    - Keeping  The  Affected  Party  From  A  New Location
+    - Keeping  The  Affected  Party  From  A  New Location.
+    - Lack Of Direction
+    - Lack Of Motion
+    - Lacking A Desired Possesion
+    - Lacking A Needed Possession
+    - Landmarks
+    - Leaving A Location
+    - Length
+    - Life
+    - Linked Objects
+    - Location Out Of Container
+    - Location Up Here
+    - Locations
+    - Losing A Possession
+    - Losing Money He Paid With His Life For My/His Mistake.
+    - Lower Number
+    - Lowering
+    - Maintaining Location Up Here
+    - Making
+    - Making Visible
+    - Manner Of Motion
+    - Measured In Distance To Destination Or In Distance From Starting Point
+    - Mental Motion Of A Property Back To Its Source
+    - Money
+    - Motion
+    - Motion  (Location)
+    - Motion  Of  A  Commerial  Object  Relative  To An Affected Party
+    - Motion Within A Location
+    - Moving Despite Obstacles
+    - Moving Entities
+    - Moving The Affected Party To A New Location
+    - Moving To A Location (Here)
+    - Necessary Prerequisties For Plant Life China Is A Fertile Ground For Revolt.
+    - Objects
+    - Objects Within Reach
+    - Obstacles To Motion
+    - Open Paths
+    - Opposing Forces Things Are Going Against Me.
+    - Path
+    - Path Over Which Motion Occurs
+    - Paths
+    - Paths For Properties Moving Relative To Affected Parties
+    - People In A Single Boat:
+    - Physical Control
+    - Physical Fitness
+    - Physical Injury
+    - Physical Injury Due To Neglect
+    - Physical Injury Due To Predation By Vicious Animals
+    - Physical Injury Due To Sickness
+    - Physical Injury Due To Wounding
+    - Physical Properties
+    - Place Where Predation Occurs
+    - Position
+    - Possessions
+    - Precedence
+    - Predators
+    - Preparing Food
+    - Preparing Food By Chewing
+    - Preparing Food By Cooking
+    - Preventing Forward Motion
+    - Preventing Forward Motion Toward A Goal
+    - Preventing Forward Motion Toward A Goal.
+    - Prevention Of Motion
+    - Provisions
+    - Raising
+    - Regaining A Possession
+    - Regular
+    - Regurgitating
+    - Replacement
+    - Rights Of Way
+    - Routes
+    - Routes You Have To Travel On
+    - Scars
+    - Seeing Where You Are Going
+    - Self-Propelled Motion
+    - Self-Propelled Motion.
+    - Shapes
+    - Shopping
+    - Size
+    - Smooth Water
+    - Something Moving (No Reference Point)
+    - Something Moving Toward You
+    - Source
+    - Source  Of Moving Entity
+    - Source Of Moving Entity
+    - Sources Of Properties Moving Relative  To Affected Parties
+    - Speed Of Motion
+    - Speed Of Motion To A Destination
+    - Starting Out For A Destination
+    - Struggling
+    - Suspension
+    - Swallowing
+    - Taking An Object.
+    - Taking Money
+    - Temporal Precedence
+    - The Distance Travelled
+    - The End Of The Path
+    - The Prey
+    - Transferring An Object
+    - Undercurrents
+    - Up
+    - Vertical Movement.
+    - Verticality
+    - Visibility
+    - War
+    - Water Controlling Motion
+    - Wealth
+    - Weighing
+    - Weight
+
+================================================================================
+
+CHAPTER: INDEX
+--------------
+  TARGET DOMAINS (5 unique abstract concepts):
+    - Attributes
+    - Attribution
+    - Causation
+    - Change
+    - Purposes
+
+  SOURCE DOMAINS (5 unique concrete domains):
+    - Co-Location
+    - Control Over Relative Location
+    - Desired Co-Locational Relations
+    - Entities
+    - Relative Motion
+
+================================================================================
+
+CHAPTER: MENTAL EVENTS
+----------------------
+  TARGET DOMAINS (109 unique abstract concepts):
+    - 1) Not Only Linguistic Entities, But Anything That
+    - 1A.  Events
+    - 1A.  Facts
+    - 1A.  Making Discoveries
+    - 1B. Arguments
+    - 2A.  Being Easily Manipulated
+    - 2A.  Constrained Thought
+    - 2B. Psychological Impact
+    - 2C.  Psychological Benefit
+    - 2D.  Psychological Harm
+    - 3A.  Accepting A Belief Shared By Others
+    - 3A.  Specific Arguments In A Debate
+    - 3A. Aids To Gaining Awareness
+    - 3B. Not Being Aware Of Reality
+    - 3C. Impediments To Awareness
+    - 4A.  Deception
+    - 4A.  Explaining The Causation
+    - 5A.  Believers
+    - 5B. Believers
+    - 6A.  Interest
+    - 6B. Needed Information
+    - 7A.  Memorizing
+    - 7B. Remembering
+    - A Belief No Longer Held
+    - A Tempting Belief
+    - Abandoning A Belief
+    - Accepting A Belief
+    - Acquiring A Belief
+    - Arguing For A Belief
+    - Attacking A Theory
+    - Awareness Despite Hindrance
+    - Basic Assumptions Of A Theory
+    - Basis Of A Belief
+    - Beliefs
+    - Believers
+    - Believing
+    - Coherent
+    - Communicating Opinion
+    - Communication
+    - Compatibility Of Ideas
+    - Conducting Research
+    - Considering Believing
+    - Controlling The Belief
+    - Conveying The Belief
+    - Creativity
+    - Dangerous Beliefs
+    - Data
+    - Data  Explained  By  A  Theory
+    - Data Explained By A Theory
+    - Deciding To Believe
+    - Development Of A Belief
+    - Discovering By Looking
+    - Encouraging A Beliefs
+    - Events
+    - Explaining The Causation
+    - Fa  Cts
+    - Forces Influencing Beliefs
+    - Giving Up A Belief
+    - I See What You
+    - Ideas
+    - Importance Of A Belief
+    - Influence
+    - Intelligence
+    - Intelligence/Idea
+    - Learning
+    - Learning Via Reading
+    - Logic
+    - Logical Arguments
+    - Logical Relations
+    - Looking At Something On Purpose
+    - Maintaining A Belief
+    - Manipulation
+    - Memorizing
+    - Memory
+    - Mind, Or Mental Self
+    - No Longer Believing
+    - Out Of Sight
+    - Perceiving
+    - Perception
+    - Premises
+    - Progressing Beyond Ones Beliefs
+    - Psychological Forces
+    - Rational
+    - Reading
+    - Reasoning
+    - Reasons For A Theory
+    - Receiving Serious Thought
+    - Remembering
+    - Research
+    - Results
+    - Seeing
+    - Seeing Something By Accident
+    - Subjects
+    - Taking Up A Belief
+    - That Idea
+    - The Book Gav  E Her A Good Idea.
+    - The Changeability Of A Belief
+    - The Content
+    - The Importance Of A Belief
+    - The Mind
+    - The Strength Of A Belief
+    - The Visual Field
+    - Theoretical Debate
+    - Theories
+    - Thinking
+    - Understanding
+    - Understanding The Causation
+    - Within Sight
+    - Words
+
+  SOURCE DOMAINS (182 unique concrete domains):
+    - A Battle
+    - A Body (Food)
+    - A Body (Perception)
+    - A Bounded Region
+    - A Brittle Object
+    - A Builder
+    - A Container
+    - A Container For Objects
+    - A Cutting Instrument
+    - A Force
+    - A Landmark
+    - A Light Source
+    - A Machine
+    - A Parent
+    - A Race
+    - A Tempting Possible Partner
+    - A Traveler
+    - A Wax Tablet/Paper
+    - Absorbing
+    - Accidently Touching It With Eyes Or Glance
+    - Accounting
+    - Acquiring A Possession
+    - Adding Up/Figuring Out
+    - Aids To Vision.
+    - Aligned
+    - An Example Of A Causation Metaphor, Because We Want To Generalize Over Examples Such As:
+    - An Object That Has Been Destroyed
+    - Appetite
+    - Approaching The Object
+    - Areas
+    - Arriving
+    - Attacking A Fortification
+    - Being Easily Physically Manipulated
+    - Being On The Mind
+    - Beings With A Life Cycle
+    - Beings With Life Cycles
+    - Building/Forming/Shaping
+    - Buildings
+    - Buying Into It He Bought Into The Beliefs Of One Of Those Cults.
+    - Buying It
+    - Caring For A Child Or Pet
+    - Causal Relations
+    - Causation Is Control Over Motion Of An Affected Party
+    - Causation Is Control Over Motion Of An Object Relative To Affected Party
+    - Children (W.R.T Development)
+    - Children / Pets
+    - Cloth
+    - Clothes
+    - Clothing For Facts
+    - Collocation
+    - Commodities
+    - Compatibility Of Shape
+    - Competition
+    - Considering Entering A Relationship
+    - Constrained Movement
+    - Constructed Objects
+    - Contagious Diseases
+    - Contained In The Stimulus
+    - Containing The Spread Of The Disease
+    - Counting The Factors
+    - Covered By The Theory
+    - Covers For The Facts
+    - Cultivating A Plant
+    - Deciding To Acquire A Possession
+    - Defenders
+    - Defensible Positions
+    - Eating
+    - Ending The Relationship
+    - Entering A Relationship
+    - Examining
+    - Exploration
+    - Fashions
+    - Feeding
+    - Following A Path
+    - Forming Memories
+    - Fortifications
+    - Foundations
+    - Gaining A Child Or Pet
+    - Giving Birth
+    - Governed By The Theory
+    - Grasping
+    - Gravity
+    - Grounds
+    - Growth Of A Plant
+    - Guides
+    - Guides To Our Movement
+    - Guiding
+    - Having Ideas Develop/Grow
+    - Having Ideas Register
+    - Holding
+    - Impediments To Seeing.
+    - Impressions
+    - Infected
+    - Leaders Of The Competing Believers
+    - Ledger Entries
+    - Light Sources
+    - Linguistic Communication
+    - Locations
+    - Love Objects
+    - Lovers
+    - Loving A Partner
+    - Machines
+    - Manipulating An Object
+    - Manipulating With Eyes Or Glance
+    - Moving In The Ideascape
+    - Moving Objects
+    - Net Balances
+    - No Longer Having In Possession
+    - No Longer Wearing
+    - Not Seeing Reality.
+    - Nourishment
+    - Objects
+    - Out Of Bounded Region
+    - Outgrowing
+    - Outside Container
+    - Owning Goods He Took Stock Of What He Believed.
+    - Paths On Which Thought Travels
+    - Paths To Solutions
+    - People (W.R.T Life Cycle)
+    - People (W.R.T. Family Tree Structure)
+    - People (W.R.T. Opinions)
+    - Perceptions
+    - Physical Benefit
+    - Physical Forces.
+    - Physical Harm
+    - Physical Impact
+    - Physical Manipulation
+    - Plants
+    - Plants (W.R.T. Life Cycle)
+    - Points (Set Up In Spatial Configuration)
+    - Possessing An Object
+    - Possessions
+    - Projectiles, Which The Sender Conveys In Some Manner:
+    - Pursuer
+    - Reception
+    - Recollocating
+    - Reconstructing
+    - Resources
+    - Resurrecting
+    - Retreating From A Position
+    - Retrieving Objects
+    - Returning To A Past Location
+    - Reviewing
+    - Rooting Of A Plant
+    - Saying. (I Am Aware Of What Your Point Is)
+    - Seeing
+    - Seeing Despite Visual Hindrance He Saw Through Her Lies.
+    - Seeing In A Different Light
+    - Seeing New Land Or Objects
+    - Selling Out
+    - Shape Recognition
+    - Shaping Forces
+    - Showing
+    - Single Attacks
+    - Solving A Puzzle
+    - Speech
+    - Spreading The Disease
+    - Still Rough Around The Edges, Why Don'T You Fix It?
+    - Storing Objects
+    - Structures
+    - Supporters
+    - Taking In
+    - Territory
+    - The Price Of A Good
+    - The Purposeful Prevention Of Sight:
+    - The Resilience Of The Object
+    - The Source Of The Conclusion
+    - The Strength Of The Object
+    - The Weight Of The Object.
+    - Touching It With Eyes Or Glance
+    - Touching, Eyes Are Limbs
+    - Trailblazing
+    - Transactions
+    - Transfer
+    - Trying To Sell It
+    - Understood To Have Conventionalized Meaning Can Be
+    - Up
+    - Weapons
+    - Whole
+    - Within Container
+    - Within Region
+    - Writing
+
+================================================================================
+

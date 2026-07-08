@@ -1,0 +1,922 @@
+Extracted 710 Metaphors
+================================================================================
+
+--- GENERAL METAPHORS (593) ---
+
+[INDEX / UNKNOWN]
+----------------------------------------
+Line 175: 1. Attributes ARE Entities
+Line 176: 2. Attribution IS Co-Location
+
+[INDEX / Attributes]
+----------------------------------------
+Line 188: 3. Change IS Relative Motion
+
+[INDEX / Change]
+----------------------------------------
+Line 194: 4. Causation IS Control over Relative Location
+Line 195: 5. Purposes ARE Desired Co-Locational Relations
+
+[EVENT STRUCTURE / Change]
+----------------------------------------
+Line 273: - STATES ARE LOCATIONS
+Line 275: - CHANGE IS MOTION
+Line 277: - CAUSATION IS CONTROL OVER AN ENTITY RELATIVE TO A LOCATION
+Line 283: 1. MEANS OF CHANGE IS PATH OVER WHICH MOTION OCCURS
+Line 284: 2. NECESSARY PREREQUISITE  FOR  CHANGE IS SOURCE  OF MOVING ENTITY
+
+[EVENT STRUCTURE / CausationLoc]
+----------------------------------------
+Line 290: - SELF-INITIATED CHANGE OF STATE IS SELF-PROPELLED MOTION
+
+[EVENT STRUCTURE / Action]
+----------------------------------------
+Line 306: - LONGTERM PURPOSEFUL CHANGE IS A JOURNEY
+
+[EVENT STRUCTURE / ExternalEvents]
+----------------------------------------
+Line 322: - PROPERTIES ARE POSSESSIONS
+
+[EVENT STRUCTURE / Properties]
+----------------------------------------
+Line 330: - CHANGE IS GETTING/LOSING
+Line 332: 1. Getting a Property IS Getting a Possession
+Line 333: 2. Losing a Property IS Losing a Possession
+Line 334: 3. Regaing a Property IS Regaining a Possession
+Line 335: 4. Purposes ARE Desired Possessions
+
+[EVENT STRUCTURE / Change]
+----------------------------------------
+Line 341: - CAUSATION IS CONTROL OVER AN OBJECT RELATIVE TO A POSSESSOR
+
+[EVENT STRUCTURE / CausationObj]
+----------------------------------------
+Line 347: - ATTRIBUTES ARE ENTITIES
+
+[EVENT STRUCTURE / Properties]
+----------------------------------------
+Line 373: - STATES ARE LOCATIONS
+Line 389: 1. Purposes ARE Destinations
+Line 401: 2. Comparison of States IS Comparison of Distance
+
+[EVENT STRUCTURE / EventStructure]
+----------------------------------------
+Line 441: - STATES ARE SHAPES
+Line 453: 1. Social Interaction IS Containment in a Prescribed Shape
+Line 457: 2. Ideal Physical State IS a Canonical Shape
+Line 463: 3. Change of State IS Change of Shape
+Line 473: 4. Appropriateness of a State IS Fittingness
+Line 481: - PROPERTIES ARE POSSESSIONS
+Line 489: 1. Comparison of Properties IS Comparison of Possessions
+
+[EVENT STRUCTURE / Existence]
+----------------------------------------
+Line 515: - WELL-BEING IS WEALTH
+
+[EVENT STRUCTURE / Opportunities]
+----------------------------------------
+Line 537: - PROPERTIES ARE CONTENTS
+Line 561: - PROPERTIES ARE PHYSICAL PROPERTIES
+Line 565: 1. Importance IS Centrality
+Line 573: 2. Importance IS Interiority
+Line 577: 3. Importance IS Size
+Line 593: 4. Importance IS Depth
+Line 603: 1. Imperfect IS Irregular
+Line 609: 1. Amount IS Length
+Line 615: 2. Amount IS Verticality
+Line 621: 3. Amount IS Weight
+Line 627: 4. Amount IS Size
+Line 657: - CHANGE IS MOTION  (Location)
+Line 695: 1. Change Within a State IS Motion Within a Location
+Line 703: 2. Stopping Being in a State IS Leaving a Location
+Line 711: 3. Self-Initiated Change of State (Action) IS Self-Propelled Motion.
+
+[EVENT STRUCTURE / Action]
+----------------------------------------
+Line 717: 4. Self-Initiated, Long-Term, Purposeful Change IS a Journey
+
+[EVENT STRUCTURE / LongtermAction]
+----------------------------------------
+Line 723: 5. Progress IS Forward Motion
+
+[EVENT STRUCTURE / Action]
+----------------------------------------
+Line 731: 6. Harm IS Preventing Forward Motion
+
+[EVENT STRUCTURE / HarmLoc]
+----------------------------------------
+Line 737: - CHANGE IS GETTING/LOSING (Object)
+Line 753: 1. Getting a Property IS Getting a Possession
+Line 767: 2. Losing a Property IS Losing a Possession
+Line 771: 3. Reganing a Property IS Regaining a Possession
+Line 775: 4. Purposes ARE Desired Possessions
+Line 779: - CHANGE OF STATE IS CHANGE OF DIRECTION
+Line 797: - CHANGE IS REPLACEMENT
+Line 821: - CAUSATION IS CONTROL OVER RELATIVE LOCATION
+
+[EVENT STRUCTURE / CausationObj]
+----------------------------------------
+Line 835: - CAUSES AND EFFECTS ARE LINKED OBJECTS
+Line 845: 1. A Repeating Causal Sequence IS a Circle
+Line 853: - CAUSAL PRECEDENCE IS TEMPORAL PRECEDENCE
+Line 863: - CAUSATION IS CONTROL OVER AN ENTITY RELATIVE TO A LOCATION
+Line 879: 1. Causing a New State IS Moving the Affected Party to a New Location
+Line 889: 2. Preventing  a  New State IS Keeping  the  Affected  Party  from  a  New Location.
+Line 895: 3. Allowing a New State IS Allowing Motion to a New Location
+
+[EVENT STRUCTURE / Action]
+----------------------------------------
+Line 905: 1. Causing a New Action IS Moving the Affected Party to a New Location
+Line 919: 2. Preventing  a  New Action IS Keeping  the  Affected  Party  from  a  New Location
+Line 925: - MEANS OF CHANGE IS PATH OVER WHICH MOTION OCCURS
+Line 943: - NECESSARY PREREQUISITE FOR CHANGE IS SOURCE OF MOVING ENTITY
+Line 973: - CAUSATION IS CONTROL OVER AN OBJECT RELATIVE TO A POSSESSOR
+Line 975: 1. Causes ARE Forces Moving Properties Relative to Affected Parties
+Line 989: 2. Allowing Change of Properties IS Allowing Motion of Possessions Relative to Affected Parties
+Line 993: 3. Necessary Prerequisties ARE Sources of Properties Moving Relative  to Affected Parties
+Line 1001: 4. Causal Means ARE Paths for Properties Moving Relative to Affected Parties
+Line 1009: 5. Explanation IS Mental Motion of a Property Back to its Source
+
+[EVENT STRUCTURE / CausalComm]
+----------------------------------------
+Line 1029: - CAUSATION IS COMMERCIAL TRANSACTION
+Line 1031: - Related metaphors: WELL-BEING IS WEALTH
+Line 1033: 1. Having Beneficial Things Happen to One IS Getting Money He profitted from experience.
+Line 1034: 2. Having Detrimental Things Happen to One IS Losing Money He paid with his life for my/his mistake.
+Line 1035: 3. Causing Beneficial Effects IS Giving Money
+Line 1039: 4. Causing Detrimental Effects IS Taking Money
+Line 1043: - ACTION IS MOTION
+
+[EVENT STRUCTURE / ActionLoc]
+----------------------------------------
+Line 1049: - ACTION IS CONTROL OVER POSSESSIONS
+
+[EVENT STRUCTURE / ActionObj]
+----------------------------------------
+Line 1055: - ACTING  COMPULSIVELY IS INGESTING  A  SUBSTANCE  COMPULSIVELY
+Line 1061: 1. Compulsive Behavior IS an Addictive Substance
+Line 1065: - ACTIVE IS ALIVE
+Line 1069: - ACTION IS SELF-PROPELLED MOTION
+Line 1085: 1. Action IS Self-Propelled Motion
+Line 1099: 2. Manner of Action IS Manner of Motion
+Line 1119: 3. A Stage in an Action IS a Location Along a Path
+Line 1125: 4. Final States ARE Final Locations
+Line 1133: 5. Lack of Change Resulting from Action IS Lack of Motion
+Line 1145: 1. Progress IS Forward Movement
+Line 1153: 2. Progress IS Measured in Distance to Destination or in Distance From Starting Point
+Line 1169: 3. Speed of Progress IS Speed of Motion to a Destination
+Line 1181: 4. Negative Progress IS Backward Movement
+Line 1192: 5. Lack of Purpose IS Lack of Direction
+Line 1202: 6. Lack of Progress Tow  ard the Destination IS Lack of Motion
+Line 1212: 7. Easy Action IS Easy Motion
+Line 1216: 8. A Different Means of Achieving the Purpose IS a Different Path
+Line 1226: 9. Efficient Purposeful Action IS Direct Motion to a Destination
+Line 1232: 10. Starting a Purposeful Action IS Starting Out for a Destination
+Line 1240: 11. The End of Action IS the End of the Path
+Line 1254: 12. Control over Action IS Control over Motion.
+Line 1264: 13. Guided Action IS Guided Motion
+Line 1270: 14. Obstacles to Action ARE Obstacles to Motion
+Line 1276: 15. Continuing to Act Despite Difficulty, IS Moving Despite Obstacles
+Line 1288: 16. Aids to Action ARE Aids to Motion
+Line 1292: 17. Caused Inability to Act IS Prevention of Motion
+Line 1304: 18. Self-Motivated Action IS Self-Propelled Motion
+Line 1312: 19. Rights to Act ARE Rights of Way
+Line 1376: - ACTION IS CONTROL OVER POSSESSIONS
+Line 1384: 1. Rights ARE Abilities to Possess
+Line 1392: - LONGTERM PURPOSEFUL ACTIVITY IS A JOURNEY
+Line 1408: 1. The Person Leading a Life IS a Traveler
+Line 1412: 2. Life States ARE Locations
+Line 1416: 3. Longterm Purposes ARE Journey Destinations
+Line 1420: 4. The Means For Achieving Purposes ARE Routes
+Line 1428: 5. Difficulties ARE Impediments to Travel
+Line 1432: 6. Counselors ARE Guides
+Line 1440: 7. Progress IS the Distance Travelled
+Line 1444: 8. Things You Gauge Your Progress by ARE Landmarks
+Line 1448: 9. Major Choices ARE Crossroads
+Line 1452: 10. Material Resources and Talents ARE Provisions
+Line 1456: 11. Stages of Life ARE Routes You have to Travel On
+
+[EVENT STRUCTURE / ExternalEvents]
+----------------------------------------
+Line 1486: - EXTERNAL EVENTS AFFECTING PROGRESS ARE FORCES AFFECTING FORWARD MOTION
+Line 1488: 1. External Events that Affect Action ARE Forces that Affect Motion He was blown about by the winds of war.
+Line 1489: 2. Beneficial Events ARE Forces Moving toward your Destination Everything's going my way.
+Line 1490: 3. External Events Detrimental to Action ARE Opposing Forces Things are going against me.
+Line 1492: - THE PROGRESS OF EXTERNAL EVENTS IS FORWARD MOTION
+Line 1502: 1. Control Over the Progress of External Events IS Control over Their Forward Motion
+Line 1508: - INTERACTION  BETWEEN  PROGRESS  AND  EXTERNAL  EVENTS AFFECTING PROGRESS IS INTERACTION BETWEEN TWO MOVING INDIVIDUALS.
+Line 1546: 1. Being Involved in Events IS Being in Water He's afraid to take the plunge.
+Line 1548: 2. Being Defeated IS Drowning
+Line 1552: 3. Ability to Cope IS Ability to Navigate
+Line 1556: 4. Flow of Events IS Flow of Water
+Line 1562: 5. Easy Events to deal with ARE Smooth Water
+Line 1566: 6. Hidden Events with Causal Power ARE Undercurrents
+Line 1570: 7. A Powerful Enduring Directed Force IS a Tide
+Line 1574: 8. People with a Common Fate ARE People in a Single Boat:
+Line 1586: - KNOWLEDGE OF PAST EVENTS IS AN EXTERNAL EVENT EXERTING FORCE ON PRESENT EVENTS
+Line 1588: 1. The Past IS an Instrument of Constraint
+Line 1592: 2. The Past IS a Place of Confinement
+Line 1596: 3. The Past IS a Captor
+Line 1600: 4. The Past IS a Pursuer
+Line 1642: - ACTING ON IS TRANSFERRING AN OBJECT
+Line 1666: - HARM IS PHYSICAL INJURY
+Line 1676: 1. Experiencing harm IS being in pain
+Line 1677: 2. Well-being IS health/fitness
+Line 1678: 3. Restitution IS healing
+Line 1714: 1. Long-term effects of the harm ARE scars
+Line 1806: 1. Person in Situation IS the Prey
+Line 1812: 2. Competators or Antagonists ARE Predators
+Line 1820: 3. A Difficult Situation IS Place where Predation Occurs
+Line 1824: 4. Success or Failure in an Adversative Situation IS Eating, or Being Eaten.
+Line 1836: - HARM IS CAUSING FUNCTIONAL OBJECTS TO BE NONFUNCTIONAL
+Line 1872: - HARMING IS LOWERING
+Line 1892: 1. Helping IS Raising
+Line 1904: - HARM IS BEING IN A HARMFUL LOCATION
+Line 1906: - HARM IS PREVENTING FORWARD MOTION TOWARD A GOAL
+
+[EVENT STRUCTURE / Harm]
+----------------------------------------
+Line 1912: - HARM IS HAVING A HARMFUL POSSESSION
+Line 1916: - HARM IS LACKING A NEEDED POSSESSION
+Line 1920: - HARM IS BEING IN A HARMFUL LOCATION
+Line 1938: 1. Being harmed IS being forced to move to a harmful location
+Line 1950: - HARM IS PREVENTING FORWARD MOTION TOWARD A GOAL.
+Line 1962: 1. Reducing the Effect of Future Harm IS Giving a Headstart
+Line 2016: - HARM IS HAVING A HARMFUL POSSESSION
+Line 2034: 1. Being harmed IS being given an undesirable possession
+Line 2038: 2. Restoration IS having the bad thing taken away
+Line 2042: 3. Restoration IS getting a good thing in compensation
+Line 2050: - HARM IS LACKING A NEEDED POSSESSION
+Line 2072: 1. Being harmed IS having a needed possession taken or losing a needed possession
+Line 2076: 2. Gain in well-being IS gain in possessions
+Line 2080: 3. Restoration IS getting a good thing in compensation
+Line 2094: - EVALUATIVE) COMPARISON OF STATES IN A DYNAMIC SITUATION IS COMPARISON OF DISTANCE
+Line 2104: 1. Being Better in a Dynamic Situation IS Being Farther Along on a Path
+Line 2128: - EVALUATIVE COMPARISON OF A AND B IN A STATIC SITUATION IS DETERMINED BY THE VERTICAL DISTANCE BETWEEN A AND B
+Line 2130: 1. Being Better in a Static Situation IS Being Above
+Line 2140: 2. Being better in a static situation IS being above in explicit ranking
+Line 2141: 2. 2a.  Better rank IS lower number
+Line 2157: - 2c.  Better rank IS higher on list
+Line 2221: - NON-EVALUATIVE)  COMPARISON  BETWEEN  A  AND  B IS DETERMINED BY THE DISTANCE BETWEEN A AND B
+Line 2223: 1. Similarity IS Closeness
+Line 2227: 2. Difference Between IS Distance Between
+Line 2251: - NON-EVALUATIVE) COMPARISON OF PROPERTIES IS COMPARISON OF POSSESSIONS
+Line 2263: - COMPARING AND SEEKING IS SHOPPING
+Line 2273: - COMPARISON  OF  PROPERTIES IS COMPARISON  OF  PHYSICAL PROPERTIES
+
+[EVENT STRUCTURE / Properties]
+----------------------------------------
+Line 2319: - DISPARITY IS CHANGE
+Line 2329: - LINEAR SCALES ARE PATHS
+
+[EVENT STRUCTURE / Comparison]
+----------------------------------------
+Line 2347: - COMPETITION IS A RACE
+Line 2379: - COMPETITION IS COMPETITION FOR DESIRED OBJECTS
+Line 2387: - COMPETITION IS 1 ON 1 PHYSICAL AGGRESSION
+Line 2405: - COMPETITION IS WAR
+Line 2425: - CONTROL IS UP
+Line 2431: - FAILURE IS DEATH/ SUCCESS IS LIFE
+Line 2439: - OPPORTUNITIES ARE OBJECTS
+Line 2461: 1. Taking (Using) an Opportunity IS Taking an Object.
+Line 2475: 2. Opportunities ARE Moving Entities
+Line 2481: 3. Available Opportunities ARE Objects within Reach
+Line 2489: 4. Serendipitous Opportunity IS An  Object  Easily  Accessable  Without Effort on the Part of the Experiencer
+
+[EVENT STRUCTURE / Possession]
+----------------------------------------
+Line 2509: - OPPORTUNITIES ARE OPEN PATHS
+Line 2523: - EXISTENCE IS A LOCATION (HERE)
+
+[EVENT STRUCTURE / States]
+----------------------------------------
+Line 2547: 1. Maintaining Existence IS Maintaining Location Up Here
+Line 2555: - EXISTENCE IS AN OBJECT
+Line 2561: - EXISTENCE IS LIFE
+Line 2567: - EXISTENCE IS VISIBILITY
+Line 2571: - EXISTENCE IS HAVING A FORM
+Line 2575: - CREATING IS MOVING TO A LOCATION (Here)
+Line 2585: - CREATING IS GIVING AN OBJECT
+Line 2593: - CREATING IS MAKING VISIBLE
+Line 2597: - CREATING IS BIRTHING
+Line 2601: - CREATION IS CULTIVATION
+Line 2605: 1. Necessary Prerequisites ARE Necessary Prerequisties for Plant Life China is a fertile ground for revolt.
+Line 2607: - CREATING IS MAKING
+Line 2613: - EXTERNAL CONDITIONS ARE CLIMATE
+Line 2617: 1. Adversity IS Adversity due to Bad Weather
+Line 2633: - DIFFICULTIES ARE CONTAINERS
+
+[EVENT STRUCTURE / Action]
+----------------------------------------
+Line 2645: - DIFFICULTY IS DIFFICULTY IS MOVING
+Line 2649: - TIME IS SOMETHING MOVING TOWARD YOU
+Line 2693: - TIME IS A LANDSCAPE WE MOVE THROUGH
+Line 2749: - TIME IS MONEY
+Line 2757: - TIME IS A RESOURCE
+Line 2777: - BOUNDED) TIME IS A CONTAINER
+Line 2787: - TIME IS A PURSUER
+Line 2803: - TIME IS A CHANGER
+Line 2835: - A SCHEDULE IS A MOVING OBJECT
+Line 2867: - THE MIND IS A BODY
+Line 2873: 1. MENTAL FITNESS IS PHYSICAL FITNESS
+Line 2893: 2. MENTAL CONTROL IS PHYSICAL CONTROL
+Line 2897: - 2a.  Being in Control of S.T. IS Having it in Hand
+Line 2947: - DIFFICULT SUBJECTS ARE ADVERSARIES
+Line 2963: 1. The Mind IS a Fighter
+Line 2967: 2. Thinking IS Struggling
+Line 2971: 3. Understanding/Learning IS Gaining Physical Control over the Material
+Line 2987: - IDEAS ARE FOOD
+Line 2999: 1. Thinking IS Preparing Food
+Line 3001: - 1a.  Thinking IS Preparing Food by Cooking
+Line 3007: - 1b. Thinking IS Preparing Food by Chewing
+Line 3011: 2. Understanding IS Digestion
+Line 3015: 3. Believing IS Swallowing
+Line 3019: 4. Communication IS Feeding
+Line 3025: 5. Remembering IS Regurgitating
+
+[MENTAL EVENTS / Action]
+----------------------------------------
+Line 3033: - The Mind IS A Body (Food)
+Line 3037: 6. Learning IS Eating
+Line 3045: - 6a.  Interest IS Appetite
+Line 3051: - 6b. Needed Information IS Nourishment
+Line 3077: - IDEAS ARE PERCEPTIONS
+Line 3081: 2. Thinking IS Examining
+Line 3091: 3. Understanding IS Seeing
+Line 3093: - 3a. Aids to Gaining Awareness ARE Aids to Vision.
+Line 3101: - 3b. Not being Aware of Reality IS not Seeing Reality.
+Line 3111: - 3c. Impediments to Awareness ARE Impediments to Seeing.
+Line 3125: - Awareness Despite Hindrance IS Seeing Despite Visual Hindrance He saw through her lies.
+Line 3135: 4. Communication IS Showing
+Line 3145: - 4a.  Deception IS the Purposeful Prevention of Sight:
+Line 3155: 5. Remembering IS Reviewing
+Line 3157: 6. Creativity IS Seeing in a Different Light
+Line 3165: - The Mind IS a Body (Perception)
+Line 3173: 1. I see what you ARE saying. (I am aware of what your point is)
+Line 3186: - IDEAS ARE LOCATIONS
+Line 3196: 1. The Mind IS a Traveler
+Line 3198: 2. Thinking IS Moving in the Ideascape
+Line 3202: - 2a.  Constrained Thought IS Constrained Movement
+Line 3216: - 1a.  Facts ARE Guides to Our Movement
+Line 3222: - 1b. Arguments ARE Paths on which Thought travels
+Line 3230: 3. Understanding IS Arriving
+Line 3234: 4. Communication IS Guiding
+Line 3238: 5. Remembering IS Returning to a Past Location
+Line 3239: 6. Creativity IS Trailblazing
+Line 3245: - SUBJECTS ARE AREAS
+Line 3253: 1. Research IS Exploration
+Line 3259: - 1a.  Making Discoveries IS Seeing New Land or Objects
+Line 3285: - IDEAS ARE OBJECTS
+Line 3297: 3. That idea IS still rough around the edges, why don't you fix it?
+Line 3299: 1. The Mind IS a Container for Objects
+Line 3305: 2. Thinking IS Possessing an Object
+Line 3309: 3. Thinking IS Manipulating an Object
+Line 3315: 4. Understanding IS Grasping
+Line 3327: 5. Communication IS Transfer
+Line 3328: 6. Believing IS Holding
+Line 3329: 7. Memory IS a Container for Objects
+Line 3330: 4. 7a.  Memorizing IS Storing Objects
+Line 3331: 5. 7b. Remembering IS Retrieving Objects
+Line 3347: 8. LEARNING IS TAKING IN
+Line 3389: 1. The Mind IS a Landmark
+Line 3390: 2. The Mind IS Pursuer
+Line 3391: 3. Thinking IS Approaching the Object
+Line 3393: 4. Understanding IS Collocation
+Line 3405: 5. Remembering IS Recollocating
+Line 3411: 1. The Mind IS a Builder
+Line 3412: 2. Thinking IS Building/Forming/Shaping
+Line 3413: 3. Memorizing IS Forming Memories
+Line 3414: 4. Remembering IS Reconstructing
+Line 3415: 5. Compatibility of Ideas IS Compatibility of Shape
+
+[MENTAL EVENTS / Argument]
+----------------------------------------
+Line 3431: - IDEAS ARE WRITING
+Line 3433: 1. The Mind IS a Wax Tablet/Paper
+Line 3434: 2. Understanding IS Having Ideas Register
+Line 3435: 3. Communication IS Showing
+Line 3436: 4. Beliefs ARE Impressions
+Line 3437: 5. Memorizing IS Writing
+Line 3438: 6. Remembering IS Reviewing
+Line 3440: - IDEAS ARE CHILDREN (w.r.t development)
+Line 3442: 1. The Mind IS a Parent
+Line 3443: 2. Thinking IS Giving Birth
+Line 3444: 3. Thinking IS Having Ideas Develop/Grow
+Line 3445: 4. Remembering IS Resurrecting
+Line 3449: - IDEAS ARE FASHIONS
+Line 3453: - IDEAS ARE LIGHT SOURCES
+Line 3457: - IDEAS ARE RESOURCES
+Line 3467: - BELIEFS ARE POSSESSIONS
+Line 3495: 1. Believing IS Holding
+Line 3499: 2. Acquiring a Belief IS Acquiring a Possession
+Line 3503: 3. Deciding to Believe IS Deciding to Acquire a Possession
+Line 3507: 4. No Longer Believing IS No Longer Having in Possession
+Line 3529: 1. Believing IS Owning Goods He took stock of what he believed.
+Line 3533: 2. No Longer Believing IS Selling Out
+Line 3537: 3. Arguing for a Belief IS Trying to Sell It
+Line 3543: 3. Accepting a Belief IS Buying It
+Line 3545: 3. 3a.  Accepting a Belief shared by others IS Buying Into It He bought into the beliefs of one of those cults.
+Line 3547: 4. Importance of a Belief IS the Price of a Good
+Line 3569: 1. Forces Influencing Beliefs ARE Shaping Forces
+Line 3585: 2. A Belief No Longer Held IS an Object that has been Destroyed
+Line 3591: 3. The Strength of a Belief IS the Strength of the Object
+Line 3601: 4. The Changeability of a Belief IS the Resilience of the Object
+Line 3607: 5. The Importance of a Belief IS the Weight of the Object.
+Line 3637: 1. No Longer Believing IS No Longer Wearing
+Line 3641: 2. Progressing Beyond Ones Beliefs IS Outgrowing
+Line 3655: - BELIEFS ARE FASHIONS
+Line 3677: - BELIEFS ARE BEINGS WITH A LIFE CYCLE
+Line 3699: 1. Development of a Belief IS Growth of a Plant
+Line 3715: 2. Basis of a Belief IS Rooting of a Plant
+Line 3725: 3. Encouraging a Beliefs IS Cultivating a Plant
+Line 3729: - BELIEFS ARE LOVE OBJECTS
+Line 3741: 1. Considering Believing IS Considering Entering a Relationship
+Line 3745: 2. Accepting a Belief IS Entering a Relationship
+Line 3749: 3. A Tempting Belief IS a Tempting Possible Partner
+Line 3757: 4. Maintaining a Belief IS Loving a Partner
+Line 3765: 5. Giving up a Belief IS Ending the Relationship
+Line 3785: 1. Taking up a Belief IS Gaining a Child or Pet
+Line 3789: 2. Maintaining a Belief IS Caring for a Child or Pet
+Line 3801: - BELIEFS ARE GUIDES
+Line 3841: - BELIEFS ARE LOCATIONS
+Line 3843: - DANGEROUS BELIEFS ARE CONTAGIOUS DISEASES
+Line 3863: 1. Conveying the Belief IS Spreading the Disease
+Line 3865: 2. Believers ARE Infected
+Line 3875: 3. Controlling the Belief IS Containing the Spread of the Disease
+Line 3887: - THEORIES ARE BEINGS WITH LIFE CYCLES
+Line 3901: 1. Theories ARE People (w.r.t life cycle)
+Line 3909: 2. Theories ARE Plants (w.r.t. life cycle)
+Line 3923: - THEORIES ARE PEOPLE (w.r.t. family tree structure)
+Line 3943: - THEORIES ARE PEOPLE (w.r.t. opinions)
+Line 3969: - THEORIES ARE CONSTRUCTED OBJECTS
+Line 4003: - THEORIES ARE COVERS FOR THE FACTS
+Line 4021: - THEORIES ARE CLOTH
+Line 4033: 1. Theories ARE Clothing for Facts
+Line 4041: - FA  CTS ARE POINTS (set up in spatial configuration)
+Line 4053: - THEORETICAL DEBATE IS COMPETITION
+Line 4109: 1. Data IS Territory
+Line 4119: 2. Reasons for a Theory ARE Grounds
+Line 4123: 3. Attacking a Theory IS Attacking a Fortification
+Line 4129: - 3a.  Specific Arguments in a Debate ARE Single Attacks
+Line 4133: 4. Basic Assumptions of a Theory ARE Foundations
+Line 4138: - 5a.  Believers ARE Supporters
+Line 4144: - 5b. Believers ARE Defenders
+Line 4150: 6. Abandoning a Belief IS Retreating from a Position
+Line 4194: 1. The Content IS contained in the Stimulus
+Line 4208: 3. Ideas ARE projectiles, which the sender conveys in some manner:
+Line 4228: - 1) not only linguistic entities, but anything that IS understood to have conventionalized meaning can be
+Line 4233: 1. The book gav  e her a good idea. IS an example of a Causation metaphor, because we want to generalize over examples such as:
+Line 4248: - COMMUNICATION IS LINGUISTIC COMMUNICATION
+Line 4284: - WORDS ARE WEAPONS
+Line 4302: - LOGICAL RELATIONS ARE CAUSAL RELATIONS
+
+[MENTAL EVENTS / MentalLoc]
+----------------------------------------
+Line 4336: 1. Logical Arguments ARE Paths to Solutions
+Line 4350: - LOGIC IS GRAVITY
+
+[MENTAL EVENTS / MentalObj]
+----------------------------------------
+Line 4364: 1. Premises ARE the Source of the Conclusion
+Line 4382: - PERCEPTION IS RECEPTION
+Line 4452: - PERCEPTION IS SHAPE RECOGNITION
+Line 4462: - SEEING IS TOUCHING, EYES ARE LIMBS
+Line 4472: 1. Looking At Something On Purpose IS Touching it With Eyes or Glance
+Line 4476: 2. Discovering by Looking IS Manipulating with Eyes or Glance
+Line 4480: 3. Seeing Something By Accident IS Accidently Touching it with Eyes or Glance
+Line 4492: - THE VISUAL FIELD IS A BOUNDED REGION
+Line 4504: 1. Within Sight IS Within Region
+Line 4508: 2. Out of Sight IS Out of Bounded Region
+Line 4516: - THE VISUAL FIELD IS A CONTAINER
+Line 4526: 1. Within Sight IS Within Container
+Line 4530: 2. Out of Sight IS Outside Container
+Line 4542: - PSYCHOLOGICAL FORCES ARE PHYSICAL FORCES.
+Line 4544: 1. Influence IS a Force
+Line 4550: 2. Manipulation IS Physical Manipulation
+Line 4554: - 2a.  Being Easily Manipulated IS Being Easily Physically Manipulated
+Line 4560: - 2b. Psychological Impact IS Physical Impact
+Line 4564: - 2c.  Psychological Benefit IS Physical Benefit
+Line 4572: - 2d.  Psychological Harm IS Physical Harm
+Line 4594: - RATIONAL IS UP
+Line 4604: - CONDUCTING RESEARCH IS SOLVING A PUZZLE
+Line 4612: - RECEIVING SERIOUS THOUGHT IS BEING ON THE MIND
+Line 4634: 1. Events ARE Transactions
+Line 4635: 2. 1a.  Events ARE Ledger Entries
+Line 4636: 2. Results ARE Net Balances
+Line 4648: 3. Understanding the Causation IS Adding up/Figuring out
+Line 4658: 4. Explaining the Causation IS Accounting
+Line 4664: - 4a.  Explaining the Causation IS Counting the Factors
+Line 4676: - INTELLIGENCE/IDEA IS A CUTTING INSTRUMENT
+Line 4686: - INTELLIGENCE IS A LIGHT SOURCE
+Line 4694: - COHERENT IS WHOLE
+Line 4696: - COHERENT IS ALIGNED
+Line 4700: - THE MIND IS A MACHINE
+Line 4720: - MIND, or MENTAL SELF IS A BRITTLE OBJECT
+
+[EMOTIONS / MentalObj]
+----------------------------------------
+Line 4746: 1. Emotions ARE Liquids Within a Person
+Line 4774: 1. Emotions ARE Physical Forces
+Line 4782: 2. Emotions ARE Electromagnetic Forces
+Line 4794: - PEOPLE ARE BATTERIES
+Line 4816: - INTENSE EMOTIONS ARE HEAT
+Line 4870: - EMOTIONAL SELF IS A BRITTLE OBJECT
+Line 4880: - EMOTION IS MOTION
+Line 4896: - EFFECT ON EMOTIONAL SELF IS CONTACT WITH PHYSICAL SELF
+Line 4920: - STRONG EMOTIONS ARE MADNESS
+Line 4932: 1. LOVE IS MADNESS
+Line 4938: 2. LUST IS MADNESS
+Line 4942: - STRONG EMOTION IS BLINDING
+Line 4968: - EMOTIONAL STABILITY IS BALANCE
+Line 4990: - EMOTIONAL STABILITY IS CONTACT WITH THE GROUND
+Line 5012: - EMOTIONAL STABILITY IS MAINTAINING POSITION
+Line 5034: - ANGER IS HEAT
+Line 5098: - HOPE IS A BENEFICAL POSSESSION
+Line 5100: 1. Being Hopeful/Hopeless IS Having/Not Having Hope
+Line 5104: 2. Making Someone Hopeful IS Giving Them Hope
+Line 5108: 3. Strength of Hope IS Strength of an object
+Line 5116: - HOPE IS A CHILD
+Line 5120: - HOPE IS LIGHT
+Line 5132: - LOVE IS A JOURNEY
+
+[EMOTIONS / LongtermAction]
+----------------------------------------
+Line 5138: 1. Progress in the Relationship IS Forward Motion
+Line 5144: 2. The Relationship IS a Moving Object.
+Line 5164: - LOVE IS A UNITY (OF TWO COMPLEMENTARY PARTS)
+Line 5186: - EMOTIONAL INTIMACY IS PHYSICAL CLOSENESS
+Line 5200: 1. Emotional Distance IS Physical Distance
+Line 5204: 2. Change To  ward Emotional Intimacy IS Movement Tow  ard Physical Closeness
+Line 5216: 3. Emotional Bonding IS Physical Bonding
+Line 5220: 4. Change Aw  ay from Emotional Intimacy IS Movement Away from Physical Closeness
+Line 5226: 5. Emotional Intimacy IS Established By Physical Contact
+Line 5238: 6. Type of Emotional Effect IS (determined by) Manner of Contact
+Line 5244: 7. Avoiding Emotional Effect IS Avoiding Contact
+Line 5248: 8. Inclinations To  ward Intimacy ARE Forces Tow  ard Closeness
+Line 5318: - LOVED ONE IS A POSSESSION
+Line 5334: - AFFECTION IS WARMTH
+Line 5340: 2. Dislike IS Cold
+Line 5354: - LOVE IS MAGIC
+Line 5358: - LOVE IS MADNESS
+Line 5366: - DESIRES ARE FORCES BETWEEN THE DESIRED AND THE DESIRER
+Line 5382: 3. Sexuality IS a Force between Desired and Desirer.
+Line 5396: - LUST IS HEAT
+Line 5402: 1. Lack of lust IS coldness She was frigid.
+Line 5404: - SEXUALITY IS AN OFFENSIVE WEAPON
+Line 5424: - DESIRE IS HUNGER
+Line 5442: - LUSTFUL PERSON IS AN ANIMAL
+Line 5460: - LUSTFUL PERSON IS AN ACTIVATED MACHINE
+Line 5472: - GAINING PHYSICAL INTIMACY (AGAINST RESISTANCE) IS A COM-
+Line 5476: 1. Sex IS an Achievement
+Line 5512: - FEAR IS COLD
+Line 5528: - INTERPERSONAL HARMONY IS MUSICAL HARMONY
+Line 5534: - DISGUST IS NAUSEA
+Line 5554: - CONCEIT IS INFLATION
+Line 5580: - FORM IS MOTION
+Line 5604: - SHAPES ARE CONTAINERS
+Line 5622: - EXTERNAL APPEARANCE IS A COVER
+Line 5634: 1. Facial Expressions ARE Covers
+Line 5670: - 1c.  Lack of Facial Expression IS Lack of Cover
+Line 5680: 2. Stances ARE Covers/Clothes
+Line 5692: - FORCE IS A SUBSTANCE DIRECTED AT AN AFFECTED PARTY
+Line 5730: - FORCE IS A SUBSTANCE CONTAINED IN AFFECTING CAUSES
+Line 5768: - A FORCE IS A MOVING OBJECT
+
+[EMOTIONS / Causation]
+----------------------------------------
+Line 5822: - LAUGHTER IS A SUBSTANCE
+Line 5832: 1. Potential Laughter IS a Substance inside the Person
+Line 5836: 2. Potential Laughter that IS not Expressed Builds Pressure inside the Person
+Line 5852: 3. Laughter IS a Substance that Comes from the Laugher
+Line 5866: - EFFECTS OF HUMOR ARE INJURIES
+Line 5878: - TREATING ILLNESS IS FIGHTING A WAR
+Line 5888: 1. The Disease IS an Enemy
+Line 5889: 2. The Body IS a Battleground
+Line 5893: 3. Infection IS an Attack by the Disease
+Line 5897: 4. Medicine IS a Weapon
+Line 5901: 5. Medical Procedures ARE Attacks by the Patient
+Line 5904: 6. The Immune System IS a Defense
+Line 5908: 7. Winning the War IS Being Cured of the Disease
+Line 5912: 8. Being Defeated IS Dying
+Line 5924: - EUPHORIC STATES ARE UP
+Line 5940: - INTOXICATION IS GETTING DESTROYED
+Line 5964: - INTOXICATION IS GETTING BURNED/COOKED
+Line 5982: - INTOXICATION IS BECOMING ELECTRIFIED
+Line 5998: - INTOXICATION IS GETTING A BURDEN
+Line 6012: - LIGHT IS A FLUID
+Line 6040: - DARKNESS IS A SOLID
+Line 6072: - DARKNESS IS A COVER
+Line 6098: - LIGHT IS A LINE
+Line 6120: - MACHINES ARE PEOPLE
+Line 6130: 1. Degree of Functioning IS Health
+Line 6150: 2. Cessation of function IS Killing
+Line 6152: 3. Calculation IS Thinking
+Line 6185: - MONEY IS A LIQUID
+Line 6187: 1. Cash IS a Liquid
+Line 6191: 2. Gain/Loss of Money IS Movement of a Liquid
+Line 6195: 3. Money which cannot be accessed IS Frozen
+Line 6199: 4. Control in a Financial Situation IS Control in Liquid
+Line 6203: - INVESTMENTS ARE CONTAINERS FOR MONEY
+Line 6213: 1. Joining another on an investment IS mixing liquids
+Line 6225: - MORALITY IS STRAIGHTNESS
+Line 6227: 1. Being moral IS being straight.
+Line 6233: 2. Being immoral IS being crooked.
+Line 6247: 1. Walking on the path IS being moral.
+Line 6253: 2. Diverging from the path IS being immoral.
+
+[EMOTIONS / EventStructLoc]
+----------------------------------------
+Line 6263: - MORALITY IS CLEANLINESS
+Line 6281: - MORALITY IS PURITY
+Line 6293: - MORAL IS UP / IMMORAL IS DOWN
+Line 6317: - GOOD IS UP / BAD IS DOWN
+Line 6335: 1. Doing Moral Deeds IS Accumulating Credit:Putting Money into Society.
+Line 6341: 2. Doing Immoral Deeds IS Accumulating Debt:Taking Money from Society.
+Line 6347: 3. Benefitting IS Accumulating Debt.
+Line 6367: 6. Moral Account IS Record of Transactions
+Line 6419: - GOODNESS IS LIGHT / BADNESS IS DARKNESS
+Line 6437: - GOODNESS IS WHITE/ BADNESS IS BLACK
+Line 6453: - PEOPLE ARE PLANTS
+Line 6469: - PEOPLE ARE MACHINES
+Line 6485: - PEOPLE/BODIES ARE BUILDINGS
+Line 6495: - POSSESSING IS HOLDING
+Line 6505: 1. Trying to Get IS Trying to Grab
+Line 6509: 2. Ability to Get (Purchasing Power) IS Ability to Grab (Length of Reach) A really first-rate sports car is still out of my reach.
+Line 6510: 3. Getting IS Grabbing
+Line 6514: 4. Possessing IS Holding
+Line 6520: 5. Retaining a Possession IS Retaining a Held Object
+Line 6525: 6. Giving up a Possession IS Letting go of a Held Object
+Line 6535: 7. Having Possesions Taken IS Having Held Objects Taken
+Line 6538: 8. Giving Possessions IS Giving Held Objects
+Line 6558: 1. Desire IS Hunger
+
+[EMOTIONS / Change]
+----------------------------------------
+Line 6566: - GETTING IS EATING
+Line 6568: - A PROBLEM IS A LOCKED CONTAINER FOR ITS SOLUTION
+Line 6582: 1. The Solution IS Contained in the Problem
+Line 6592: 3. Means to Solving IS Means to Opening
+Line 6596: 4. Difficulty IS Hardness of Object
+Line 6602: 5. Discovered Solution IS Removed from Container
+Line 6606: - A PROBLEM IS A REGION IN A LANDSCAPE
+Line 6616: 1. Investigating a Problem IS Exploring a Landscape
+Line 6622: 2. Trying to Solve a Problem IS Looking for Solution in the Landscape
+Line 6630: 3. Approaches to a Solution ARE Paths in Landscape
+Line 6632: - a.k.a. Reasoning IS Following a Path, Thinking is Moving)
+Line 6636: 4. Evidence IS a Guide in the Search
+Line 6644: 5. Failing to Solve IS Failing to Locate Object in Landscape
+Line 6672: - A PROBLEM IS A BODY OF WATER
+Line 6686: 1. Investigating Problem IS Exploring Water
+Line 6690: 2. Difficulty in Solving IS Difficulty in Exploring Water
+Line 6694: 3. Trying to Solve IS Looking for Object in Water
+Line 6698: 4. Solving IS Finding Object in Water
+Line 6702: 5. The Solution IS an Object in Water
+Line 6710: - PROBLEM IS A TANGLE
+Line 6716: 1. Solving IS Untangling
+Line 6742: - PROBLEM IS A CONSTRUCTED OBJECT
+Line 6756: 1. Aspects of Problem ARE Components of Object
+Line 6760: 2. Investigating Problem IS Disassembling Object
+Line 6764: 3. Trying to Solve IS Looking for Solution in Object
+Line 6772: - PROBLEM IS A TARGET
+Line 6782: 1. Presenting Problem IS Setting up Target
+Line 6786: 2. Trying to Solve Problem IS Shooting at Target
+Line 6794: 3. Solving IS Striking a Solution
+Line 6810: - RELATIONSHIP IS KINSHIP
+Line 6852: 1. Causes ARE Parents, Effects are Offspring
+Line 6856: 2. Conditions ARE Parents, Results are Offspring
+Line 6860: 3. The Subsequent Thing IS the Offspring of the Initial Thing
+
+[EMOTIONS / Causation]
+----------------------------------------
+Line 6876: - OBLIGATIONS ARE POSSESSIONS
+Line 6890: 1. Obligations ARE Carried In The Hands
+Line 6894: 2. Obligations ARE Burdens (on shoulder or back)
+Line 6900: 3. Obligations ARE Burdens (on lap)
+Line 6904: 4. Assigning Obligation IS Giving Possessions
+Line 6908: 5. Being Assigned Obligation IS Receiving Burdens
+Line 6916: 6. Being Assigned Obligation IS Being Placed Near Object
+Line 6920: 7. Obligations ARE Children
+Line 6936: - RESPONSIBILITIES ARE POSSESSIONS
+Line 6948: 1. Responsibilities ARE Burdens
+Line 6952: 2. Responsibilities ARE Attached To Person Held Responsible.
+Line 6956: 3. Responsibilties ARE Placed Near Person Held Responsible
+Line 6962: 4. Receiving Credit or Blame (Responsibility) IS Getting Object
+Line 6982: - OBLIGATIONS ARE CONTAINERS
+Line 7000: - OBLIGATIONS ARE FORCES
+Line 7016: - COMPLIENCE IS ADHERENCE
+Line 7030: - COMPLIENCE IS FOLLOWING
+Line 7042: - COMPLIENCE IS TIGHTNESS
+Line 7046: - THE BODY IS A CONTAINER FOR THE SELF
+Line 7064: - ASPECTS OF THE SELF ARE DISTINCT INDIVIDUALS
+Line 7086: - PERSONALITY IS MATERIAL
+Line 7100: 1. Achieving Purpose IS Getting Money He profitted from experience.
+Line 7101: 2. Actions that Promote Well-being ARE Payments
+Line 7102: 3. Duties ARE Debts
+Line 7106: 4. Rights ARE Guarantees
+Line 7110: 5. Exchanges of rights ARE contracts Social contract.
+Line 7112: - SOCIETY IS A BODY
+
+================================================================================
+
+--- SPECIAL CASES AND DEVIATIONS (117) ---
+
+[EVENT STRUCTURE / EventStructLoc]
+----------------------------------------
+Line 213: [Special sub-case 1] States ARE Locations
+Line 219: [Special sub-case 3] Causation IS Control Over an Entity Relative to a Location
+
+[EVENT STRUCTURE / CausationObj]
+----------------------------------------
+Line 357: [Special case 1] STATES ARE LOCATIONS
+
+[EVENT STRUCTURE / States]
+----------------------------------------
+Line 363: [Special case 2] PROPERTIES ARE POSSESSIONS
+
+[EVENT STRUCTURE / HarmLoc]
+----------------------------------------
+Line 415: [Special case 2] Existence IS a Location (Here)
+
+[EVENT STRUCTURE / Comparison]
+----------------------------------------
+Line 495: [Special case 1] Harm IS Having a Harmful Possession
+
+[EVENT STRUCTURE / HarmObj]
+----------------------------------------
+Line 501: [Special case 2] Harm IS Lacking a Desired Possesion
+Line 507: [Special case 3] Existence IS an Object
+
+[EVENT STRUCTURE / Existence]
+----------------------------------------
+Line 513: [Special case 4] Opportunities ARE Objects
+
+[EVENT STRUCTURE / Opportunities]
+----------------------------------------
+Line 539: [Special case 1] Abilities ARE Entities inside a Person
+Line 563: [Special case 1] IMPORTANCE IS A PHYSICAL PROPERTY
+Line 601: [Special case 2] PERFECT IS REGULAR
+Line 607: [Special case 3] AMOUNT IS A PHYSICAL PROPERTY
+Line 637: [Special case 4] VALUE IS SIZE
+
+[EVENT STRUCTURE / HarmLoc]
+----------------------------------------
+Line 757: [Special sub-case 1] Getting a Property IS Eating
+Line 823: [Special case 1] CAUSATION IS CONTROL  OVER  LOCATION  OF AFFECTED PARTY RELATIVE TO A LOCATION
+
+[EVENT STRUCTURE / CausationLoc]
+----------------------------------------
+Line 829: [Special  case  2] CAUSATION IS CONTROL  OVER  LOCATION  OF  AN OBJECT RELATIVE TO AN AFFECTED PARTY
+
+[EVENT STRUCTURE / CausationObj]
+----------------------------------------
+Line 877: [Special  case  1] CAUSED CHANGE OF STATE IS CONTROL OVER AN ENTITY RELATIVE TO A LOCATION
+
+[EVENT STRUCTURE / Action]
+----------------------------------------
+Line 903: [Special case 2] CAUSED CHANGE OF ACTION IS CONTROL OVER AN ENTITY RELATIVE TO A LOCATION
+Line 935: [Special case 1] Means of Change of State IS Path
+Line 939: [Special case 2] Means of Change of Action IS Path
+Line 953: [Special case 1] Necessary Prerequisite for Change of State IS Source
+Line 963: [Special case 2] Necessary Prerequisite for Change of Action IS Source
+Line 1015: [Special  case  1] Causation IS Motion  of  a  Commerial  Object  Relative  to an Affected Party
+
+[EVENT STRUCTURE / ActionObj]
+----------------------------------------
+Line 1105: [Special sub-case 1] Careful Action IS Careful Motion
+Line 1113: [Special sub-case 2] Speed of Action IS Speed of Motion
+Line 1139: [Special case 1] Purposeful Action IS Directed Motion to a Destination
+Line 1298: [Special sub-case 1] Caused Inability to Act IS Suspension
+Line 1318: [Special case 1] Knowing What will Happen IS Seeing Where You are Going
+Line 1336: [Special  case  2] DESIRES  THAT CONTROL  ACTION ARE EXTERNAL FORCES THAT CONTROL MOTION
+Line 1346: [Special case 3] OBLIGATIONS/AGREEMENTS ARE CONTAINERS
+Line 1406: [Special case 1] Life IS a Journey
+Line 1460: [Special case 2] Love IS a Journey
+
+[EVENT STRUCTURE / Love]
+----------------------------------------
+Line 1468: [Special case 3] Career IS a Journey
+Line 1472: [Special sub-case 1] Career Progress IS Vertical Movement.
+
+[EVENT STRUCTURE / ExternalEvents]
+----------------------------------------
+Line 1578: [Special sub-case 1] Historical Events ARE Water Controlling Motion
+Line 1656: [Special case 1] Acting on IS Feeding
+Line 1688: [Special case 1] Psychological harm IS physical injury
+Line 1694: [Special case 2] Economic harm IS physical injury
+Line 1700: [Special case 3] Environmental harm IS physical injury
+Line 1704: [Special case 4] Political harm IS physical injury
+Line 1712: [Special case 1] Harm IS Physical Injury due to Wounding
+Line 1758: [Special case 2] Harm IS Physical Injury due to Sickness
+Line 1800: [Special case 3] Harm IS Physical Injury due to Neglect
+Line 1804: [Special case 4] Harm IS Physical Injury due to Predation by Vicious Animals
+Line 1846: [Special case 1] HARM IS CAUSING OBJECT TO BE NONFUNCTIONAL BY DESTROYING IT
+Line 1864: [Special case 2] HARM IS CAUSING OBJECT TO BE NONFUNCTIONAL BY PREVENTING OPERATION
+
+[EVENT STRUCTURE / Harm]
+----------------------------------------
+Line 1964: [Special case 1] The Harm IS an Obstable
+Line 1974: [Special case 2] The Harm IS a Setback which returns you to prior location
+Line 1982: [Special case 3] The Harm IS a Diversion which moves you a different direction
+Line 1988: [Special case 4] The Harm IS a Burden which slows down motion
+Line 2000: [Special case 5] Harming Yourself IS Getting Lost/Turning Aside
+Line 2181: [Special case 1] Status IS Position
+Line 2197: [Special case 2] Importance IS Precedence
+Line 2275: [Special case 1] Comparison of Importance IS Weighing
+
+[EVENT STRUCTURE / Properties]
+----------------------------------------
+Line 2283: [Special case 2] More IS Higher
+Line 2295: [Special case 3] More IS Heavier
+Line 2305: [Special case 4] More IS Bigger
+
+[EVENT STRUCTURE / States]
+----------------------------------------
+Line 2539: [Special case 1] EXISTENCE IS LOCATION UP HERE
+Line 2551: [Special case 2] EXISTENCE IS LOCATION OUT OF CONTAINER
+
+[EVENT STRUCTURE / Action]
+----------------------------------------
+Line 2663: [Special case 1] Time IS Something Moving (No Reference Point)
+Line 2669: [Special case 2] Foreseeable Future Events ARE Up
+Line 2895: [Special sub-case 1] Mental Control IS Hand Control
+
+[MENTAL EVENTS / Action]
+----------------------------------------
+Line 3055: [Special sub-case 1] Learning via Reading IS Eating
+Line 3210: [Special sub-case 1] Reasoning IS Following a Path
+Line 3351: [Special sub-case 1] LEARNING IS EATING
+Line 3361: [Special sub-case 2] LEARNING IS ABSORBING
+Line 3371: [Special sub-case 3] Communicating Opinion IS Feeding
+Line 3387: [Special case 1] IDEAS ARE MOVING OBJECTS
+Line 3409: [Special case 2] IDEAS ARE CONSTRUCTED OBJECTS
+Line 3425: [Special sub-case 1] Beliefs ARE Structures
+
+[MENTAL EVENTS / Argument]
+----------------------------------------
+Line 3519: [Special case 1] BELIEFS ARE COMMODITIES
+Line 3559: [Special case 2] BELIEFS ARE CONSTRUCTED OBJECTS
+Line 3611: [Special sub-case 1] Beliefs ARE Structures
+Line 3627: [Special case 3] BELIEFS ARE CLOTHES
+Line 3697: [Special case 1] BELIEFS ARE PLANTS
+Line 3731: [Special case 1] BELIEFS ARE LOVERS
+Line 3773: [Special case 2] BELIEFS ARE CHILDREN / PETS
+Line 3987: [Special case 1] Theories ARE Machines
+Line 3993: [Special case 2] Theories ARE Buildings
+Line 4073: [Special case 1] Theoretical Debate IS a Race
+Line 4077: [Special case 2] Theoretical Debate IS a Battle
+Line 4083: [Special case 3] Theories ARE Leaders of the Competing Believers
+Line 4091: [Special case 4] Theories ARE Defensible Positions
+Line 4105: [Special sub-case 1] Theories ARE Fortifications
+Line 4111: [Special sub-case 1] Data Explained by a Theory IS Governed by the Theory
+Line 4115: [Special  sub-case  2] Data  Explained  by  a  Theory IS Covered by the Theory
+Line 4256: [Special case 1] COMMUNICATION IS SPEECH
+Line 4268: [Special case 2] COMMUNICATION IS WRITING
+Line 4322: [Special case 1] LOGIC IS CAUSATION IS CONTROL OVER MOTION OF AN AFFECTED PARTY
+
+[MENTAL EVENTS / MentalLoc]
+----------------------------------------
+Line 4348: [Special case 2] LOGIC IS CAUSATION IS CONTROL OVER MOTION OF AN OBJECT RELATIVE TO AFFECTED PARTY
+
+[MENTAL EVENTS / MentalObj]
+----------------------------------------
+Line 4406: [Special case 1] Perceiving IS Eating
+Line 4444: [Special sub-case 1] Reading IS Eating
+
+[EMOTIONS / MentalObj]
+----------------------------------------
+Line 4758: [Special sub-case 1] Emotions ARE Liquids in the Eyes
+Line 4834: [Special case 1] ANGER IS HEAT
+Line 4840: [Special case 2] LUST IS HEAT
+Line 4846: [Special case 3] AFFECTION IS WARMTH
+Line 5050: [Special case 1] ANGER IS HOT FLUID IN A CONTAINER
+Line 5086: [Special case 2] ANGER IS FIRE
+
+[EMOTIONS / LongtermAction]
+----------------------------------------
+Line 5146: [Special sub-case 1] The Relationship IS an Animal.
+Line 5150: [Special sub-case 2] The Relationship IS a Ship
+Line 5154: [Special sub-case 3] The Relationship IS a Car
+Line 5158: [Special sub-case 4] The Relationship IS a Train
+Line 5480: [Special  case  1] GAINING  PHYSICAL  INTIMACY  (AGAINST  RESISTANCE) IS A GAME
+Line 5496: [Special  case  2] GAINING  PHYSICAL  INTIMACY  (AGAINST  RESISTANCE) IS A WAR
+Line 5598: [Special case 1] PATHS ARE GUIDES
+
+[EMOTIONS / Causation]
+----------------------------------------
+Line 6137: [Special sub-case 1] Destructive Computer Code IS a Virus
+Line 6157: [Special case 1] Computers/Programs ARE Intelligent People with Independent Wills
+Line 6245: [Special case 1] MORALITY IS A STRAIGHT PATH
+
+[EMOTIONS / Change]
+----------------------------------------
+Line 6654: [Special case 1] Solution IS a Mobile Entity in Landscape
+Line 6662: [Special case 2] Solution IS Object Buried in Landscape.
+Line 6812: [Special case 1] SOMETHING HAVING AN ABSTRACT PROPERTY IS A CHILD OF THAT PROPERTY
+Line 6828: [Special case 2] THE WHOLE IS THE MOTHER OF THE PARTS
+Line 6834: [Special case 3] MEMBERS OF A NATURAL GROUP ARE SIBLINGS
+Line 6842: [Special case 4] A PRIOR RELATED THING IS AN OLDER SIBLING
+Line 6850: [Special  case  5] WHAT SPRINGS  FROM  SOMETHING IS ITS  OFFSPRING
+
+[EMOTIONS / Causation]
+----------------------------------------
+Line 6968: [Special case 1] Taking on Responsibilities IS Eating

@@ -1,0 +1,59 @@
+name: Build Desktop Apps
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    name: Build on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [macos-latest, windows-latest]
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Node Dependencies
+        run: npm install
+
+      - name: Install Python Dependencies
+        run: |
+          pip install -r backend/requirements.txt
+          pip install pyinstaller
+
+      - name: Compile Backend & Build App (non-Windows)
+        if: matrix.os != 'windows-latest'
+        run: npm run package
+
+      - name: Compile Backend & Build App (Windows)
+        if: matrix.os == 'windows-latest'
+        shell: bash
+        run: |
+          # Use Windows path separator syntax for PyInstaller on Windows environment
+          # We rewrite package.json's build:backend script dynamically to use win separator for this build step
+          node -e "
+            const fs = require('fs');
+            const pkg = JSON.parse(fs.readFileSync('package.json', 'utf8'));
+            pkg.scripts['build:backend'] = 'pyinstaller --noconfirm --onedir --name metanno-backend --add-data \"data;data\" --add-data \"frontend/dist;frontend/dist\" backend/main.py';
+            fs.writeFileSync('package.json', JSON.stringify(pkg, null, 2));
+          "
+          npm run package
+
+      - name: Upload Desktop App Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: MetAnno-${{ matrix.os }}
+          path: out/

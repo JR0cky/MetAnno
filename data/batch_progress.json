@@ -1,0 +1,155 @@
+{
+  "next_index": 30,
+  "results": [
+    {
+      "metaphor": "Attributes ARE Entities",
+      "source_id": "SRC001",
+      "target_id": "TGT001"
+    },
+    {
+      "metaphor": "Attribution IS Co-Location",
+      "source_id": "SRC002",
+      "target_id": "TGT002"
+    },
+    {
+      "metaphor": "Change IS Relative Motion",
+      "source_id": "SRC003",
+      "target_id": "TGT003"
+    },
+    {
+      "metaphor": "Causation IS Control over Relative Location",
+      "source_id": "SRC004",
+      "target_id": "TGT004"
+    },
+    {
+      "metaphor": "Purposes ARE Desired Co-Locational Relations",
+      "source_id": "SRC002",
+      "target_id": "TGT005"
+    },
+    {
+      "metaphor": "States ARE Locations",
+      "source_id": "SRC005",
+      "target_id": "TGT006"
+    },
+    {
+      "metaphor": "Causation IS Control Over an Entity Relative to a Location",
+      "source_id": "SRC004",
+      "target_id": "TGT004"
+    },
+    {
+      "metaphor": "STATES ARE LOCATIONS",
+      "source_id": "SRC005",
+      "target_id": "TGT006"
+    },
+    {
+      "metaphor": "CHANGE IS MOTION",
+      "source_id": "SRC003",
+      "target_id": "TGT003"
+    },
+    {
+      "metaphor": "CAUSATION IS CONTROL OVER AN ENTITY RELATIVE TO A LOCATION",
+      "source_id": "SRC004",
+      "target_id": "TGT004"
+    },
+    {
+      "metaphor": "MEANS OF CHANGE IS PATH OVER WHICH MOTION OCCURS",
+      "source_id": "SRC006",
+      "target_id": "TGT003"
+    },
+    {
+      "metaphor": "NECESSARY PREREQUISITE FOR CHANGE IS SOURCE OF MOVING ENTITY",
+      "source_id": "SRC007",
+      "target_id": "TGT003"
+    },
+    {
+      "metaphor": "SELF-INITIATED CHANGE OF STATE IS SELF-PROPELLED MOTION",
+      "source_id": "SRC003",
+      "target_id": "TGT003"
+    },
+    {
+      "metaphor": "LONGTERM PURPOSEFUL CHANGE IS A JOURNEY",
+      "source_id": "SRC008",
+      "target_id": "TGT007"
+    },
+    {
+      "metaphor": "PROPERTIES ARE POSSESSIONS",
+      "source_id": "SRC009",
+      "target_id": "TGT008"
+    },
+    {
+      "metaphor": "CHANGE IS GETTING/LOSING",
+      "source_id": "SRC010",
+      "target_id": "TGT003"
+    },
+    {
+      "metaphor": "Getting a Property IS Getting a Possession",
+      "source_id": "SRC009",
+      "target_id": "TGT008"
+    },
+    {
+      "metaphor": "Losing a Property IS Losing a Possession",
+      "source_id": "SRC009",
+      "target_id": "TGT008"
+    },
+    {
+      "metaphor": "Regaing a Property IS Regaining a Possession",
+      "source_id": "SRC009",
+      "target_id": "TGT008"
+    },
+    {
+      "metaphor": "Purposes ARE Desired Possessions",
+      "source_id": "SRC009",
+      "target_id": "TGT005"
+    },
+    {
+      "metaphor": "CAUSATION IS CONTROL OVER AN OBJECT RELATIVE TO A POSSESSOR",
+      "source_id": "SRC004",
+      "target_id": "TGT004"
+    },
+    {
+      "metaphor": "ATTRIBUTES ARE ENTITIES",
+      "source_id": "SRC001",
+      "target_id": "TGT001"
+    },
+    {
+      "metaphor": "STATES ARE LOCATIONS",
+      "source_id": "SRC005",
+      "target_id": "TGT006"
+    },
+    {
+      "metaphor": "PROPERTIES ARE POSSESSIONS",
+      "source_id": "SRC009",
+      "target_id": "TGT008"
+    },
+    {
+      "metaphor": "STATES ARE LOCATIONS",
+      "source_id": "SRC005",
+      "target_id": "TGT006"
+    },
+    {
+      "metaphor": "Purposes ARE Destinations",
+      "source_id": "SRC005",
+      "target_id": "TGT005"
+    },
+    {
+      "metaphor": "Comparison of States IS Comparison of Distance",
+      "source_id": "SRC013",
+      "target_id": "TGT009"
+    },
+    {
+      "metaphor": "Existence IS a Location (Here)",
+      "source_id": "SRC005",
+      "target_id": "TGT010"
+    },
+    {
+      "metaphor": "STATES ARE SHAPES",
+      "source_id": "SRC011",
+      "target_id": "TGT006"
+    },
+    {
+      "metaphor": "Social Interaction IS Containment in a Prescribed Shape",
+      "source_id": "SRC012",
+      "target_id": "TGT011"
+    }
+  ]
+}

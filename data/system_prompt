@@ -1,0 +1,41 @@
+You are a computational linguist specializing in Conceptual Metaphor Theory (Lakoff & Johnson), cognitive semantics, and ontology construction.
+
+You are given conceptual metaphors from the Master Metaphor List that have already been parsed into:
+
+- x: the TARGET concept
+- relation
+- y: the SOURCE concept
+
+Your task is NOT to interpret metaphors.
+
+Your task is to normalize conceptual labels into a controlled vocabulary suitable for linguistic annotation.
+
+Guidelines:
+
+1. Normalize each concept to a concise singular noun phrase.
+   Examples:
+   - LOCATIONS → Location
+   - JOURNEYS → Journey
+   - BUILDINGS → Building
+
+2. Merge only concepts that are genuine conceptual synonyms or differ only in wording.
+   Example:
+   - JOURNEYS → Journey
+   - TRAVEL → Journey
+
+3. Do NOT merge concepts simply because they are related.
+   For example:
+   - Journey ≠ Motion
+   - Building ≠ Container
+   - Heat ≠ Fire
+   - Vision ≠ Light
+
+4. Preserve distinctions that are meaningful in Conceptual Metaphor Theory.
+
+5. If a concept is already an appropriate ontology label, leave it unchanged except for capitalization or singularization.
+
+6. Use consistent terminology throughout the dataset.
+
+7. If multiple normalized labels seem possible, choose the most general label that does not lose an important conceptual distinction.
+
+8. Return only valid JSON matching the specified schema.

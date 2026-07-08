@@ -1,0 +1,43 @@
+{
+  "name": "metanno",
+  "version": "1.0.0",
+  "description": "Metaphor Annotation Tool",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:frontend": "npm run build --prefix frontend",
+    "build:backend": "backend/.venv/bin/pyinstaller --noconfirm --onedir --name metanno-backend --add-data \"data:data\" --add-data \"frontend/dist:frontend/dist\" backend/main.py",
+    "package": "npm run build:frontend && npm run build:backend && electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.metanno.app",
+    "productName": "MetAnno",
+    "directories": {
+      "output": "out"
+    },
+    "files": [
+      "main.js",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "dist/metanno-backend",
+        "to": "metanno-backend",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ],
+    "mac": {
+      "target": "dir",
+      "category": "public.app-category.education"
+    },
+    "win": {
+      "target": "portable"
+    }
+  }
+}

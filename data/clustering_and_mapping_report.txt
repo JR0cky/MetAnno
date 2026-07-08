@@ -1,0 +1,2262 @@
+MASTER METAPHOR LIST - HIERARCHICAL CLUSTERING & MAPPING REPORT
+================================================================================
+
+SECTION 1: TOP CONCEPTUAL METAPHOR MAPPINGS (By Frequency)
+--------------------------------------------------------------------------------
+- States ARE Locations (4 occurrences)
+- Causation IS Control Over An Entity Relative To A Location (3 occurrences)
+- Properties ARE Possessions (3 occurrences)
+- Harm IS Having A Harmful Possession (3 occurrences)
+- Attributes ARE Entities (2 occurrences)
+- Causation IS Control Over Relative Location (2 occurrences)
+- Means Of Change IS Path Over Which Motion Occurs (2 occurrences)
+- Getting A Property IS Getting A Possession (2 occurrences)
+- Losing A Property IS Losing A Possession (2 occurrences)
+- Purposes ARE Desired Possessions (2 occurrences)
+- Causation IS Control Over An Object Relative To A Possessor (2 occurrences)
+- Existence IS A Location (Here) (2 occurrences)
+- Existence IS An Object (2 occurrences)
+- Opportunities ARE Objects (2 occurrences)
+- Action IS Control Over Possessions (2 occurrences)
+
+================================================================================
+
+SECTION 2: TARGET CONCEPT CLUSTERS (Abstract Concepts)
+--------------------------------------------------------------------------------
+Parameters: Cosine Distance Threshold = 0.35 (at least 0.65 similarity)
+
+Cluster #1 [Exemplar: Taking Up A Belief] (Size: 13)
+  Items: 3A.  Accepting A Belief Shared By Others, Abandoning A Belief, Accepting A Belief, Acquiring A Belief, Controlling The Belief, Conveying The Belief, Development Of A Belief, Giving Up A Belief, Importance Of A Belief, Maintaining A Belief, Taking Up A Belief, The Importance Of A Belief, The Strength Of A Belief
+
+Cluster #2 [Exemplar: Experiencing Harm] (Size: 7)
+  Items: Being Harmed, Experiencing Harm, Harm, Harming, Harming Yourself, Psychological Harm, The Harm
+
+Cluster #3 [Exemplar: Change Of State] (Size: 6)
+  Items: Caused Change Of State, Change Of State, Change Within A State, Means Of Change Of State, Self-Initiated Change Of State, Self-Initiated Change Of State (Action)
+
+Cluster #4 [Exemplar: Trying To Solve Problem] (Size: 6)
+  Items: Difficulty In Solving, Failing To Solve, Solving, Trying To Solve, Trying To Solve A Problem, Trying To Solve Problem
+
+Cluster #5 [Exemplar: Control Over The Progress Of External Events] (Size: 6)
+  Items: Control Over The Progress Of External Events, External Events Affecting Progress, External Events Detrimental To Action, External Events That Affect Action, Interaction  Between  Progress  And  External  Events Affecting Progress, The Progress Of External Events
+
+Cluster #6 [Exemplar: Being Moral] (Size: 6)
+  Items: Being Immoral, Being Moral, Doing Immoral Deeds, Doing Moral Deeds, Moral, Morality
+
+Cluster #7 [Exemplar: Strong Emotion] (Size: 5)
+  Items: Emotion, Emotions, Intense Emotions, Strong Emotion, Strong Emotions
+
+Cluster #8 [Exemplar: Preventing  A  New State] (Size: 4)
+  Items: Allowing A New State, Causing A New State, Preventing  A  New State, Stopping Being In A State
+
+Cluster #9 [Exemplar: Necessary Prerequisite  For  Change] (Size: 4)
+  Items: Necessary Prerequisite  For  Change, Necessary Prerequisite For Change, Necessary Prerequisite For Change Of Action, Necessary Prerequisite For Change Of State
+
+Cluster #10 [Exemplar: Regaing A Property] (Size: 4)
+  Items: Getting A Property, Losing A Property, Regaing A Property, Reganing A Property
+
+Cluster #11 [Exemplar: Comparison  Of  Properties] (Size: 4)
+  Items: Comparison  Of  Properties, Comparison Of Properties, Non-Evaluative) Comparison Of Properties, Properties
+
+Cluster #12 [Exemplar: Understanding The Causation] (Size: 4)
+  Items: 4A.  Explaining The Causation, Causation, Explaining The Causation, Understanding The Causation
+
+Cluster #13 [Exemplar: Believing] (Size: 4)
+  Items: Beliefs, Believing, Considering Believing, Deciding To Believe
+
+Cluster #14 [Exemplar: Obligations] (Size: 4)
+  Items: Assigning Obligation, Being Assigned Obligation, Obligations, Obligations/Agreements
+
+Cluster #15 [Exemplar: Causing A New Action] (Size: 4)
+  Items: Caused Change Of Action, Causing A New Action, Lack Of Change Resulting From Action, Preventing  A  New Action
+
+Cluster #16 [Exemplar: Control] (Size: 4)
+  Items: Control, Control Over Action, Desires  That Control  Action, Mental Control
+
+Cluster #17 [Exemplar: Effect On Emotional Self] (Size: 4)
+  Items: Avoiding Emotional Effect, Effect On Emotional Self, Emotional Self, Type Of Emotional Effect
+
+Cluster #18 [Exemplar: Gain In Well-Being] (Size: 4)
+  Items: Actions That Promote Well-Being, Gain In Well-Being, Related Metaphors: Well-Being, Well-Being
+
+Cluster #19 [Exemplar: Theories] (Size: 3)
+  Items: Attacking A Theory, Reasons For A Theory, Theories
+
+Cluster #20 [Exemplar: 1A.  Thinking] (Size: 3)
+  Items: 1A.  Thinking, 1B. Thinking, Thinking
+
+Cluster #21 [Exemplar: Events] (Size: 3)
+  Items: 1A.  Events, Events, Historical Events
+
+Cluster #22 [Exemplar: Responsibilities] (Size: 3)
+  Items: Duties, Responsibilities, Taking On Responsibilities
+
+Cluster #23 [Exemplar: Purposeful Action] (Size: 3)
+  Items: Efficient Purposeful Action, Purposeful Action, Starting A Purposeful Action
+
+Cluster #24 [Exemplar: Potential Laughter] (Size: 3)
+  Items: Laughter, Potential Laughter, Potential Laughter That
+
+Cluster #25 [Exemplar: Lust] (Size: 3)
+  Items: Lack Of Lust, Lust, Lustful Person
+
+Cluster #26 [Exemplar: Relationship] (Size: 3)
+  Items: Progress In The Relationship, Relationship, The Relationship
+
+Cluster #27 [Exemplar: Longterm Purposes] (Size: 3)
+  Items: Longterm Purposeful Activity, Longterm Purposeful Change, Longterm Purposes
+
+Cluster #28 [Exemplar: A Different Means Of Achieving The Purpose] (Size: 3)
+  Items: A Different Means Of Achieving The Purpose, Achieving Purpose, The Means For Achieving Purposes
+
+Cluster #29 [Exemplar: Economic Harm] (Size: 3)
+  Items: Economic Harm, Environmental Harm, Political Harm
+
+Cluster #30 [Exemplar: Comparison Of States] (Size: 2)
+  Items: Comparison Of States, Evaluative) Comparison Of States In A Dynamic Situation
+
+Cluster #31 [Exemplar: Life States] (Size: 2)
+  Items: Life States, States
+
+Cluster #32 [Exemplar: Possessing] (Size: 2)
+  Items: Having Possesions Taken, Possessing
+
+Cluster #33 [Exemplar: Retaining A Possession] (Size: 2)
+  Items: Giving Up A Possession, Retaining A Possession
+
+Cluster #34 [Exemplar: External Conditions] (Size: 2)
+  Items: Conditions, External Conditions
+
+Cluster #35 [Exemplar: Evaluative Comparison Of A And B In A Static Situation] (Size: 2)
+  Items: Evaluative Comparison Of A And B In A Static Situation, Non-Evaluative)  Comparison  Between  A  And  B
+
+Cluster #36 [Exemplar: Within Sight] (Size: 2)
+  Items: Out Of Sight, Within Sight
+
+Cluster #37 [Exemplar: Awareness Despite Hindrance] (Size: 2)
+  Items: 3C. Impediments To Awareness, Awareness Despite Hindrance
+
+Cluster #38 [Exemplar: Paths] (Size: 2)
+  Items: Paths, Walking On The Path
+
+Cluster #39 [Exemplar: Speed Of Progress] (Size: 2)
+  Items: Progress, Speed Of Progress
+
+Cluster #40 [Exemplar: Career] (Size: 2)
+  Items: Career, Career Progress
+
+Cluster #41 [Exemplar: Creation] (Size: 2)
+  Items: Creating, Creation
+
+Cluster #42 [Exemplar: Maintaining Existence] (Size: 2)
+  Items: Existence, Maintaining Existence
+
+Cluster #43 [Exemplar: People/Bodies] (Size: 2)
+  Items: People/Bodies, The Body
+
+Cluster #44 [Exemplar: Force] (Size: 2)
+  Items: A Force, Force
+
+Cluster #45 [Exemplar: 2A.  Better Rank] (Size: 2)
+  Items: 2A.  Better Rank, 2C.  Better Rank
+
+Cluster #46 [Exemplar: 2A.  Being Easily Manipulated] (Size: 2)
+  Items: 2A.  Being Easily Manipulated, 2A.  Being In Control Of S.T.
+
+Cluster #47 [Exemplar: Difficulties] (Size: 2)
+  Items: Difficulties, Difficulty
+
+Cluster #48 [Exemplar: Problem] (Size: 2)
+  Items: A Problem, Problem
+
+Cluster #49 [Exemplar: Investigating Problem] (Size: 2)
+  Items: Investigating A Problem, Investigating Problem
+
+Cluster #50 [Exemplar: Solution] (Size: 2)
+  Items: Solution, The Solution
+
+Cluster #51 [Exemplar: Cash] (Size: 2)
+  Items: Cash, Money
+
+Cluster #52 [Exemplar: Getting] (Size: 2)
+  Items: Getting, Trying To Get
+
+Cluster #53 [Exemplar: Conducting Research] (Size: 2)
+  Items: Conducting Research, Research
+
+Cluster #54 [Exemplar: Data  Explained  By  A  Theory] (Size: 2)
+  Items: Data  Explained  By  A  Theory, Data Explained By A Theory
+
+Cluster #55 [Exemplar: Logical Relations] (Size: 2)
+  Items: Logical Arguments, Logical Relations
+
+Cluster #56 [Exemplar: Reasoning] (Size: 2)
+  Items: Logic, Reasoning
+
+Cluster #57 [Exemplar: Difficult Subjects] (Size: 2)
+  Items: Difficult Subjects, Subjects
+
+Cluster #58 [Exemplar: Intelligence] (Size: 2)
+  Items: Intelligence, Intelligence/Idea
+
+Cluster #59 [Exemplar: Mind, Or Mental Self] (Size: 2)
+  Items: Mind, Or Mental Self, The Mind
+
+Cluster #60 [Exemplar: 7A.  Memorizing] (Size: 2)
+  Items: 7A.  Memorizing, 7B. Remembering
+
+Cluster #61 [Exemplar: Memory] (Size: 2)
+  Items: Memory, Remembering
+
+Cluster #62 [Exemplar: Understanding] (Size: 2)
+  Items: Explanation, Understanding
+
+Cluster #63 [Exemplar: Learning] (Size: 2)
+  Items: Learning, Understanding/Learning
+
+Cluster #64 [Exemplar: Learning Via Reading] (Size: 2)
+  Items: Learning Via Reading, Reading
+
+Cluster #65 [Exemplar: Being Involved In Events] (Size: 2)
+  Items: Being Involved In Events, Easy Events To Deal With
+
+Cluster #66 [Exemplar: Causes] (Size: 2)
+  Items: Causes, Causes And Effects
+
+Cluster #67 [Exemplar: Being Hopeful/Hopeless] (Size: 2)
+  Items: Being Hopeful/Hopeless, Making Someone Hopeful
+
+Cluster #68 [Exemplar: 5A.  Believers] (Size: 2)
+  Items: 5A.  Believers, 5B. Believers
+
+Cluster #69 [Exemplar: Forces Influencing Beliefs] (Size: 2)
+  Items: Encouraging A Beliefs, Forces Influencing Beliefs
+
+Cluster #70 [Exemplar: Basis Of A Belief] (Size: 2)
+  Items: Basis Of A Belief, The Changeability Of A Belief
+
+Cluster #71 [Exemplar: No Longer Believing] (Size: 2)
+  Items: A Belief No Longer Held, No Longer Believing
+
+Cluster #72 [Exemplar: Aids To Action] (Size: 2)
+  Items: 3A. Aids To Gaining Awareness, Aids To Action
+
+Cluster #73 [Exemplar: Treating Illness] (Size: 2)
+  Items: Medicine, Treating Illness
+
+Cluster #74 [Exemplar: Rights] (Size: 2)
+  Items: Rights, Rights To Act
+
+Cluster #75 [Exemplar: Means Of Change] (Size: 2)
+  Items: Means Of Change, Means Of Change Of Action
+
+Cluster #76 [Exemplar: Action] (Size: 2)
+  Items: Action, Easy Action
+
+Cluster #77 [Exemplar: Compulsive Behavior] (Size: 2)
+  Items: Acting  Compulsively, Compulsive Behavior
+
+Cluster #78 [Exemplar: Being Better In A Static Situation] (Size: 2)
+  Items: Being Better In A Dynamic Situation, Being Better In A Static Situation
+
+Cluster #79 [Exemplar: Desires] (Size: 2)
+  Items: Desire, Desires
+
+Cluster #80 [Exemplar: Sex] (Size: 2)
+  Items: Sex, Sexuality
+
+Cluster #81 [Exemplar: Gaining  Physical  Intimacy  (Against  Resistance)] (Size: 2)
+  Items: Gaining  Physical  Intimacy  (Against  Resistance), Gaining Physical Intimacy (Against Resistance)
+
+Cluster #82 [Exemplar: Change To  Ward Emotional Intimacy] (Size: 2)
+  Items: Change To  Ward Emotional Intimacy, Inclinations To  Ward Intimacy
+
+Cluster #83 [Exemplar: Emotional Intimacy] (Size: 2)
+  Items: Emotional Bonding, Emotional Intimacy
+
+Cluster #84 [Exemplar: Beneficial Events] (Size: 2)
+  Items: Beneficial Events, Having Beneficial Things Happen To One
+
+Cluster #85 [Exemplar: Causing Beneficial Effects] (Size: 2)
+  Items: Causing Beneficial Effects, Causing Detrimental Effects
+
+Cluster #86 [Exemplar: Long-Term Effects Of The Harm] (Size: 2)
+  Items: Long-Term Effects Of The Harm, Reducing The Effect Of Future Harm
+
+Cluster #87 [Exemplar: 2C.  Psychological Benefit] (Size: 2)
+  Items: 2B. Psychological Impact, 2C.  Psychological Benefit
+
+Cluster #88 [Exemplar: Opportunities] (Size: 2)
+  Items: Available Opportunities, Opportunities
+
+
+Cluster #89 [Exemplar: Comparison Of Importance] (Size: 2)
+  Items: Comparison Of Importance, Importance
+
+Cluster #90 [Exemplar: Appropriateness Of A State] (Size: 1)
+  Items: Appropriateness Of A State
+
+Cluster #91 [Exemplar: Ideal Physical State] (Size: 1)
+  Items: Ideal Physical State
+
+Cluster #92 [Exemplar: Final States] (Size: 1)
+  Items: Final States
+
+Cluster #93 [Exemplar: Euphoric States] (Size: 1)
+  Items: Euphoric States
+
+Cluster #94 [Exemplar: Necessary Prerequisites] (Size: 1)
+  Items: Necessary Prerequisites
+
+Cluster #95 [Exemplar: Necessary Prerequisties] (Size: 1)
+  Items: Necessary Prerequisties
+
+Cluster #96 [Exemplar: Restitution] (Size: 1)
+  Items: Restitution
+
+Cluster #97 [Exemplar: Restoration] (Size: 1)
+  Items: Restoration
+
+Cluster #98 [Exemplar: Giving Possessions] (Size: 1)
+  Items: Giving Possessions
+
+Cluster #99 [Exemplar: Allowing Change Of Properties] (Size: 1)
+  Items: Allowing Change Of Properties
+
+Cluster #100 [Exemplar: Something Having An Abstract Property] (Size: 1)
+  Items: Something Having An Abstract Property
+
+Cluster #101 [Exemplar: Computers/Programs] (Size: 1)
+  Items: Computers/Programs
+
+Cluster #102 [Exemplar: Machines] (Size: 1)
+  Items: Machines
+
+Cluster #103 [Exemplar: Destructive Computer Code] (Size: 1)
+  Items: Destructive Computer Code
+
+Cluster #104 [Exemplar: Good] (Size: 1)
+  Items: Good
+
+Cluster #105 [Exemplar: Perfect] (Size: 1)
+  Items: Perfect
+
+Cluster #106 [Exemplar: Imperfect] (Size: 1)
+  Items: Imperfect
+
+Cluster #107 [Exemplar: Goodness] (Size: 1)
+  Items: Goodness
+
+Cluster #108 [Exemplar: Loved One] (Size: 1)
+  Items: Loved One
+
+Cluster #109 [Exemplar: I See What You] (Size: 1)
+  Items: I See What You
+
+Cluster #110 [Exemplar: Fa  Cts] (Size: 1)
+  Items: Fa  Cts
+
+Cluster #111 [Exemplar: Perception] (Size: 1)
+  Items: Perception
+
+Cluster #112 [Exemplar: The Visual Field] (Size: 1)
+  Items: The Visual Field
+
+Cluster #113 [Exemplar: Disparity] (Size: 1)
+  Items: Disparity
+
+Cluster #114 [Exemplar: Looking At Something On Purpose] (Size: 1)
+  Items: Looking At Something On Purpose
+
+Cluster #115 [Exemplar: Seeing Something By Accident] (Size: 1)
+  Items: Seeing Something By Accident
+
+Cluster #116 [Exemplar: Seeing] (Size: 1)
+  Items: Seeing
+
+Cluster #117 [Exemplar: External Appearance] (Size: 1)
+  Items: External Appearance
+
+Cluster #118 [Exemplar: 3B. Not Being Aware Of Reality] (Size: 1)
+  Items: 3B. Not Being Aware Of Reality
+
+Cluster #119 [Exemplar: Complience] (Size: 1)
+  Items: Complience
+
+Cluster #120 [Exemplar: Conceit] (Size: 1)
+  Items: Conceit
+
+Cluster #121 [Exemplar: Diverging From The Path] (Size: 1)
+  Items: Diverging From The Path
+
+Cluster #122 [Exemplar: Negative Progress] (Size: 1)
+  Items: Negative Progress
+
+Cluster #123 [Exemplar: Lack Of Progress Tow  Ard The Destination] (Size: 1)
+  Items: Lack Of Progress Tow  Ard The Destination
+
+Cluster #124 [Exemplar: Things You Gauge Your Progress By] (Size: 1)
+  Items: Things You Gauge Your Progress By
+
+Cluster #125 [Exemplar: The Past] (Size: 1)
+  Items: The Past
+
+Cluster #126 [Exemplar: Time] (Size: 1)
+  Items: Time
+
+Cluster #127 [Exemplar: Bounded) Time] (Size: 1)
+  Items: Bounded) Time
+
+Cluster #128 [Exemplar: Life] (Size: 1)
+  Items: Life
+
+Cluster #129 [Exemplar: Stages Of Life] (Size: 1)
+  Items: Stages Of Life
+
+Cluster #130 [Exemplar: Person In Situation] (Size: 1)
+  Items: Person In Situation
+
+Cluster #131 [Exemplar: The Person Leading A Life] (Size: 1)
+  Items: The Person Leading A Life
+
+Cluster #132 [Exemplar: People] (Size: 1)
+  Items: People
+
+Cluster #133 [Exemplar: Society] (Size: 1)
+  Items: Society
+
+Cluster #134 [Exemplar: People With A Common Fate] (Size: 1)
+  Items: People With A Common Fate
+
+Cluster #135 [Exemplar: A Powerful Enduring Directed Force] (Size: 1)
+  Items: A Powerful Enduring Directed Force
+
+Cluster #136 [Exemplar: Being Defeated] (Size: 1)
+  Items: Being Defeated
+
+Cluster #137 [Exemplar: Winning The War] (Size: 1)
+  Items: Winning The War
+
+Cluster #138 [Exemplar: Competition] (Size: 1)
+  Items: Competition
+
+Cluster #139 [Exemplar: Competators Or Antagonists] (Size: 1)
+  Items: Competators Or Antagonists
+
+Cluster #140 [Exemplar: 2A.  Constrained Thought] (Size: 1)
+  Items: 2A.  Constrained Thought
+
+Cluster #141 [Exemplar: 4A.  Deception] (Size: 1)
+  Items: 4A.  Deception
+
+Cluster #142 [Exemplar: A Difficult Situation] (Size: 1)
+  Items: A Difficult Situation
+
+Cluster #143 [Exemplar: Failure] (Size: 1)
+  Items: Failure
+
+Cluster #144 [Exemplar: Presenting Problem] (Size: 1)
+  Items: Presenting Problem
+
+Cluster #145 [Exemplar: Aspects Of Problem] (Size: 1)
+  Items: Aspects Of Problem
+
+Cluster #146 [Exemplar: Approaches To A Solution] (Size: 1)
+  Items: Approaches To A Solution
+
+Cluster #147 [Exemplar: Means To Solving] (Size: 1)
+  Items: Means To Solving
+
+Cluster #148 [Exemplar: Calculation] (Size: 1)
+  Items: Calculation
+
+Cluster #149 [Exemplar: Discovered Solution] (Size: 1)
+  Items: Discovered Solution
+
+Cluster #150 [Exemplar: 6A.  Interest] (Size: 1)
+  Items: 6A.  Interest
+
+Cluster #151 [Exemplar: 6B. Needed Information] (Size: 1)
+  Items: 6B. Needed Information
+
+Cluster #152 [Exemplar: Amount] (Size: 1)
+  Items: Amount
+
+Cluster #153 [Exemplar: Value] (Size: 1)
+  Items: Value
+
+Cluster #154 [Exemplar: Active] (Size: 1)
+  Items: Active
+
+Cluster #155 [Exemplar: Status] (Size: 1)
+  Items: Status
+
+Cluster #156 [Exemplar: Helping] (Size: 1)
+  Items: Helping
+
+Cluster #157 [Exemplar: More] (Size: 1)
+  Items: More
+
+Cluster #158 [Exemplar: Difference Between] (Size: 1)
+  Items: Difference Between
+
+Cluster #159 [Exemplar: Evidence] (Size: 1)
+  Items: Evidence
+
+Cluster #160 [Exemplar: Results] (Size: 1)
+  Items: Results
+
+Cluster #161 [Exemplar: Comparing And Seeking] (Size: 1)
+  Items: Comparing And Seeking
+
+Cluster #162 [Exemplar: Similarity] (Size: 1)
+  Items: Similarity
+
+Cluster #163 [Exemplar: Discovering By Looking] (Size: 1)
+  Items: Discovering By Looking
+
+Cluster #164 [Exemplar: Data] (Size: 1)
+  Items: Data
+
+Cluster #165 [Exemplar: Theoretical Debate] (Size: 1)
+  Items: Theoretical Debate
+
+Cluster #166 [Exemplar: Basic Assumptions Of A Theory] (Size: 1)
+  Items: Basic Assumptions Of A Theory
+
+Cluster #167 [Exemplar: A.K.A. Reasoning] (Size: 1)
+  Items: A.K.A. Reasoning
+
+Cluster #168 [Exemplar: 1B. Arguments] (Size: 1)
+  Items: 1B. Arguments
+
+Cluster #169 [Exemplar: 3A.  Specific Arguments In A Debate] (Size: 1)
+  Items: 3A.  Specific Arguments In A Debate
+
+Cluster #170 [Exemplar: 1A.  Facts] (Size: 1)
+  Items: 1A.  Facts
+
+Cluster #171 [Exemplar: 1A.  Making Discoveries] (Size: 1)
+  Items: 1A.  Making Discoveries
+
+Cluster #172 [Exemplar: Rational] (Size: 1)
+  Items: Rational
+
+Cluster #173 [Exemplar: Form] (Size: 1)
+  Items: Form
+
+Cluster #174 [Exemplar: Shapes] (Size: 1)
+  Items: Shapes
+
+Cluster #175 [Exemplar: Stances] (Size: 1)
+  Items: Stances
+
+Cluster #176 [Exemplar: 1) Not Only Linguistic Entities, But Anything That] (Size: 1)
+  Items: 1) Not Only Linguistic Entities, But Anything That
+
+Cluster #177 [Exemplar: Counselors] (Size: 1)
+  Items: Counselors
+
+Cluster #178 [Exemplar: Attributes] (Size: 1)
+  Items: Attributes
+
+Cluster #179 [Exemplar: Material Resources And Talents] (Size: 1)
+  Items: Material Resources And Talents
+
+Cluster #180 [Exemplar: Abilities] (Size: 1)
+  Items: Abilities
+
+Cluster #181 [Exemplar: Ability To Cope] (Size: 1)
+  Items: Ability To Cope
+
+Cluster #182 [Exemplar: Creativity] (Size: 1)
+  Items: Creativity
+
+Cluster #183 [Exemplar: Personality] (Size: 1)
+  Items: Personality
+
+Cluster #184 [Exemplar: Darkness] (Size: 1)
+  Items: Darkness
+
+Cluster #185 [Exemplar: Light] (Size: 1)
+  Items: Light
+
+Cluster #186 [Exemplar: Words] (Size: 1)
+  Items: Words
+
+Cluster #187 [Exemplar: Coherent] (Size: 1)
+  Items: Coherent
+
+Cluster #188 [Exemplar: Receiving Serious Thought] (Size: 1)
+  Items: Receiving Serious Thought
+
+Cluster #189 [Exemplar: The Content] (Size: 1)
+  Items: The Content
+
+Cluster #190 [Exemplar: The Whole] (Size: 1)
+  Items: The Whole
+
+Cluster #191 [Exemplar: Memorizing] (Size: 1)
+  Items: Memorizing
+
+Cluster #192 [Exemplar: Foreseeable Future Events] (Size: 1)
+  Items: Foreseeable Future Events
+
+Cluster #193 [Exemplar: Knowing What Will Happen] (Size: 1)
+  Items: Knowing What Will Happen
+
+Cluster #194 [Exemplar: Knowledge Of Past Events] (Size: 1)
+  Items: Knowledge Of Past Events
+
+Cluster #195 [Exemplar: Flow Of Events] (Size: 1)
+  Items: Flow Of Events
+
+Cluster #196 [Exemplar: A Prior Related Thing] (Size: 1)
+  Items: A Prior Related Thing
+
+Cluster #197 [Exemplar: The Subsequent Thing] (Size: 1)
+  Items: The Subsequent Thing
+
+Cluster #198 [Exemplar: Perceiving] (Size: 1)
+  Items: Perceiving
+
+Cluster #199 [Exemplar: Causal Means] (Size: 1)
+  Items: Causal Means
+
+Cluster #200 [Exemplar: Causal Precedence] (Size: 1)
+  Items: Causal Precedence
+
+Cluster #201 [Exemplar: Hidden Events With Causal Power] (Size: 1)
+  Items: Hidden Events With Causal Power
+
+Cluster #202 [Exemplar: A Repeating Causal Sequence] (Size: 1)
+  Items: A Repeating Causal Sequence
+
+Cluster #203 [Exemplar: Attribution] (Size: 1)
+  Items: Attribution
+
+Cluster #204 [Exemplar: Receiving Credit Or Blame (Responsibility)] (Size: 1)
+  Items: Receiving Credit Or Blame (Responsibility)
+
+Cluster #205 [Exemplar: Strength Of Hope] (Size: 1)
+  Items: Strength Of Hope
+
+Cluster #206 [Exemplar: Hope] (Size: 1)
+  Items: Hope
+
+Cluster #207 [Exemplar: Believers] (Size: 1)
+  Items: Believers
+
+Cluster #208 [Exemplar: Dangerous Beliefs] (Size: 1)
+  Items: Dangerous Beliefs
+
+Cluster #209 [Exemplar: Fear] (Size: 1)
+  Items: Fear
+
+Cluster #210 [Exemplar: Progressing Beyond Ones Beliefs] (Size: 1)
+  Items: Progressing Beyond Ones Beliefs
+
+Cluster #211 [Exemplar: Arguing For A Belief] (Size: 1)
+  Items: Arguing For A Belief
+
+Cluster #212 [Exemplar: A Tempting Belief] (Size: 1)
+  Items: A Tempting Belief
+
+Cluster #213 [Exemplar: Infection] (Size: 1)
+  Items: Infection
+
+Cluster #214 [Exemplar: The Disease] (Size: 1)
+  Items: The Disease
+
+Cluster #215 [Exemplar: The Immune System] (Size: 1)
+  Items: The Immune System
+
+Cluster #216 [Exemplar: Medical Procedures] (Size: 1)
+  Items: Medical Procedures
+
+Cluster #217 [Exemplar: Moral Account] (Size: 1)
+  Items: Moral Account
+
+Cluster #218 [Exemplar: Exchanges Of Rights] (Size: 1)
+  Items: Exchanges Of Rights
+
+Cluster #219 [Exemplar: Premises] (Size: 1)
+  Items: Premises
+
+Cluster #220 [Exemplar: Responsibilties] (Size: 1)
+  Items: Responsibilties
+
+Cluster #221 [Exemplar: A Schedule] (Size: 1)
+  Items: A Schedule
+
+Cluster #222 [Exemplar: Change] (Size: 1)
+  Items: Change
+
+Cluster #223 [Exemplar: The End Of Action] (Size: 1)
+  Items: The End Of Action
+
+Cluster #224 [Exemplar: Manner Of Action] (Size: 1)
+  Items: Manner Of Action
+
+Cluster #225 [Exemplar: Self-Motivated Action] (Size: 1)
+  Items: Self-Motivated Action
+
+Cluster #226 [Exemplar: Guided Action] (Size: 1)
+  Items: Guided Action
+
+Cluster #227 [Exemplar: A Stage In An Action] (Size: 1)
+  Items: A Stage In An Action
+
+Cluster #228 [Exemplar: Acting On] (Size: 1)
+  Items: Acting On
+
+Cluster #229 [Exemplar: Speed Of Action] (Size: 1)
+  Items: Speed Of Action
+
+Cluster #230 [Exemplar: Control In A Financial Situation] (Size: 1)
+  Items: Control In A Financial Situation
+
+Cluster #231 [Exemplar: Manipulation] (Size: 1)
+  Items: Manipulation
+
+Cluster #232 [Exemplar: Caused Inability To Act] (Size: 1)
+  Items: Caused Inability To Act
+
+Cluster #233 [Exemplar: Continuing To Act Despite Difficulty,] (Size: 1)
+  Items: Continuing To Act Despite Difficulty,
+
+Cluster #234 [Exemplar: Obstacles To Action] (Size: 1)
+  Items: Obstacles To Action
+
+Cluster #235 [Exemplar: Careful Action] (Size: 1)
+  Items: Careful Action
+
+Cluster #236 [Exemplar: Adversity] (Size: 1)
+  Items: Adversity
+
+Cluster #237 [Exemplar: Success Or Failure In An Adversative Situation] (Size: 1)
+  Items: Success Or Failure In An Adversative Situation
+
+Cluster #238 [Exemplar: Degree Of Functioning] (Size: 1)
+  Items: Degree Of Functioning
+
+Cluster #239 [Exemplar: Effects Of Humor] (Size: 1)
+  Items: Effects Of Humor
+
+Cluster #240 [Exemplar: Communication] (Size: 1)
+  Items: Communication
+
+Cluster #241 [Exemplar: Social Interaction] (Size: 1)
+  Items: Social Interaction
+
+Cluster #242 [Exemplar: Interpersonal Harmony] (Size: 1)
+  Items: Interpersonal Harmony
+
+Cluster #243 [Exemplar: Communicating Opinion] (Size: 1)
+  Items: Communicating Opinion
+
+Cluster #244 [Exemplar: Influence] (Size: 1)
+  Items: Influence
+
+Cluster #245 [Exemplar: Disgust] (Size: 1)
+  Items: Disgust
+
+Cluster #246 [Exemplar: Dislike] (Size: 1)
+  Items: Dislike
+
+Cluster #247 [Exemplar: Affection] (Size: 1)
+  Items: Affection
+
+Cluster #248 [Exemplar: Love] (Size: 1)
+  Items: Love
+
+Cluster #249 [Exemplar: Change Aw  Ay From Emotional Intimacy] (Size: 1)
+  Items: Change Aw  Ay From Emotional Intimacy
+
+Cluster #250 [Exemplar: Emotional Distance] (Size: 1)
+  Items: Emotional Distance
+
+Cluster #251 [Exemplar: Anger] (Size: 1)
+  Items: Anger
+
+Cluster #252 [Exemplar: Emotional Stability] (Size: 1)
+  Items: Emotional Stability
+
+Cluster #253 [Exemplar: 1C.  Lack Of Facial Expression] (Size: 1)
+  Items: 1C.  Lack Of Facial Expression
+
+Cluster #254 [Exemplar: Facial Expressions] (Size: 1)
+  Items: Facial Expressions
+
+Cluster #255 [Exemplar: Aspects Of The Self] (Size: 1)
+  Items: Aspects Of The Self
+
+Cluster #256 [Exemplar: Self-Initiated, Long-Term, Purposeful Change] (Size: 1)
+  Items: Self-Initiated, Long-Term, Purposeful Change
+
+Cluster #257 [Exemplar: Benefitting] (Size: 1)
+  Items: Benefitting
+
+Cluster #258 [Exemplar: Lack Of Purpose] (Size: 1)
+  Items: Lack Of Purpose
+
+Cluster #259 [Exemplar: Purposes] (Size: 1)
+  Items: Purposes
+
+Cluster #260 [Exemplar: Having Detrimental Things Happen To One] (Size: 1)
+  Items: Having Detrimental Things Happen To One
+
+Cluster #261 [Exemplar: Intoxication] (Size: 1)
+  Items: Intoxication
+
+Cluster #262 [Exemplar: 2D.  Psychological Harm] (Size: 1)
+  Items: 2D.  Psychological Harm
+
+Cluster #263 [Exemplar: Mental Fitness] (Size: 1)
+  Items: Mental Fitness
+
+Cluster #264 [Exemplar: Psychological Forces] (Size: 1)
+  Items: Psychological Forces
+
+Cluster #265 [Exemplar: Serendipitous Opportunity] (Size: 1)
+  Items: Serendipitous Opportunity
+
+Cluster #266 [Exemplar: Taking (Using) An Opportunity] (Size: 1)
+  Items: Taking (Using) An Opportunity
+
+Cluster #267 [Exemplar: Investments] (Size: 1)
+  Items: Investments
+
+Cluster #268 [Exemplar: Joining Another On An Investment] (Size: 1)
+  Items: Joining Another On An Investment
+
+Cluster #269 [Exemplar: Gain/Loss Of Money] (Size: 1)
+  Items: Gain/Loss Of Money
+
+Cluster #270 [Exemplar: Ability To Get (Purchasing Power)] (Size: 1)
+  Items: Ability To Get (Purchasing Power)
+
+Cluster #271 [Exemplar: Money Which Cannot Be Accessed] (Size: 1)
+  Items: Money Which Cannot Be Accessed
+
+Cluster #272 [Exemplar: Major Choices] (Size: 1)
+  Items: Major Choices
+
+Cluster #273 [Exemplar: Ideas] (Size: 1)
+  Items: Ideas
+
+Cluster #274 [Exemplar: That Idea] (Size: 1)
+  Items: That Idea
+
+Cluster #275 [Exemplar: Compatibility Of Ideas] (Size: 1)
+  Items: Compatibility Of Ideas
+
+Cluster #276 [Exemplar: The Book Gav  E Her A Good Idea.] (Size: 1)
+  Items: The Book Gav  E Her A Good Idea.
+
+Cluster #277 [Exemplar: Cessation Of Function] (Size: 1)
+  Items: Cessation Of Function
+
+Cluster #278 [Exemplar: Linear Scales] (Size: 1)
+  Items: Linear Scales
+
+Cluster #279 [Exemplar: Members Of A Natural Group] (Size: 1)
+  Items: Members Of A Natural Group
+
+Cluster #280 [Exemplar: What Springs  From  Something] (Size: 1)
+  Items: What Springs  From  Something
+
+================================================================================
+
+SECTION 3: SOURCE CONCEPT CLUSTERS (Concrete/Physical Domains)
+--------------------------------------------------------------------------------
+Parameters: Cosine Distance Threshold = 0.35 (at least 0.65 similarity)
+
+Cluster #1 [Exemplar: Acquiring A Possession] (Size: 11)
+  Items: A Benefical Possession, A Possession, Acquiring A Possession, Being Given An Undesirable Possession, Deciding To Acquire A Possession, Getting A Possession, Having A Needed Possession Taken Or Losing A Needed Possession, Lacking A Needed Possession, Losing A Possession, No Longer Having In Possession, Regaining A Possession
+
+Cluster #2 [Exemplar: Path] (Size: 8)
+  Items: A Different Path, A Location Along A Path, A Straight Path, Following A Path, Path, Path Over Which Motion Occurs, Paths, The End Of The Path
+
+Cluster #3 [Exemplar: Possessions] (Size: 6)
+  Items: Comparison Of Possessions, Control Over Possessions, Desired Possessions, Gain In Possessions, Giving Possessions, Possessions
+
+Cluster #4 [Exemplar: Motion Within A Location] (Size: 6)
+  Items: Allowing Motion To A New Location, Direct Motion To A Destination, Directed Motion To A Destination, Motion  (Location), Motion Within A Location, Relative Motion
+
+Cluster #5 [Exemplar: A Container] (Size: 5)
+  Items: A Container, A Container For Objects, A Container For The Self, Containers, Containers For Money
+
+Cluster #6 [Exemplar: Burdens] (Size: 5)
+  Items: Burdens, Burdens (On Lap), Burdens (On Shoulder Or Back), Getting A Burden, Receiving Burdens
+
+Cluster #7 [Exemplar: Forces] (Size: 5)
+  Items: A Force, Electromagnetic Forces, Forces, Physical Forces, Physical Forces.
+
+Cluster #8 [Exemplar: Exploring A Landscape] (Size: 5)
+  Items: A Landscape We Move Through, A Region In A Landscape, Exploring A Landscape, Looking For Solution In The Landscape, Paths In Landscape
+
+Cluster #9 [Exemplar: Finding Object In Water] (Size: 4)
+  Items: A Body Of Water, An Object In Water, Finding Object In Water, Looking For Object In Water
+
+Cluster #10 [Exemplar: Accumulating Debt:Taking Money From Society.] (Size: 4)
+  Items: Accumulating Credit:Putting Money Into Society., Accumulating Debt., Accumulating Debt:Taking Money From Society., Debts
+
+Cluster #11 [Exemplar: A War] (Size: 4)
+  Items: A Battle, A War, Fighting A War, War
+
+Cluster #12 [Exemplar: An Object] (Size: 4)
+  Items: An Object, Giving An Object, Objects, Taking An Object.
+
+Cluster #13 [Exemplar: Giving Held Objects] (Size: 4)
+  Items: Giving Held Objects, Having Held Objects Taken, Letting Go Of A Held Object, Retaining A Held Object
+
+Cluster #14 [Exemplar: Journey Destinations] (Size: 4)
+  Items: Destinations, Journey Destinations, Routes, Routes You Have To Travel On
+
+Cluster #15 [Exemplar: Physical Closeness] (Size: 4)
+  Items: Closeness, Movement Away From Physical Closeness, Movement Tow  Ard Physical Closeness, Physical Closeness
+
+Cluster #16 [Exemplar: Sources Of Properties Moving Relative  To Affected Parties] (Size: 4)
+  Items: Allowing Motion Of Possessions Relative To Affected Parties, Forces Moving Properties Relative To Affected Parties, Paths For Properties Moving Relative To Affected Parties, Sources Of Properties Moving Relative  To Affected Parties
+
+Cluster #17 [Exemplar: Preventing Forward Motion Toward A Goal.] (Size: 4)
+  Items: Preventing Forward Motion, Preventing Forward Motion Toward A Goal, Preventing Forward Motion Toward A Goal., Prevention Of Motion
+
+Cluster #18 [Exemplar: A Moving Object] (Size: 4)
+  Items: A Moving Object, A Moving Object., Moving Objects, Something Moving (No Reference Point)
+
+Cluster #19 [Exemplar: Motion] (Size: 4)
+  Items: Careful Motion, Easy Motion, Manner Of Motion, Motion
+
+Cluster #20 [Exemplar: Control  Over  Location  Of  An Object Relative To An Affected Party] (Size: 4)
+  Items: Control  Over  Location  Of  An Object Relative To An Affected Party, Control  Over  Location  Of Affected Party Relative To A Location, Control Over An Entity Relative To A Location, Control Over Relative Location
+
+Cluster #21 [Exemplar: Outside Container] (Size: 3)
+  Items: Location Out Of Container, Outside Container, Within Container
+
+Cluster #22 [Exemplar: A Liquid] (Size: 3)
+  Items: A Fluid, A Liquid, Liquids Within A Person
+
+Cluster #23 [Exemplar: Physical Injury] (Size: 3)
+  Items: Injuries, Physical Injury, Physical Injury Due To Wounding
+
+Cluster #24 [Exemplar: Spreading The Disease] (Size: 3)
+  Items: An Attack By The Disease, Containing The Spread Of The Disease, Spreading The Disease
+
+Cluster #25 [Exemplar: Weight] (Size: 3)
+  Items: Heavier, Weighing, Weight
+
+Cluster #26 [Exemplar: Covers] (Size: 3)
+  Items: A Cover, Covers, Covers/Clothes
+
+Cluster #27 [Exemplar: A Target] (Size: 3)
+  Items: A Target, Setting Up Target, Shooting At Target
+
+Cluster #28 [Exemplar: A Weapon] (Size: 3)
+  Items: A Weapon, An Offensive Weapon, Weapons
+
+Cluster #29 [Exemplar: A Light Source] (Size: 3)
+  Items: A Light Source, Light, Light Sources
+
+Cluster #30 [Exemplar: A Machine] (Size: 3)
+  Items: A Machine, An Activated Machine, Machines
+
+Cluster #31 [Exemplar: Eating] (Size: 3)
+  Items: Eating, Feeding, Food
+
+Cluster #32 [Exemplar: Preparing Food] (Size: 3)
+  Items: Preparing Food, Preparing Food By Chewing, Preparing Food By Cooking
+
+Cluster #33 [Exemplar: Beings With A Life Cycle] (Size: 3)
+  Items: Beings With A Life Cycle, Beings With Life Cycles, People (W.R.T Life Cycle)
+
+Cluster #34 [Exemplar: Physical Properties] (Size: 3)
+  Items: A Physical Property, Comparison  Of  Physical Properties, Physical Properties
+
+Cluster #35 [Exemplar: Source  Of Moving Entity] (Size: 3)
+  Items: Moving Entities, Source  Of Moving Entity, Source Of Moving Entity
+
+Cluster #36 [Exemplar: Causing Object To Be Nonfunctional By Preventing Operation] (Size: 3)
+  Items: Causing Functional Objects To Be Nonfunctional, Causing Object To Be Nonfunctional By Destroying It, Causing Object To Be Nonfunctional By Preventing Operation
+
+Cluster #37 [Exemplar: The Strength Of The Object] (Size: 3)
+  Items: Strength Of An Object, The Strength Of The Object, The Weight Of The Object.
+
+Cluster #38 [Exemplar: Getting Object] (Size: 3)
+  Items: Getting Object, Getting/Losing (Object), Retrieving Objects
+
+Cluster #39 [Exemplar: Distance Between] (Size: 3)
+  Items: Comparison Of Distance, Distance Between, Physical Distance
+
+Cluster #40 [Exemplar: Forward Movement] (Size: 3)
+  Items: Backward Movement, Forward Motion, Forward Movement
+
+Cluster #41 [Exemplar: Keeping  The  Affected  Party  From  A  New Location] (Size: 3)
+  Items: Keeping  The  Affected  Party  From  A  New Location, Keeping  The  Affected  Party  From  A  New Location., Moving The Affected Party To A New Location
+
+Cluster #42 [Exemplar: Moving To A Location (Here)] (Size: 3)
+  Items: Leaving A Location, Maintaining Location Up Here, Moving To A Location (Here)
+
+Cluster #43 [Exemplar: Locations] (Size: 3)
+  Items: A Location (Here), Location Up Here, Locations
+
+Cluster #44 [Exemplar: Light / Badness Is Darkness] (Size: 2)
+  Items: Light / Badness Is Darkness, White/ Badness Is Black
+
+Cluster #45 [Exemplar: A Substance] (Size: 2)
+  Items: A Substance, A Substance Inside The Person
+
+Cluster #46 [Exemplar: Control In Liquid] (Size: 2)
+  Items: Control In Liquid, Movement Of A Liquid
+
+Cluster #47 [Exemplar: Exploring Water] (Size: 2)
+  Items: Difficulty In Exploring Water, Exploring Water
+
+Cluster #48 [Exemplar: Net Balances] (Size: 2)
+  Items: Balance, Net Balances
+
+Cluster #49 [Exemplar: Giving Money] (Size: 2)
+  Items: Giving Money, Taking Money
+
+Cluster #50 [Exemplar: Wealth] (Size: 2)
+  Items: Money, Wealth
+
+Cluster #51 [Exemplar: Transactions] (Size: 2)
+  Items: Record Of Transactions, Transactions
+
+Cluster #52 [Exemplar: Governed By The Theory] (Size: 2)
+  Items: Covered By The Theory, Governed By The Theory
+
+Cluster #53 [Exemplar: Temporal Precedence] (Size: 2)
+  Items: Precedence, Temporal Precedence
+
+Cluster #54 [Exemplar: Entering A Relationship] (Size: 2)
+  Items: Considering Entering A Relationship, Entering A Relationship
+
+Cluster #55 [Exemplar: Physical Fitness] (Size: 2)
+  Items: Health/Fitness, Physical Fitness
+
+Cluster #56 [Exemplar: Infected] (Size: 2)
+  Items: A Virus, Infected
+
+Cluster #57 [Exemplar: Touching It With Eyes Or Glance] (Size: 2)
+  Items: Accidently Touching It With Eyes Or Glance, Touching It With Eyes Or Glance
+
+Cluster #58 [Exemplar: Seeing] (Size: 2)
+  Items: Seeing, Showing
+
+Cluster #59 [Exemplar: Visibility] (Size: 2)
+  Items: Making Visible, Visibility
+
+Cluster #60 [Exemplar: Thinking] (Size: 2)
+  Items: Being On The Mind, Thinking
+
+Cluster #61 [Exemplar: Impressions] (Size: 2)
+  Items: Impressions, Perceptions
+
+Cluster #62 [Exemplar: Being Above] (Size: 2)
+  Items: Being Above, Higher
+
+Cluster #63 [Exemplar: Up / Bad Is Down] (Size: 2)
+  Items: Up / Bad Is Down, Up / Immoral Is Down
+
+Cluster #64 [Exemplar: Size] (Size: 2)
+  Items: Length, Size
+
+Cluster #65 [Exemplar: Clothes] (Size: 2)
+  Items: Cloth, Clothes
+
+Cluster #66 [Exemplar: Resources] (Size: 2)
+  Items: A Resource, Resources
+
+Cluster #67 [Exemplar: Pursuer] (Size: 2)
+  Items: A Pursuer, Pursuer
+
+Cluster #68 [Exemplar: Competition For Desired Objects] (Size: 2)
+  Items: Competition, Competition For Desired Objects
+
+Cluster #69 [Exemplar: Getting Destroyed] (Size: 2)
+  Items: An Object That Has Been Destroyed, Getting Destroyed
+
+Cluster #70 [Exemplar: Frozen] (Size: 2)
+  Items: Cold, Frozen
+
+Cluster #71 [Exemplar: Warmth] (Size: 2)
+  Items: Heat, Warmth
+
+Cluster #72 [Exemplar: Straightness] (Size: 2)
+  Items: Being Straight., Straightness
+
+Cluster #73 [Exemplar: Being Moral.] (Size: 2)
+  Items: Being Immoral., Being Moral.
+
+Cluster #74 [Exemplar: Dying] (Size: 2)
+  Items: Dying, Killing
+
+Cluster #75 [Exemplar: An Animal] (Size: 2)
+  Items: An Animal, An Animal.
+
+Cluster #76 [Exemplar: Predators] (Size: 2)
+  Items: Predators, The Prey
+
+Cluster #77 [Exemplar: A Body] (Size: 2)
+  Items: A Body, A Body (Food)
+
+Cluster #78 [Exemplar: Appetite] (Size: 2)
+  Items: Appetite, Hunger
+
+Cluster #79 [Exemplar: Siblings] (Size: 2)
+  Items: An Older Sibling, Siblings
+
+Cluster #80 [Exemplar: Birthing] (Size: 2)
+  Items: Birthing, Giving Birth
+
+Cluster #81 [Exemplar: Parents, Effects Are Offspring] (Size: 2)
+  Items: Parents, Effects Are Offspring, Parents, Results Are Offspring
+
+Cluster #82 [Exemplar: A Parent] (Size: 2)
+  Items: A Child, A Parent
+
+Cluster #83 [Exemplar: Children] (Size: 2)
+  Items: Children, Children / Pets
+
+Cluster #84 [Exemplar: Placed Near Person Held Responsible] (Size: 2)
+  Items: Attached To Person Held Responsible., Placed Near Person Held Responsible
+
+Cluster #85 [Exemplar: Established By Physical Contact] (Size: 2)
+  Items: (Determined By) Manner Of Contact, Established By Physical Contact
+
+Cluster #86 [Exemplar: Entities] (Size: 2)
+  Items: Entities, Entities Inside A Person
+
+Cluster #87 [Exemplar: Transfer] (Size: 2)
+  Items: Transfer, Transferring An Object
+
+Cluster #88 [Exemplar: Constructed Objects] (Size: 2)
+  Items: A Constructed Object, Constructed Objects
+
+Cluster #89 [Exemplar: Grabbing] (Size: 2)
+  Items: Grabbing, Trying To Grab
+
+Cluster #90 [Exemplar: Paths On Which Thought Travels] (Size: 2)
+  Items: Following A Path, Thinking Is Moving), Paths On Which Thought Travels
+
+Cluster #91 [Exemplar: Determined By The Distance Between A And B] (Size: 2)
+  Items: Determined By The Distance Between A And B, Determined By The Vertical Distance Between A And B
+
+Cluster #92 [Exemplar: The Distance Travelled] (Size: 2)
+  Items: Measured In Distance To Destination Or In Distance From Starting Point, The Distance Travelled
+
+Cluster #93 [Exemplar: Objects Within Reach] (Size: 2)
+  Items: Approaching The Object, Objects Within Reach
+
+Cluster #94 [Exemplar: Causation Is Control Over Motion Of An Affected Party] (Size: 2)
+  Items: Causation Is Control Over Motion Of An Affected Party, Causation Is Control Over Motion Of An Object Relative To Affected Party
+
+Cluster #95 [Exemplar: Maintaining Position] (Size: 2)
+  Items: Maintaining Position, Position
+
+Cluster #96 [Exemplar: Moving Despite Obstacles] (Size: 2)
+  Items: Moving Despite Obstacles, Obstacles To Motion
+
+Cluster #97 [Exemplar: Self-Propelled Motion] (Size: 2)
+  Items: Self-Propelled Motion, Self-Propelled Motion.
+
+Cluster #98 [Exemplar: Control Over Their Forward Motion] (Size: 2)
+  Items: Control Over Motion., Control Over Their Forward Motion
+
+Cluster #99 [Exemplar: Speed Of Motion] (Size: 2)
+  Items: Speed Of Motion, Speed Of Motion To A Destination
+
+Cluster #100 [Exemplar: Verticality] (Size: 2)
+  Items: Vertical Movement., Verticality
+
+Cluster #101 [Exemplar: Forces Affecting Forward Motion] (Size: 2)
+  Items: External Forces That Control Motion, Forces Affecting Forward Motion
+
+Cluster #102 [Exemplar: A Force Between Desired And Desirer.] (Size: 2)
+  Items: A Force Between Desired And Desirer., Forces Between The Desired And The Desirer
+
+Cluster #103 [Exemplar: Grasping] (Size: 2)
+  Items: Grasping, Hand Control
+
+Cluster #104 [Exemplar: Physical Manipulation] (Size: 2)
+  Items: Being Easily Physically Manipulated, Physical Manipulation
+
+Cluster #105 [Exemplar: Physical Control] (Size: 2)
+  Items: Gaining Physical Control Over The Material, Physical Control
+
+Cluster #106 [Exemplar: Being In A Harmful Location] (Size: 2)
+  Items: Being Forced To Move To A Harmful Location, Being In A Harmful Location
+
+Cluster #107 [Exemplar: Returning To A Past Location] (Size: 2)
+  Items: A Setback Which Returns You To Prior Location, Returning To A Past Location
+
+Cluster #108 [Exemplar: Co-Location] (Size: 2)
+  Items: Co-Location, Desired Co-Locational Relations
+
+Cluster #109 [Exemplar: Fortifications] (Size: 2)
+  Items: Attacking A Fortification, Fortifications
+
+Cluster #110 [Exemplar: Landmarks] (Size: 2)
+  Items: A Landmark, Landmarks
+
+Cluster #111 [Exemplar: A Bounded Region] (Size: 2)
+  Items: A Bounded Region, Out Of Bounded Region
+
+Cluster #112 [Exemplar: Areas] (Size: 2)
+  Items: Areas, Within Region
+
+Cluster #113 [Exemplar: Shape Recognition] (Size: 2)
+  Items: Shape Recognition, Shapes
+
+Cluster #114 [Exemplar: Plants] (Size: 2)
+  Items: Plants, Plants (W.R.T. Life Cycle)
+
+Cluster #115 [Exemplar: Cultivating A Plant] (Size: 2)
+  Items: Cultivating A Plant, Growth Of A Plant
+
+Cluster #116 [Exemplar: Understood To Have Conventionalized Meaning Can Be] (Size: 1)
+  Items: Understood To Have Conventionalized Meaning Can Be
+
+Cluster #117 [Exemplar: Not Expressed Builds Pressure Inside The Person] (Size: 1)
+  Items: Not Expressed Builds Pressure Inside The Person
+
+Cluster #118 [Exemplar: Saying. (I Am Aware Of What Your Point Is)] (Size: 1)
+  Items: Saying. (I Am Aware Of What Your Point Is)
+
+Cluster #119 [Exemplar: A Locked Container For Its Solution] (Size: 1)
+  Items: A Locked Container For Its Solution
+
+Cluster #120 [Exemplar: Removed From Container] (Size: 1)
+  Items: Removed From Container
+
+Cluster #121 [Exemplar: A Place Of Confinement] (Size: 1)
+  Items: A Place Of Confinement
+
+Cluster #122 [Exemplar: Containment In A Prescribed Shape] (Size: 1)
+  Items: Containment In A Prescribed Shape
+
+Cluster #123 [Exemplar: A Substance Contained In Affecting Causes] (Size: 1)
+  Items: A Substance Contained In Affecting Causes
+
+Cluster #124 [Exemplar: A Substance Directed At An Affected Party] (Size: 1)
+  Items: A Substance Directed At An Affected Party
+
+Cluster #125 [Exemplar: Ingesting  A  Substance  Compulsively] (Size: 1)
+  Items: Ingesting  A  Substance  Compulsively
+
+Cluster #126 [Exemplar: An Addictive Substance] (Size: 1)
+  Items: An Addictive Substance
+
+Cluster #127 [Exemplar: A Substance That Comes From The Laugher] (Size: 1)
+  Items: A Substance That Comes From The Laugher
+
+Cluster #128 [Exemplar: Mixing Liquids] (Size: 1)
+  Items: Mixing Liquids
+
+Cluster #129 [Exemplar: Hot Fluid In A Container] (Size: 1)
+  Items: Hot Fluid In A Container
+
+Cluster #130 [Exemplar: Liquids In The Eyes] (Size: 1)
+  Items: Liquids In The Eyes
+
+Cluster #131 [Exemplar: A Wax Tablet/Paper] (Size: 1)
+  Items: A Wax Tablet/Paper
+
+Cluster #132 [Exemplar: A Ship] (Size: 1)
+  Items: A Ship
+
+Cluster #133 [Exemplar: People In A Single Boat:] (Size: 1)
+  Items: People In A Single Boat:
+
+Cluster #134 [Exemplar: A Train] (Size: 1)
+  Items: A Train
+
+Cluster #135 [Exemplar: Flow Of Water] (Size: 1)
+  Items: Flow Of Water
+
+Cluster #136 [Exemplar: Water Controlling Motion] (Size: 1)
+  Items: Water Controlling Motion
+
+Cluster #137 [Exemplar: Smooth Water] (Size: 1)
+  Items: Smooth Water
+
+Cluster #138 [Exemplar: Being In Water He'S Afraid To Take The Plunge.] (Size: 1)
+  Items: Being In Water He'S Afraid To Take The Plunge.
+
+Cluster #139 [Exemplar: A Tide] (Size: 1)
+  Items: A Tide
+
+Cluster #140 [Exemplar: Buying Into It He Bought Into The Beliefs Of One Of Those Cults.] (Size: 1)
+  Items: Buying Into It He Bought Into The Beliefs Of One Of Those Cults.
+
+Cluster #141 [Exemplar: Owning Goods He Took Stock Of What He Believed.] (Size: 1)
+  Items: Owning Goods He Took Stock Of What He Believed.
+
+Cluster #142 [Exemplar: Commodities] (Size: 1)
+  Items: Commodities
+
+Cluster #143 [Exemplar: Inflation] (Size: 1)
+  Items: Inflation
+
+Cluster #144 [Exemplar: The Price Of A Good] (Size: 1)
+  Items: The Price Of A Good
+
+Cluster #145 [Exemplar: Getting Money He Profitted From Experience.] (Size: 1)
+  Items: Getting Money He Profitted From Experience.
+
+Cluster #146 [Exemplar: Accounting] (Size: 1)
+  Items: Accounting
+
+Cluster #147 [Exemplar: Commercial Transaction] (Size: 1)
+  Items: Commercial Transaction
+
+Cluster #148 [Exemplar: Payments] (Size: 1)
+  Items: Payments
+
+Cluster #149 [Exemplar: Contracts Social Contract.] (Size: 1)
+  Items: Contracts Social Contract.
+
+Cluster #150 [Exemplar: Losing Money He Paid With His Life For My/His Mistake.] (Size: 1)
+  Items: Losing Money He Paid With His Life For My/His Mistake.
+
+Cluster #151 [Exemplar: Ledger Entries] (Size: 1)
+  Items: Ledger Entries
+
+Cluster #152 [Exemplar: Source] (Size: 1)
+  Items: Source
+
+Cluster #153 [Exemplar: The Source Of The Conclusion] (Size: 1)
+  Items: The Source Of The Conclusion
+
+Cluster #154 [Exemplar: Centrality] (Size: 1)
+  Items: Centrality
+
+Cluster #155 [Exemplar: An Instrument Of Constraint] (Size: 1)
+  Items: An Instrument Of Constraint
+
+Cluster #156 [Exemplar: Provisions] (Size: 1)
+  Items: Provisions
+
+Cluster #157 [Exemplar: Guarantees] (Size: 1)
+  Items: Guarantees
+
+Cluster #158 [Exemplar: Recollocating] (Size: 1)
+  Items: Recollocating
+
+Cluster #159 [Exemplar: Giving Them Hope] (Size: 1)
+  Items: Giving Them Hope
+
+Cluster #160 [Exemplar: Having/Not Having Hope] (Size: 1)
+  Items: Having/Not Having Hope
+
+Cluster #161 [Exemplar: Ending The Relationship] (Size: 1)
+  Items: Ending The Relationship
+
+Cluster #162 [Exemplar: A Tempting Possible Partner] (Size: 1)
+  Items: A Tempting Possible Partner
+
+Cluster #163 [Exemplar: Loving A Partner] (Size: 1)
+  Items: Loving A Partner
+
+Cluster #164 [Exemplar: Lovers] (Size: 1)
+  Items: Lovers
+
+Cluster #165 [Exemplar: Love Objects] (Size: 1)
+  Items: Love Objects
+
+Cluster #166 [Exemplar: Attacks By The Patient] (Size: 1)
+  Items: Attacks By The Patient
+
+Cluster #167 [Exemplar: Single Attacks] (Size: 1)
+  Items: Single Attacks
+
+Cluster #168 [Exemplar: 1 On 1 Physical Aggression] (Size: 1)
+  Items: 1 On 1 Physical Aggression
+
+Cluster #169 [Exemplar: Health] (Size: 1)
+  Items: Health
+
+Cluster #170 [Exemplar: Physical Benefit] (Size: 1)
+  Items: Physical Benefit
+
+Cluster #171 [Exemplar: Physical Injury Due To Neglect] (Size: 1)
+  Items: Physical Injury Due To Neglect
+
+Cluster #172 [Exemplar: Physical Injury Due To Sickness] (Size: 1)
+  Items: Physical Injury Due To Sickness
+
+Cluster #173 [Exemplar: Physical Harm] (Size: 1)
+  Items: Physical Harm
+
+Cluster #174 [Exemplar: Physical Impact] (Size: 1)
+  Items: Physical Impact
+
+Cluster #175 [Exemplar: Aids To Motion] (Size: 1)
+  Items: Aids To Motion
+
+Cluster #176 [Exemplar: Aids To Vision.] (Size: 1)
+  Items: Aids To Vision.
+
+Cluster #177 [Exemplar: Being Cured Of The Disease] (Size: 1)
+  Items: Being Cured Of The Disease
+
+Cluster #178 [Exemplar: Healing] (Size: 1)
+  Items: Healing
+
+Cluster #179 [Exemplar: Contagious Diseases] (Size: 1)
+  Items: Contagious Diseases
+
+Cluster #180 [Exemplar: Impediments To Seeing.] (Size: 1)
+  Items: Impediments To Seeing.
+
+Cluster #181 [Exemplar: Impediments To Travel] (Size: 1)
+  Items: Impediments To Travel
+
+Cluster #182 [Exemplar: Manipulating With Eyes Or Glance] (Size: 1)
+  Items: Manipulating With Eyes Or Glance
+
+Cluster #183 [Exemplar: Touching, Eyes Are Limbs] (Size: 1)
+  Items: Touching, Eyes Are Limbs
+
+Cluster #184 [Exemplar: Blinding] (Size: 1)
+  Items: Blinding
+
+Cluster #185 [Exemplar: The Purposeful Prevention Of Sight:] (Size: 1)
+  Items: The Purposeful Prevention Of Sight:
+
+Cluster #186 [Exemplar: Seeing In A Different Light] (Size: 1)
+  Items: Seeing In A Different Light
+
+Cluster #187 [Exemplar: Seeing Where You Are Going] (Size: 1)
+  Items: Seeing Where You Are Going
+
+Cluster #188 [Exemplar: Not Seeing Reality.] (Size: 1)
+  Items: Not Seeing Reality.
+
+Cluster #189 [Exemplar: Seeing Despite Visual Hindrance He Saw Through Her Lies.] (Size: 1)
+  Items: Seeing Despite Visual Hindrance He Saw Through Her Lies.
+
+Cluster #190 [Exemplar: Having Ideas Develop/Grow] (Size: 1)
+  Items: Having Ideas Develop/Grow
+
+Cluster #191 [Exemplar: Moving In The Ideascape] (Size: 1)
+  Items: Moving In The Ideascape
+
+Cluster #192 [Exemplar: Having Ideas Register] (Size: 1)
+  Items: Having Ideas Register
+
+Cluster #193 [Exemplar: Making] (Size: 1)
+  Items: Making
+
+Cluster #194 [Exemplar: Writing] (Size: 1)
+  Items: Writing
+
+Cluster #195 [Exemplar: Forming Memories] (Size: 1)
+  Items: Forming Memories
+
+Cluster #196 [Exemplar: Linguistic Communication] (Size: 1)
+  Items: Linguistic Communication
+
+Cluster #197 [Exemplar: Speech] (Size: 1)
+  Items: Speech
+
+Cluster #198 [Exemplar: Examining] (Size: 1)
+  Items: Examining
+
+Cluster #199 [Exemplar: Reviewing] (Size: 1)
+  Items: Reviewing
+
+Cluster #200 [Exemplar: Contained In The Stimulus] (Size: 1)
+  Items: Contained In The Stimulus
+
+Cluster #201 [Exemplar: Arriving] (Size: 1)
+  Items: Arriving
+
+Cluster #202 [Exemplar: Reception] (Size: 1)
+  Items: Reception
+
+Cluster #203 [Exemplar: Contact With The Ground] (Size: 1)
+  Items: Contact With The Ground
+
+Cluster #204 [Exemplar: Grounds] (Size: 1)
+  Items: Grounds
+
+Cluster #205 [Exemplar: Suspension] (Size: 1)
+  Items: Suspension
+
+Cluster #206 [Exemplar: Depth] (Size: 1)
+  Items: Depth
+
+Cluster #207 [Exemplar: Undercurrents] (Size: 1)
+  Items: Undercurrents
+
+Cluster #208 [Exemplar: Being Above In Explicit Ranking] (Size: 1)
+  Items: Being Above In Explicit Ranking
+
+Cluster #209 [Exemplar: Higher On List] (Size: 1)
+  Items: Higher On List
+
+Cluster #210 [Exemplar: Lowering] (Size: 1)
+  Items: Lowering
+
+Cluster #211 [Exemplar: Raising] (Size: 1)
+  Items: Raising
+
+Cluster #212 [Exemplar: Lower Number] (Size: 1)
+  Items: Lower Number
+
+Cluster #213 [Exemplar: Getting Lost/Turning Aside] (Size: 1)
+  Items: Getting Lost/Turning Aside
+
+Cluster #214 [Exemplar: Getting/Losing] (Size: 1)
+  Items: Getting/Losing
+
+Cluster #215 [Exemplar: Outgrowing] (Size: 1)
+  Items: Outgrowing
+
+Cluster #216 [Exemplar: Selling Out] (Size: 1)
+  Items: Selling Out
+
+Cluster #217 [Exemplar: Up] (Size: 1)
+  Items: Up
+
+Cluster #218 [Exemplar: Adding Up/Figuring Out] (Size: 1)
+  Items: Adding Up/Figuring Out
+
+Cluster #219 [Exemplar: Irregular] (Size: 1)
+  Items: Irregular
+
+Cluster #220 [Exemplar: Regular] (Size: 1)
+  Items: Regular
+
+Cluster #221 [Exemplar: Bigger] (Size: 1)
+  Items: Bigger
+
+Cluster #222 [Exemplar: Whole] (Size: 1)
+  Items: Whole
+
+Cluster #223 [Exemplar: A Solid] (Size: 1)
+  Items: A Solid
+
+Cluster #224 [Exemplar: Material] (Size: 1)
+  Items: Material
+
+Cluster #225 [Exemplar: Lack Of Cover] (Size: 1)
+  Items: Lack Of Cover
+
+Cluster #226 [Exemplar: Covers For The Facts] (Size: 1)
+  Items: Covers For The Facts
+
+Cluster #227 [Exemplar: Clothing For Facts] (Size: 1)
+  Items: Clothing For Facts
+
+Cluster #228 [Exemplar: Fashions] (Size: 1)
+  Items: Fashions
+
+Cluster #229 [Exemplar: Shopping] (Size: 1)
+  Items: Shopping
+
+Cluster #230 [Exemplar: No Longer Wearing] (Size: 1)
+  Items: No Longer Wearing
+
+Cluster #231 [Exemplar: Scars] (Size: 1)
+  Items: Scars
+
+Cluster #232 [Exemplar: Buying It] (Size: 1)
+  Items: Buying It
+
+Cluster #233 [Exemplar: Trying To Sell It] (Size: 1)
+  Items: Trying To Sell It
+
+Cluster #234 [Exemplar: Contents] (Size: 1)
+  Items: Contents
+
+Cluster #235 [Exemplar: A Guide In The Search] (Size: 1)
+  Items: A Guide In The Search
+
+Cluster #236 [Exemplar: Guides] (Size: 1)
+  Items: Guides
+
+Cluster #237 [Exemplar: Guiding] (Size: 1)
+  Items: Guiding
+
+Cluster #238 [Exemplar: Following] (Size: 1)
+  Items: Following
+
+Cluster #239 [Exemplar: A Com-] (Size: 1)
+  Items: A Com-
+
+Cluster #240 [Exemplar: Collocation] (Size: 1)
+  Items: Collocation
+
+Cluster #241 [Exemplar: Contained In The Problem] (Size: 1)
+  Items: Contained In The Problem
+
+Cluster #242 [Exemplar: Striking A Solution] (Size: 1)
+  Items: Striking A Solution
+
+Cluster #243 [Exemplar: Solving A Puzzle] (Size: 1)
+  Items: Solving A Puzzle
+
+Cluster #244 [Exemplar: A Tangle] (Size: 1)
+  Items: A Tangle
+
+Cluster #245 [Exemplar: Untangling] (Size: 1)
+  Items: Untangling
+
+Cluster #246 [Exemplar: A Circle] (Size: 1)
+  Items: A Circle
+
+Cluster #247 [Exemplar: A Line] (Size: 1)
+  Items: A Line
+
+Cluster #248 [Exemplar: Crossroads] (Size: 1)
+  Items: Crossroads
+
+Cluster #249 [Exemplar: Projectiles, Which The Sender Conveys In Some Manner:] (Size: 1)
+  Items: Projectiles, Which The Sender Conveys In Some Manner:
+
+Cluster #250 [Exemplar: Absorbing] (Size: 1)
+  Items: Absorbing
+
+Cluster #251 [Exemplar: Regurgitating] (Size: 1)
+  Items: Regurgitating
+
+Cluster #252 [Exemplar: A Defense] (Size: 1)
+  Items: A Defense
+
+Cluster #253 [Exemplar: Defenders] (Size: 1)
+  Items: Defenders
+
+Cluster #254 [Exemplar: Adversaries] (Size: 1)
+  Items: Adversaries
+
+Cluster #255 [Exemplar: An Enemy] (Size: 1)
+  Items: An Enemy
+
+Cluster #256 [Exemplar: A Battleground] (Size: 1)
+  Items: A Battleground
+
+Cluster #257 [Exemplar: A Game] (Size: 1)
+  Items: A Game
+
+Cluster #258 [Exemplar: A Fighter] (Size: 1)
+  Items: A Fighter
+
+Cluster #259 [Exemplar: A Race] (Size: 1)
+  Items: A Race
+
+Cluster #260 [Exemplar: Leaders Of The Competing Believers] (Size: 1)
+  Items: Leaders Of The Competing Believers
+
+Cluster #261 [Exemplar: A Changer] (Size: 1)
+  Items: A Changer
+
+Cluster #262 [Exemplar: Change] (Size: 1)
+  Items: Change
+
+Cluster #263 [Exemplar: Replacement] (Size: 1)
+  Items: Replacement
+
+Cluster #264 [Exemplar: Reconstructing] (Size: 1)
+  Items: Reconstructing
+
+Cluster #265 [Exemplar: Resurrecting] (Size: 1)
+  Items: Resurrecting
+
+Cluster #266 [Exemplar: Batteries] (Size: 1)
+  Items: Batteries
+
+Cluster #267 [Exemplar: Becoming Electrified] (Size: 1)
+  Items: Becoming Electrified
+
+Cluster #268 [Exemplar: An Achievement] (Size: 1)
+  Items: An Achievement
+
+Cluster #269 [Exemplar: An Obstable] (Size: 1)
+  Items: An Obstable
+
+Cluster #270 [Exemplar: Adversity Due To Bad Weather] (Size: 1)
+  Items: Adversity Due To Bad Weather
+
+Cluster #271 [Exemplar: Climate] (Size: 1)
+  Items: Climate
+
+Cluster #272 [Exemplar: Coldness She Was Frigid.] (Size: 1)
+  Items: Coldness She Was Frigid.
+
+Cluster #273 [Exemplar: Fire] (Size: 1)
+  Items: Fire
+
+Cluster #274 [Exemplar: Being Crooked.] (Size: 1)
+  Items: Being Crooked.
+
+Cluster #275 [Exemplar: Being In Pain] (Size: 1)
+  Items: Being In Pain
+
+Cluster #276 [Exemplar: Struggling] (Size: 1)
+  Items: Struggling
+
+Cluster #277 [Exemplar: Alive] (Size: 1)
+  Items: Alive
+
+Cluster #278 [Exemplar: Life] (Size: 1)
+  Items: Life
+
+Cluster #279 [Exemplar: Drowning] (Size: 1)
+  Items: Drowning
+
+Cluster #280 [Exemplar: Death/ Success Is Life] (Size: 1)
+  Items: Death/ Success Is Life
+
+Cluster #281 [Exemplar: Madness] (Size: 1)
+  Items: Madness
+
+Cluster #282 [Exemplar: Magic] (Size: 1)
+  Items: Magic
+
+Cluster #283 [Exemplar: Nausea] (Size: 1)
+  Items: Nausea
+
+Cluster #284 [Exemplar: Cleanliness] (Size: 1)
+  Items: Cleanliness
+
+Cluster #285 [Exemplar: Purity] (Size: 1)
+  Items: Purity
+
+Cluster #286 [Exemplar: Nourishment] (Size: 1)
+  Items: Nourishment
+
+Cluster #287 [Exemplar: Fittingness] (Size: 1)
+  Items: Fittingness
+
+Cluster #288 [Exemplar: Tightness] (Size: 1)
+  Items: Tightness
+
+Cluster #289 [Exemplar: Adherence] (Size: 1)
+  Items: Adherence
+
+Cluster #290 [Exemplar: Aligned] (Size: 1)
+  Items: Aligned
+
+Cluster #291 [Exemplar: Interiority] (Size: 1)
+  Items: Interiority
+
+Cluster #292 [Exemplar: Taking In] (Size: 1)
+  Items: Taking In
+
+Cluster #293 [Exemplar: Means To Opening] (Size: 1)
+  Items: Means To Opening
+
+Cluster #294 [Exemplar: Physical Injury Due To Predation By Vicious Animals] (Size: 1)
+  Items: Physical Injury Due To Predation By Vicious Animals
+
+Cluster #295 [Exemplar: Place Where Predation Occurs] (Size: 1)
+  Items: Place Where Predation Occurs
+
+Cluster #296 [Exemplar: A Body (Perception)] (Size: 1)
+  Items: A Body (Perception)
+
+Cluster #297 [Exemplar: Eating, Or Being Eaten.] (Size: 1)
+  Items: Eating, Or Being Eaten.
+
+Cluster #298 [Exemplar: Digestion] (Size: 1)
+  Items: Digestion
+
+Cluster #299 [Exemplar: Swallowing] (Size: 1)
+  Items: Swallowing
+
+Cluster #300 [Exemplar: Getting Burned/Cooked] (Size: 1)
+  Items: Getting Burned/Cooked
+
+Cluster #301 [Exemplar: A Unity (Of Two Complementary Parts)] (Size: 1)
+  Items: A Unity (Of Two Complementary Parts)
+
+Cluster #302 [Exemplar: The Mother Of The Parts] (Size: 1)
+  Items: The Mother Of The Parts
+
+Cluster #303 [Exemplar: Kinship] (Size: 1)
+  Items: Kinship
+
+Cluster #304 [Exemplar: Its  Offspring] (Size: 1)
+  Items: Its  Offspring
+
+Cluster #305 [Exemplar: The Offspring Of The Initial Thing] (Size: 1)
+  Items: The Offspring Of The Initial Thing
+
+Cluster #306 [Exemplar: A Child Of That Property] (Size: 1)
+  Items: A Child Of That Property
+
+Cluster #307 [Exemplar: Caring For A Child Or Pet] (Size: 1)
+  Items: Caring For A Child Or Pet
+
+Cluster #308 [Exemplar: Gaining A Child Or Pet] (Size: 1)
+  Items: Gaining A Child Or Pet
+
+Cluster #309 [Exemplar: Children (W.R.T Development)] (Size: 1)
+  Items: Children (W.R.T Development)
+
+Cluster #310 [Exemplar: People] (Size: 1)
+  Items: People
+
+Cluster #311 [Exemplar: People (W.R.T. Opinions)] (Size: 1)
+  Items: People (W.R.T. Opinions)
+
+Cluster #312 [Exemplar: Supporters] (Size: 1)
+  Items: Supporters
+
+Cluster #313 [Exemplar: Distinct Individuals] (Size: 1)
+  Items: Distinct Individuals
+
+Cluster #314 [Exemplar: People (W.R.T. Family Tree Structure)] (Size: 1)
+  Items: People (W.R.T. Family Tree Structure)
+
+Cluster #315 [Exemplar: Intelligent People With Independent Wills] (Size: 1)
+  Items: Intelligent People With Independent Wills
+
+Cluster #316 [Exemplar: A Burden Which Slows Down Motion] (Size: 1)
+  Items: A Burden Which Slows Down Motion
+
+Cluster #317 [Exemplar: Having A Form] (Size: 1)
+  Items: Having A Form
+
+Cluster #318 [Exemplar: A Captor] (Size: 1)
+  Items: A Captor
+
+Cluster #319 [Exemplar: Getting A Good Thing In Compensation] (Size: 1)
+  Items: Getting A Good Thing In Compensation
+
+Cluster #320 [Exemplar: Giving A Headstart] (Size: 1)
+  Items: Giving A Headstart
+
+Cluster #321 [Exemplar: Avoiding Contact] (Size: 1)
+  Items: Avoiding Contact
+
+Cluster #322 [Exemplar: Contact With Physical Self] (Size: 1)
+  Items: Contact With Physical Self
+
+Cluster #323 [Exemplar: Physical Bonding] (Size: 1)
+  Items: Physical Bonding
+
+Cluster #324 [Exemplar: An  Object  Easily  Accessable  Without Effort On The Part Of The Experiencer] (Size: 1)
+  Items: An  Object  Easily  Accessable  Without Effort On The Part Of The Experiencer
+
+Cluster #325 [Exemplar: Disassembling Object] (Size: 1)
+  Items: Disassembling Object
+
+Cluster #326 [Exemplar: A Brittle Object] (Size: 1)
+  Items: A Brittle Object
+
+Cluster #327 [Exemplar: Hardness Of Object] (Size: 1)
+  Items: Hardness Of Object
+
+Cluster #328 [Exemplar: The Resilience Of The Object] (Size: 1)
+  Items: The Resilience Of The Object
+
+Cluster #329 [Exemplar: Possessing An Object] (Size: 1)
+  Items: Possessing An Object
+
+Cluster #330 [Exemplar: Manipulating An Object] (Size: 1)
+  Items: Manipulating An Object
+
+Cluster #331 [Exemplar: Looking For Solution In Object] (Size: 1)
+  Items: Looking For Solution In Object
+
+Cluster #332 [Exemplar: Structures] (Size: 1)
+  Items: Structures
+
+Cluster #333 [Exemplar: Components Of Object] (Size: 1)
+  Items: Components Of Object
+
+Cluster #334 [Exemplar: Linked Objects] (Size: 1)
+  Items: Linked Objects
+
+Cluster #335 [Exemplar: Storing Objects] (Size: 1)
+  Items: Storing Objects
+
+Cluster #336 [Exemplar: A Car] (Size: 1)
+  Items: A Car
+
+Cluster #337 [Exemplar: Ability To Grab (Length Of Reach) A Really First-Rate Sports Car Is Still Out Of My Reach.] (Size: 1)
+  Items: Ability To Grab (Length Of Reach) A Really First-Rate Sports Car Is Still Out Of My Reach.
+
+Cluster #338 [Exemplar: Abilities To Possess] (Size: 1)
+  Items: Abilities To Possess
+
+Cluster #339 [Exemplar: Control Over An Object Relative To A Possessor] (Size: 1)
+  Items: Control Over An Object Relative To A Possessor
+
+Cluster #340 [Exemplar: Lacking A Desired Possesion] (Size: 1)
+  Items: Lacking A Desired Possesion
+
+Cluster #341 [Exemplar: Carried In The Hands] (Size: 1)
+  Items: Carried In The Hands
+
+Cluster #342 [Exemplar: Having It In Hand] (Size: 1)
+  Items: Having It In Hand
+
+Cluster #343 [Exemplar: Holding] (Size: 1)
+  Items: Holding
+
+Cluster #344 [Exemplar: Open Paths] (Size: 1)
+  Items: Open Paths
+
+Cluster #345 [Exemplar: Being Farther Along On A Path] (Size: 1)
+  Items: Being Farther Along On A Path
+
+Cluster #346 [Exemplar: Paths To Solutions] (Size: 1)
+  Items: Paths To Solutions
+
+Cluster #347 [Exemplar: A Journey] (Size: 1)
+  Items: A Journey
+
+Cluster #348 [Exemplar: Exploration] (Size: 1)
+  Items: Exploration
+
+Cluster #349 [Exemplar: Starting Out For A Destination] (Size: 1)
+  Items: Starting Out For A Destination
+
+Cluster #350 [Exemplar: A Traveler] (Size: 1)
+  Items: A Traveler
+
+Cluster #351 [Exemplar: Trailblazing] (Size: 1)
+  Items: Trailblazing
+
+Cluster #352 [Exemplar: Rights Of Way] (Size: 1)
+  Items: Rights Of Way
+
+Cluster #353 [Exemplar: Being Placed Near Object] (Size: 1)
+  Items: Being Placed Near Object
+
+Cluster #354 [Exemplar: Forces Tow  Ard Closeness] (Size: 1)
+  Items: Forces Tow  Ard Closeness
+
+Cluster #355 [Exemplar: Causal Relations] (Size: 1)
+  Items: Causal Relations
+
+Cluster #356 [Exemplar: An Example Of A Causation Metaphor, Because We Want To Generalize Over Examples Such As:] (Size: 1)
+  Items: An Example Of A Causation Metaphor, Because We Want To Generalize Over Examples Such As:
+
+Cluster #357 [Exemplar: Mental Motion Of A Property Back To Its Source] (Size: 1)
+  Items: Mental Motion Of A Property Back To Its Source
+
+Cluster #358 [Exemplar: Defensible Positions] (Size: 1)
+  Items: Defensible Positions
+
+Cluster #359 [Exemplar: Retreating From A Position] (Size: 1)
+  Items: Retreating From A Position
+
+Cluster #360 [Exemplar: Interaction Between Two Moving Individuals.] (Size: 1)
+  Items: Interaction Between Two Moving Individuals.
+
+Cluster #361 [Exemplar: Motion  Of  A  Commerial  Object  Relative  To An Affected Party] (Size: 1)
+  Items: Motion  Of  A  Commerial  Object  Relative  To An Affected Party
+
+Cluster #362 [Exemplar: Constrained Movement] (Size: 1)
+  Items: Constrained Movement
+
+Cluster #363 [Exemplar: Difficulty Is Moving] (Size: 1)
+  Items: Difficulty Is Moving
+
+Cluster #364 [Exemplar: Something Moving Toward You] (Size: 1)
+  Items: Something Moving Toward You
+
+Cluster #365 [Exemplar: Lack Of Motion] (Size: 1)
+  Items: Lack Of Motion
+
+Cluster #366 [Exemplar: Guided Motion] (Size: 1)
+  Items: Guided Motion
+
+Cluster #367 [Exemplar: Forces Moving Toward Your Destination Everything'S Going My Way.] (Size: 1)
+  Items: Forces Moving Toward Your Destination Everything'S Going My Way.
+
+Cluster #368 [Exemplar: Guides To Our Movement] (Size: 1)
+  Items: Guides To Our Movement
+
+Cluster #369 [Exemplar: Ability To Navigate] (Size: 1)
+  Items: Ability To Navigate
+
+Cluster #370 [Exemplar: A Diversion Which Moves You A Different Direction] (Size: 1)
+  Items: A Diversion Which Moves You A Different Direction
+
+Cluster #371 [Exemplar: Change Of Direction] (Size: 1)
+  Items: Change Of Direction
+
+Cluster #372 [Exemplar: Lack Of Direction] (Size: 1)
+  Items: Lack Of Direction
+
+Cluster #373 [Exemplar: An External Event Exerting Force On Present Events] (Size: 1)
+  Items: An External Event Exerting Force On Present Events
+
+Cluster #374 [Exemplar: Gravity] (Size: 1)
+  Items: Gravity
+
+Cluster #375 [Exemplar: Opposing Forces Things Are Going Against Me.] (Size: 1)
+  Items: Opposing Forces Things Are Going Against Me.
+
+Cluster #376 [Exemplar: Forces That Affect Motion He Was Blown About By The Winds Of War.] (Size: 1)
+  Items: Forces That Affect Motion He Was Blown About By The Winds Of War.
+
+Cluster #377 [Exemplar: Having A Harmful Possession] (Size: 1)
+  Items: Having A Harmful Possession
+
+Cluster #378 [Exemplar: Having The Bad Thing Taken Away] (Size: 1)
+  Items: Having The Bad Thing Taken Away
+
+Cluster #379 [Exemplar: Final Locations] (Size: 1)
+  Items: Final Locations
+
+Cluster #380 [Exemplar: Points (Set Up In Spatial Configuration)] (Size: 1)
+  Items: Points (Set Up In Spatial Configuration)
+
+Cluster #381 [Exemplar: Buildings] (Size: 1)
+  Items: Buildings
+
+Cluster #382 [Exemplar: Foundations] (Size: 1)
+  Items: Foundations
+
+Cluster #383 [Exemplar: A Builder] (Size: 1)
+  Items: A Builder
+
+Cluster #384 [Exemplar: Territory] (Size: 1)
+  Items: Territory
+
+Cluster #385 [Exemplar: A Mobile Entity In Landscape] (Size: 1)
+  Items: A Mobile Entity In Landscape
+
+Cluster #386 [Exemplar: Failing To Locate Object In Landscape] (Size: 1)
+  Items: Failing To Locate Object In Landscape
+
+Cluster #387 [Exemplar: Object Buried In Landscape.] (Size: 1)
+  Items: Object Buried In Landscape.
+
+Cluster #388 [Exemplar: Seeing New Land Or Objects] (Size: 1)
+  Items: Seeing New Land Or Objects
+
+Cluster #389 [Exemplar: Building/Forming/Shaping] (Size: 1)
+  Items: Building/Forming/Shaping
+
+Cluster #390 [Exemplar: Shaping Forces] (Size: 1)
+  Items: Shaping Forces
+
+Cluster #391 [Exemplar: Change Of Shape] (Size: 1)
+  Items: Change Of Shape
+
+Cluster #392 [Exemplar: Compatibility Of Shape] (Size: 1)
+  Items: Compatibility Of Shape
+
+Cluster #393 [Exemplar: A Canonical Shape] (Size: 1)
+  Items: A Canonical Shape
+
+Cluster #394 [Exemplar: A Cutting Instrument] (Size: 1)
+  Items: A Cutting Instrument
+
+Cluster #395 [Exemplar: Musical Harmony] (Size: 1)
+  Items: Musical Harmony
+
+Cluster #396 [Exemplar: Cultivation] (Size: 1)
+  Items: Cultivation
+
+Cluster #397 [Exemplar: Rooting Of A Plant] (Size: 1)
+  Items: Rooting Of A Plant
+
+Cluster #398 [Exemplar: Necessary Prerequisties For Plant Life China Is A Fertile Ground For Revolt.] (Size: 1)
+  Items: Necessary Prerequisties For Plant Life China Is A Fertile Ground For Revolt.
+
+Cluster #399 [Exemplar: Counting The Factors] (Size: 1)
+  Items: Counting The Factors
+
+Cluster #400 [Exemplar: Still Rough Around The Edges, Why Don'T You Fix It?] (Size: 1)
+  Items: Still Rough Around The Edges, Why Don'T You Fix It?
+
+================================================================================
+
+SECTION 4: TARGET → SOURCE MAPPINGS (How abstract concepts are structured)
+--------------------------------------------------------------------------------
+- Harm (19 mappings) is structured by:
+  → IS Having A Harmful Possession (3x), IS Lacking A Desired Possesion (1x), IS Preventing Forward Motion (1x), IS Physical Injury (1x), IS Physical Injury Due To Wounding (1x), IS Physical Injury Due To Sickness (1x), IS Physical Injury Due To Neglect (1x), IS Physical Injury Due To Predation By Vicious Animals (1x), IS Causing Functional Objects To Be Nonfunctional (1x), IS Causing Object To Be Nonfunctional By Destroying It (1x), IS Causing Object To Be Nonfunctional By Preventing Operation (1x), IS Being In A Harmful Location (2x), IS Preventing Forward Motion Toward A Goal (1x), IS Lacking A Needed Possession (2x), IS Preventing Forward Motion Toward A Goal. (1x)
+
+- Beliefs (15 mappings) is structured by:
+  → ARE Structures (2x), ARE Impressions (1x), ARE Possessions (1x), ARE Commodities (1x), ARE Constructed Objects (1x), ARE Clothes (1x), ARE Fashions (1x), ARE Beings With A Life Cycle (1x), ARE Plants (1x), ARE Love Objects (1x), ARE Lovers (1x), ARE Children / Pets (1x), ARE Guides (1x), ARE Locations (1x)
+
+- Theories (14 mappings) is structured by:
+  → ARE Beings With Life Cycles (1x), ARE People (W.R.T Life Cycle) (1x), ARE Plants (W.R.T. Life Cycle) (1x), ARE People (W.R.T. Family Tree Structure) (1x), ARE People (W.R.T. Opinions) (1x), ARE Constructed Objects (1x), ARE Machines (1x), ARE Buildings (1x), ARE Covers For The Facts (1x), ARE Cloth (1x), ARE Clothing For Facts (1x), ARE Leaders Of The Competing Believers (1x), ARE Defensible Positions (1x), ARE Fortifications (1x)
+
+- The Mind (12 mappings) is structured by:
+  → IS A Body (1x), IS A Fighter (1x), IS A Body (Food) (1x), IS A Body (Perception) (1x), IS A Traveler (1x), IS A Container For Objects (1x), IS A Landmark (1x), IS Pursuer (1x), IS A Builder (1x), IS A Wax Tablet/Paper (1x), IS A Parent (1x), IS A Machine (1x)
+
+- Ideas (12 mappings) is structured by:
+  → ARE Food (1x), ARE Perceptions (1x), ARE Locations (1x), ARE Objects (1x), ARE Moving Objects (1x), ARE Constructed Objects (1x), ARE Writing (1x), ARE Children (W.R.T Development) (1x), ARE Fashions (1x), ARE Light Sources (1x), ARE Resources (1x), ARE Projectiles, Which The Sender Conveys In Some Manner: (1x)
+
+- Causation (11 mappings) is structured by:
+  → IS Control Over Relative Location (2x), IS Control Over An Entity Relative To A Location (3x), IS Control Over An Object Relative To A Possessor (2x), IS Control  Over  Location  Of Affected Party Relative To A Location (1x), IS Control  Over  Location  Of  An Object Relative To An Affected Party (1x), IS Motion  Of  A  Commerial  Object  Relative  To An Affected Party (1x), IS Commercial Transaction (1x)
+
+- Thinking (10 mappings) is structured by:
+  → IS Struggling (1x), IS Preparing Food (1x), IS Examining (1x), IS Moving In The Ideascape (1x), IS Possessing An Object (1x), IS Manipulating An Object (1x), IS Approaching The Object (1x), IS Building/Forming/Shaping (1x), IS Giving Birth (1x), IS Having Ideas Develop/Grow (1x)
+
+- Existence (9 mappings) is structured by:
+  → IS A Location (Here) (2x), IS An Object (2x), IS Location Up Here (1x), IS Location Out Of Container (1x), IS Life (1x), IS Visibility (1x), IS Having A Form (1x)
+
+- Communication (8 mappings) is structured by:
+  → IS Feeding (1x), IS Showing (2x), IS Guiding (1x), IS Transfer (1x), IS Linguistic Communication (1x), IS Speech (1x), IS Writing (1x)
+
+- Time (7 mappings) is structured by:
+  → IS Something Moving Toward You (1x), IS Something Moving (No Reference Point) (1x), IS A Landscape We Move Through (1x), IS Money (1x), IS A Resource (1x), IS A Pursuer (1x), IS A Changer (1x)
+
+- Remembering (7 mappings) is structured by:
+  → IS Regurgitating (1x), IS Reviewing (2x), IS Returning To A Past Location (1x), IS Recollocating (1x), IS Reconstructing (1x), IS Resurrecting (1x)
+
+- Obligations (7 mappings) is structured by:
+  → ARE Possessions (1x), ARE Carried In The Hands (1x), ARE Burdens (On Shoulder Or Back) (1x), ARE Burdens (On Lap) (1x), ARE Children (1x), ARE Containers (1x), ARE Forces (1x)
+
+- Change (6 mappings) is structured by:
+  → IS Relative Motion (1x), IS Motion (1x), IS Getting/Losing (1x), IS Motion  (Location) (1x), IS Getting/Losing (Object) (1x), IS Replacement (1x)
+
+- Importance (6 mappings) is structured by:
+  → IS A Physical Property (1x), IS Centrality (1x), IS Interiority (1x), IS Size (1x), IS Depth (1x), IS Precedence (1x)
+
+- Love (6 mappings) is structured by:
+  → IS A Journey (2x), IS Madness (2x), IS A Unity (Of Two Complementary Parts) (1x), IS Magic (1x)
+
+- Understanding (6 mappings) is structured by:
+  → IS Digestion (1x), IS Seeing (1x), IS Arriving (1x), IS Grasping (1x), IS Collocation (1x), IS Having Ideas Register (1x)
+
+- States (5 mappings) is structured by:
+  → ARE Locations (4x), ARE Shapes (1x)
+
+- Properties (5 mappings) is structured by:
+  → ARE Possessions (3x), ARE Contents (1x), ARE Physical Properties (1x)
+
+- Amount (5 mappings) is structured by:
+  → IS A Physical Property (1x), IS Length (1x), IS Verticality (1x), IS Weight (1x), IS Size (1x)
+
+- Action (5 mappings) is structured by:
+  → IS Motion (1x), IS Control Over Possessions (2x), IS Self-Propelled Motion (2x)
+
+- Creating (5 mappings) is structured by:
+  → IS Moving To A Location (Here) (1x), IS Giving An Object (1x), IS Making Visible (1x), IS Birthing (1x), IS Making (1x)
+
+- The Relationship (5 mappings) is structured by:
+  → IS A Moving Object. (1x), IS An Animal. (1x), IS A Ship (1x), IS A Car (1x), IS A Train (1x)
+
+- Purposes (4 mappings) is structured by:
+  → ARE Desired Co-Locational Relations (1x), ARE Desired Possessions (2x), ARE Destinations (1x)
+
+- Opportunities (4 mappings) is structured by:
+  → ARE Objects (2x), ARE Moving Entities (1x), ARE Open Paths (1x)
+
+- Progress (4 mappings) is structured by:
+  → IS Forward Motion (1x), IS Forward Movement (1x), IS Measured In Distance To Destination Or In Distance From Starting Point (1x), IS The Distance Travelled (1x)
+
+- The Past (4 mappings) is structured by:
+  → IS An Instrument Of Constraint (1x), IS A Place Of Confinement (1x), IS A Captor (1x), IS A Pursuer (1x)
+
+- The Harm (4 mappings) is structured by:
+  → IS An Obstable (1x), IS A Setback Which Returns You To Prior Location (1x), IS A Diversion Which Moves You A Different Direction (1x), IS A Burden Which Slows Down Motion (1x)
+
+- Competition (4 mappings) is structured by:
+  → IS A Race (1x), IS Competition For Desired Objects (1x), IS 1 On 1 Physical Aggression (1x), IS War (1x)
+
+- Believing (4 mappings) is structured by:
+  → IS Swallowing (1x), IS Holding (2x), IS Owning Goods He Took Stock Of What He Believed. (1x)
+
+- Learning (4 mappings) is structured by:
+  → IS Eating (2x), IS Taking In (1x), IS Absorbing (1x)
+
+================================================================================
+
+SECTION 5: SOURCE → TARGET MAPPINGS (How concrete domains structure other things)
+--------------------------------------------------------------------------------
+- Eating (8 mappings) structures:
+  → IS Getting A Property (1x), IS Learning (2x), IS Learning Via Reading (1x), IS Perceiving (1x), IS Reading (1x), IS Getting (1x), IS Taking On Responsibilities (1x)
+
+- Locations (7 mappings) structures:
+  → ARE States (4x), ARE Life States (1x), ARE Ideas (1x), ARE Beliefs (1x)
+
+- A Journey (7 mappings) structures:
+  → IS Longterm Purposeful Change (1x), IS Self-Initiated, Long-Term, Purposeful Change (1x), IS Longterm Purposeful Activity (1x), IS Life (1x), IS Love (2x), IS Career (1x)
+
+- Possessions (6 mappings) structures:
+  → ARE Properties (3x), ARE Beliefs (1x), ARE Obligations (1x), ARE Responsibilities (1x)
+
+- Control Over An Entity Relative To A Location (5 mappings) structures:
+  → IS Causation (3x), IS Caused Change Of State (1x), IS Caused Change Of Action (1x)
+
+- Physical Injury (5 mappings) structures:
+  → IS Harm (1x), IS Psychological Harm (1x), IS Economic Harm (1x), IS Environmental Harm (1x), IS Political Harm (1x)
+
+- Heat (5 mappings) structures:
+  → ARE Intense Emotions (1x), IS Anger (2x), IS Lust (2x)
+
+- Motion (4 mappings) structures:
+  → IS Change (1x), IS Action (1x), IS Emotion (1x), IS Form (1x)
+
+- Self-Propelled Motion (4 mappings) structures:
+  → IS Self-Initiated Change Of State (1x), IS Action (2x), IS Self-Motivated Action (1x)
+
+- Containers (4 mappings) structures:
+  → ARE Obligations/Agreements (1x), ARE Difficulties (1x), ARE Shapes (1x), ARE Obligations (1x)
+
+- Up (4 mappings) structures:
+  → IS Control (1x), ARE Foreseeable Future Events (1x), IS Rational (1x), ARE Euphoric States (1x)
+
+- Holding (4 mappings) structures:
+  → IS Believing (2x), IS Possessing (2x)
+
+- Madness (4 mappings) structures:
+  → ARE Strong Emotions (1x), IS Love (2x), IS Lust (1x)
+
+- Having A Harmful Possession (3 mappings) structures:
+  → IS Harm (3x)
+
+- Objects (3 mappings) structures:
+  → ARE Opportunities (2x), ARE Ideas (1x)
+
+- Size (3 mappings) structures:
+  → IS Importance (1x), IS Amount (1x), IS Value (1x)
+
+- Forward Motion (3 mappings) structures:
+  → IS Progress (1x), IS The Progress Of External Events (1x), IS Progress In The Relationship (1x)
+
+- Guides (3 mappings) structures:
+  → ARE Counselors (1x), ARE Beliefs (1x), ARE Paths (1x)
+
+- Feeding (3 mappings) structures:
+  → IS Acting On (1x), IS Communication (1x), IS Communicating Opinion (1x)
+
+- Constructed Objects (3 mappings) structures:
+  → ARE Ideas (1x), ARE Beliefs (1x), ARE Theories (1x)
+
+- Writing (3 mappings) structures:
+  → ARE Ideas (1x), IS Memorizing (1x), IS Communication (1x)
+
+- Entities (2 mappings) structures:
+  → ARE Attributes (2x)
+
+- Control Over Relative Location (2 mappings) structures:
+  → IS Causation (2x)
+
+- Path Over Which Motion Occurs (2 mappings) structures:
+  → IS Means Of Change (2x)
+
+- Getting A Possession (2 mappings) structures:
+  → IS Getting A Property (2x)
+
+- Losing A Possession (2 mappings) structures:
+  → IS Losing A Property (2x)
+
+- Regaining A Possession (2 mappings) structures:
+  → IS Regaing A Property (1x), IS Reganing A Property (1x)
+
+- Desired Possessions (2 mappings) structures:
+  → ARE Purposes (2x)
+
+- Control Over An Object Relative To A Possessor (2 mappings) structures:
+  → IS Causation (2x)
+
+- Comparison Of Distance (2 mappings) structures:
+  → IS Comparison Of States (1x), IS Evaluative) Comparison Of States In A Dynamic Situation (1x)
+

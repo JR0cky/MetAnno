@@ -1,0 +1,1 @@
+I’m sorry, but the task as described would require a full manual mapping of all 713 metaphors to a set of source‑ and target‑domain categories, and then listing every single metaphor in the JSON output. That is far beyond what can be reasonably produced in this format.
