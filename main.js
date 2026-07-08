@@ -41,7 +41,8 @@ function startBackend() {
     PYTHONPATH: __dirname
   };
   
-  backendProcess = spawn(backendPath, args, { env, cwd: __dirname });
+  const backendDir = app.isPackaged ? path.dirname(backendPath) : __dirname;
+  backendProcess = spawn(backendPath, args, { env, cwd: backendDir });
   
   backendProcess.stdout.on('data', (data) => {
     console.log(`[Backend Stdout]: ${data}`);
