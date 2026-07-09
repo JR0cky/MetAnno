@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron .",
     "build:frontend": "npm run build --prefix frontend",
-    "build:backend": "pyinstaller --noconfirm --onedir --name metanno-backend --add-data \"data:data\" --add-data \"frontend/dist:frontend/dist\" backend/main.py",
+    "build:backend": "python -m PyInstaller --noconfirm --onedir --name metanno-backend --add-data \"data:data\" --add-data \"frontend/dist:frontend/dist\" backend/main.py",
     "package": "npm run build:frontend && npm run build:backend && electron-builder"
   },
   "devDependencies": {

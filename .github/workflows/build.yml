@@ -47,7 +47,7 @@ jobs:
           node -e "
             const fs = require('fs');
             const pkg = JSON.parse(fs.readFileSync('package.json', 'utf8'));
-            pkg.scripts['build:backend'] = 'pyinstaller --noconfirm --onedir --name metanno-backend --add-data \"data;data\" --add-data \"frontend/dist;frontend/dist\" backend/main.py';
+            pkg.scripts['build:backend'] = 'python -m PyInstaller --noconfirm --onedir --name metanno-backend --add-data \"data;data\" --add-data \"frontend/dist;frontend/dist\" backend/main.py';
             fs.writeFileSync('package.json', JSON.stringify(pkg, null, 2));
           "
           npm run package
