@@ -58,6 +58,7 @@ class LocalDatabase:
         admin_pwd_hash = bcrypt.hashpw("password123".encode("utf-8"), bcrypt.gensalt()).decode("utf-8")
         ann1_pwd_hash = bcrypt.hashpw("password1231annotator1".encode("utf-8"), bcrypt.gensalt()).decode("utf-8")
         ann2_pwd_hash = bcrypt.hashpw("password1232annotator2".encode("utf-8"), bcrypt.gensalt()).decode("utf-8")
+        ann3_pwd_hash = bcrypt.hashpw("password1233annotator3".encode("utf-8"), bcrypt.gensalt()).decode("utf-8")
         
         users = {
             "admin": {
@@ -79,6 +80,13 @@ class LocalDatabase:
                 "email": "annotator2",
                 "name": "annotator2",
                 "password_hash": ann2_pwd_hash,
+                "role": "annotator"
+            },
+            "annotator3": {
+                "id": "annotator3_uid",
+                "email": "annotator3",
+                "name": "annotator3",
+                "password_hash": ann3_pwd_hash,
                 "role": "annotator"
             }
         }
@@ -142,7 +150,7 @@ class LocalDatabase:
                 "name": "Main Dataset",
                 "description": "Main metaphor annotation workspace.",
                 "dataset_id": "dataset_main",
-                "annotator_ids": ["annotator1", "annotator2"],
+                "annotator_ids": ["annotator1", "annotator2", "annotator3"],
                 "schema": shared_schema
             },
             "proj_pilot": {
@@ -150,7 +158,7 @@ class LocalDatabase:
                 "name": "Pilot Dataset",
                 "description": "Pilot metaphor annotation workspace.",
                 "dataset_id": "dataset_pilot",
-                "annotator_ids": ["annotator1", "annotator2"],
+                "annotator_ids": ["annotator1", "annotator2", "annotator3"],
                 "schema": shared_schema
             }
         }
