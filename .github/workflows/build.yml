@@ -27,7 +27,9 @@ jobs:
           python-version: '3.11'
 
       - name: Install Node Dependencies
-        run: npm install
+        run: |
+          npm install
+          npm install --prefix frontend
 
       - name: Install Python Dependencies
         run: |
