@@ -660,10 +660,13 @@ export const Classification = () => {
                       
                       {/* Step 1: Avoidability */}
                       <div className={`p-2.5 rounded-xl transition-all ${isFieldMissing("lexicalized") ? "border border-rose-255 bg-rose-50/20 shadow-sm" : "border border-transparent"}`}>
-                        <span className={`block text-xs font-bold uppercase tracking-widest mb-2 flex items-center justify-between ${isFieldMissing("lexicalized") ? "text-rose-600 font-bold" : "text-slate-500 font-semibold"}`}>
+                        <span className={`block text-xs font-bold uppercase tracking-widest mb-1.5 flex items-center justify-between ${isFieldMissing("lexicalized") ? "text-rose-600 font-bold" : "text-slate-500 font-semibold"}`}>
                           <span>Step 1: Avoidability</span>
                           {isFieldMissing("lexicalized") && <span className="text-[10px] lowercase font-black text-rose-505 bg-rose-50 border border-rose-100 rounded-md px-1.5 py-0.5 animate-pulse">required</span>}
                         </span>
+                        <p className="text-[11px] text-slate-500 mb-3.5 leading-relaxed font-medium">
+                          Decide if the metaphoric expression could be avoided. If there are (literal) paraphrases that would convey roughly the same message in the given context, please continue the annotation and proceed with Step 2. If you cannot think of any paraphrase that avoids the metaphor and would work just fine, then mark the metaphor as <strong>Lexicalized metaphor</strong> and skip Step 2.
+                        </p>
                         <div className="grid grid-cols-2 gap-2">
                           <label 
                             className={`flex items-center gap-2 p-2.5 border rounded-xl hover:bg-slate-50 transition-all cursor-pointer text-xs font-semibold ${
@@ -716,17 +719,17 @@ export const Classification = () => {
                       {/* Step 2: Taxonomy of Intentions */}
                       {activeSpan.lexicalized === false && (
                         <div className={`p-2.5 rounded-xl transition-all ${isFieldMissing("intentions") ? "border border-rose-250 bg-rose-50/20 shadow-sm" : "border border-transparent"}`}>
-                          <div className="flex items-center justify-between gap-2 mb-2">
+                          <div className="flex items-start justify-between gap-2 mb-3">
                             <div>
-                              <span className={`block text-xs font-bold uppercase tracking-widest ${isFieldMissing("intentions") ? "text-rose-600 font-bold" : "text-slate-500 font-semibold"}`}>
+                              <span className={`block text-xs font-bold uppercase tracking-widest mb-1.5 ${isFieldMissing("intentions") ? "text-rose-600 font-bold" : "text-slate-500 font-semibold"}`}>
                                 Step 2: Communicative Functions
                               </span>
-                              <span className="text-[9px] text-slate-400 font-bold block mt-0.5">
-                                Select up to 3 communicative functions. Click the info icon next to any option to see details.
-                              </span>
+                              <p className="text-[11px] text-slate-500 leading-relaxed font-medium">
+                                Select categories from the taxonomy of intentions. In this step, you are asked to select a possible intention behind the metaphor you are analyzing. The list of categories that you should use is the following one: Artistic metaphor, Visualization, Persuasiveness, Explanation, Argumentative metaphor, Social interaction, Humour, Heuristic reasoning. If you think that more intentions might play a role, feel free to select multiple categories–up to a maximum of 3.
+                              </p>
                             </div>
                             {isFieldMissing("intentions") && (
-                              <span className="text-[10px] lowercase font-black text-rose-500 bg-rose-50 border border-rose-100 rounded-md px-1.5 py-0.5 shrink-0 animate-pulse">
+                              <span className="text-[10px] lowercase font-black text-rose-500 bg-rose-50 border border-rose-100 rounded-md px-1.5 py-0.5 shrink-0 animate-pulse mt-0.5">
                                 select at least 1
                               </span>
                             )}
