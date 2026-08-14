@@ -92,7 +92,7 @@ export const Classification = () => {
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const [statusMsg, setStatusMsg] = useState("");
-  const [showHistory, setShowHistory] = useState(false);
+  const [showHistory, setShowHistory] = useState(true);
   const [activeTooltip, setActiveTooltip] = useState(null);
 
 
@@ -105,7 +105,7 @@ export const Classification = () => {
         if (activeBubbleRef.current) {
           activeBubbleRef.current.scrollIntoView({
             behavior: "smooth",
-            block: "nearest"
+            block: "center"
           });
         }
       }, 80);
@@ -120,7 +120,7 @@ export const Classification = () => {
         if (activeCardRef.current) {
           activeCardRef.current.scrollIntoView({
             behavior: "smooth",
-            block: "center"
+            block: "start"
           });
         }
       }, 100);
@@ -135,9 +135,9 @@ export const Classification = () => {
       const data = await api.getUtteranceDetail(utteranceId, projectId);
       setUtterance(data.utterance);
       setContext(data.context);
-      setSpans(data.annotation.metaphors || []);
-      setCompleted(data.annotation.classification_completed || false);
-      setMetaphorPresent(data.annotation.metaphor_present ?? null);
+      setSpans(data.annotation?.metaphors || []);
+      setCompleted(data.annotation?.classification_completed || false);
+      setMetaphorPresent(data.annotation?.metaphor_present ?? null);
       
       const schemaData = await api.getSchema(projectId);
       setSchema(schemaData);
@@ -146,14 +146,13 @@ export const Classification = () => {
       setUtterancesList(list);
 
       // Determine initial active index
-      if (data.annotation.metaphors && data.annotation.metaphors.length > 0) {
+      if (data.annotation?.metaphors && data.annotation.metaphors.length > 0) {
         setActiveIndex(0);
       } else {
         setActiveIndex(-1);
       }
       
-      // Scroll window to top on load
-      window.scrollTo(0, 0);
+      // Removed window.scrollTo(0, 0) to allow smooth auto-scroll to the active utterance card
     } catch (err) {
       console.error("Error loading classification data:", err);
     } finally {
@@ -173,24 +172,10 @@ export const Classification = () => {
     setSaving(true);
     setStatusMsg("Saving...");
     try {
-      const response = await fetch("http://localhost:8000/api/classification", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "Authorization": `Bearer ${localStorage.getItem("metanno_token")}`
-        },
-        body: JSON.stringify({
-          project_id: projectId,
-          utterance_id: utteranceId,
-          metaphors: updatedSpans,
-          classification_completed: isCompleted,
-          metaphor_present: isPresent
-        })
-      });
-      if (!response.ok) throw new Error("Autosave failed");
+      await api.saveClassification(projectId, utteranceId, updatedSpans, isCompleted);
+      await api.updateMetaphorPresence(projectId, utteranceId, isPresent);
       setStatusMsg("Autosaved");
       setTimeout(() => setStatusMsg(""), 1500);
-      return response;
     } catch (err) {
       setStatusMsg("Save failed");
       throw err;
@@ -199,7 +184,7 @@ export const Classification = () => {
     }
   };
 
-  const handleFieldChange = (field, value) => {
+  const handleFieldChange = (field, value, skipAutosave = false) => {
     if (activeIndex === -1 || !spans[activeIndex]) return;
 
     const updatedSpans = [...spans];
@@ -209,8 +194,10 @@ export const Classification = () => {
     };
 
     setSpans(updatedSpans);
-    setCompleted(true);
-    triggerAutosave(updatedSpans, true, metaphorPresent);
+    if (!skipAutosave) {
+      setCompleted(true);
+      triggerAutosave(updatedSpans, true, metaphorPresent);
+    }
   };
 
   const handleIntentionToggle = (intention) => {
@@ -246,7 +233,7 @@ export const Classification = () => {
       setStatusMsg("Revoked successfully");
       
       // Auto-navigate to skip the intermediate literal page
-      if (isLastTurnOfConversation) {
+      if (isLastTurnOfConversation()) {
         navigate(`/conversation-annotation/${utterance.conversation_id}`);
       } else if (next) {
         navigate(`/identification/${next}`);
@@ -279,7 +266,7 @@ export const Classification = () => {
         await triggerAutosave([], true, false);
         
         // Auto-navigate next
-        if (isLastTurnOfConversation) {
+        if (isLastTurnOfConversation()) {
           navigate(`/conversation-annotation/${utterance.conversation_id}`);
         } else if (next) {
           navigate(`/identification/${next}`);
@@ -317,7 +304,13 @@ export const Classification = () => {
 
   const { prev, next, currentIndex, total } = getNavIds();
 
-  const isLastTurnOfConversation = !next || (currentIndex !== -1 && utterancesList[currentIndex + 1]?.conversation_id !== utterance?.conversation_id);
+  const isLastTurnOfConversation = () => {
+    if (!next) return true;
+    const annotatable = utterancesList.filter(u => u.should_annotate !== false);
+    const currIdx = annotatable.findIndex(u => u.id === utterance?.id);
+    if (currIdx === -1) return false;
+    return annotatable[currIdx + 1]?.conversation_id !== utterance?.conversation_id;
+  };
 
   const isSpanComplete = (span) => {
     if (!span) return false;
@@ -349,7 +342,7 @@ export const Classification = () => {
     if (!isClassificationComplete()) return;
     // Save state as completed before moving forward
     await triggerAutosave(spans, true, metaphorPresent);
-    if (isLastTurnOfConversation) {
+    if (isLastTurnOfConversation()) {
       navigate(`/conversation-annotation/${utterance.conversation_id}`);
     } else if (next) {
       navigate(`/identification/${next}`);
@@ -508,7 +501,13 @@ export const Classification = () => {
           <p className="text-sm text-slate-500 leading-relaxed">
             This utterance was marked as **entirely literal** (containing no metaphorical spans) in the identification stage. Classification is skipped automatically.
           </p>
-          <div className="pt-2">
+          <div className="pt-2 flex justify-center gap-3">
+            <button
+              onClick={() => navigate(`/identification/${utteranceId}`)}
+              className="px-6 py-2.5 rounded-xl border border-slate-200 bg-white text-slate-700 font-bold text-sm shadow-sm hover:bg-slate-50 transition-colors"
+            >
+              Go Back
+            </button>
             <button
               onClick={handleNavigateNext}
               className="px-6 py-2.5 rounded-xl bg-indigo-600 text-white font-bold text-sm shadow-md hover:bg-indigo-700 transition-colors"
@@ -574,19 +573,19 @@ export const Classification = () => {
           </div>
 
           {/* ROW 2: Active Utterance/Selector (left) & Classification Form (right) */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+          <div ref={activeCardRef} className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
             
             {/* Left of Parallel workspace: Active Utterance text and Identified metaphor spans list */}
             <div className="space-y-6">
               
               {/* Current Utterance display */}
-              <div ref={activeCardRef} className="bg-white rounded-3xl border border-slate-200 p-6 shadow-sm space-y-4">
+              <div className="bg-white rounded-3xl border border-slate-200 p-6 shadow-sm space-y-4">
                 <div className="flex items-center justify-between gap-4 border-b border-slate-100 pb-3">
                   <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">
                     Click a Highlighted Metaphor to Classify
                   </span>
                   <span className={`inline-block rounded-full px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider ${
-                    utterance.speaker === "assistant" 
+                    utterance.speaker === "LLM" 
                       ? "bg-indigo-50 text-indigo-700 border border-indigo-100" 
                       : "bg-emerald-50 text-emerald-700 border border-emerald-100"
                   }`}>
@@ -857,7 +856,11 @@ export const Classification = () => {
                         <textarea
                           id="notes"
                           value={activeSpan.comment || ""}
-                          onChange={(e) => handleFieldChange("comment", e.target.value)}
+                          onChange={(e) => handleFieldChange("comment", e.target.value, true)}
+                          onBlur={(e) => {
+                            setCompleted(true);
+                            triggerAutosave(spans, true, metaphorPresent);
+                          }}
                           placeholder="Optional details..."
                           rows="2.5"
                           className="block w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-sm placeholder-slate-400 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"

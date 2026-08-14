@@ -56,9 +56,9 @@ class LocalDatabase:
     def _get_seed_data(self) -> Dict[str, Any]:
         # Hash default passwords
         admin_pwd_hash = bcrypt.hashpw("password123".encode("utf-8"), bcrypt.gensalt()).decode("utf-8")
-        ann1_pwd_hash = bcrypt.hashpw("password1231annotator1".encode("utf-8"), bcrypt.gensalt()).decode("utf-8")
-        ann2_pwd_hash = bcrypt.hashpw("password1232annotator2".encode("utf-8"), bcrypt.gensalt()).decode("utf-8")
-        ann3_pwd_hash = bcrypt.hashpw("password1233annotator3".encode("utf-8"), bcrypt.gensalt()).decode("utf-8")
+        ann1_pwd_hash = bcrypt.hashpw("password1231annotator1".encode("utf-8"), bcrypt.gensalt()).decode("utf-8") # Leandra
+        ann2_pwd_hash = bcrypt.hashpw("password1232annotator2".encode("utf-8"), bcrypt.gensalt()).decode("utf-8") # Niklas
+        ann3_pwd_hash = bcrypt.hashpw("password1233annotator3".encode("utf-8"), bcrypt.gensalt()).decode("utf-8") # Johanna
         
         users = {
             "admin": {
