@@ -98,35 +98,21 @@ export const Classification = () => {
 
   const activeBubbleRef = useRef(null);
   const activeCardRef = useRef(null);
+  const contextContainerRef = useRef(null);
 
   useEffect(() => {
-    if (showHistory && activeBubbleRef.current) {
+    if (showHistory && activeBubbleRef.current && contextContainerRef.current) {
       const timer = setTimeout(() => {
-        if (activeBubbleRef.current) {
-          activeBubbleRef.current.scrollIntoView({
-            behavior: "smooth",
-            block: "center"
-          });
+        if (activeBubbleRef.current && contextContainerRef.current) {
+          const container = contextContainerRef.current;
+          const bubble = activeBubbleRef.current;
+          const scrollPos = bubble.offsetTop - container.offsetTop - (container.clientHeight / 2) + (bubble.clientHeight / 2);
+          container.scrollTo({ top: scrollPos, behavior: 'smooth' });
         }
       }, 80);
       return () => clearTimeout(timer);
     }
   }, [utteranceId, context, showHistory]);
-
-  // Scroll window to active card on utterance change
-  useEffect(() => {
-    if (activeCardRef.current) {
-      const timer = setTimeout(() => {
-        if (activeCardRef.current) {
-          activeCardRef.current.scrollIntoView({
-            behavior: "smooth",
-            block: "start"
-          });
-        }
-      }, 100);
-      return () => clearTimeout(timer);
-    }
-  }, [utteranceId]);
 
   const loadData = async () => {
     if (!projectId || !utteranceId) return;
@@ -152,7 +138,7 @@ export const Classification = () => {
         setActiveIndex(-1);
       }
       
-      // Removed window.scrollTo(0, 0) to allow smooth auto-scroll to the active utterance card
+      window.scrollTo(0, 0);
     } catch (err) {
       console.error("Error loading classification data:", err);
     } finally {
@@ -539,7 +525,7 @@ export const Classification = () => {
               </button>
               
               {showHistory && (
-                <div className="flex-grow overflow-y-auto h-[220px] mt-3 pr-1 space-y-3 animate-fade-in">
+                <div ref={contextContainerRef} className="flex-grow overflow-y-auto h-[220px] mt-3 pr-1 space-y-3 animate-fade-in">
                   {context.map((utt) => {
                     const isCurrent = utt.id === utterance.id;
                     const isContextOnly = utt.should_annotate === false;
