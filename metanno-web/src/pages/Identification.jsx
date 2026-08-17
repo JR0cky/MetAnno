@@ -309,22 +309,6 @@ export const Identification = () => {
           <h1 className="text-2xl font-black text-slate-950 mt-0.5">Identify Metaphor Spans</h1>
         </div>
         <div className="flex items-center gap-3.5 flex-wrap">
-          {/* Shortcuts Panel */}
-          <div className="flex items-center gap-3 text-[11px] text-slate-500 font-bold bg-slate-50 border border-slate-200/80 rounded-xl px-3.5 py-1.5 shadow-sm font-mono select-none">
-            <span className="text-slate-400 uppercase text-[9px] tracking-wider font-extrabold mr-1">Shortcuts:</span>
-            <div className="flex items-center gap-1">
-              <kbd className="px-1.5 py-0.5 bg-white border border-slate-200 rounded-md text-[9px] font-black text-slate-700 shadow-sm">Alt+→</kbd>
-              <span className="text-slate-600 font-semibold">Next</span>
-            </div>
-            <div className="flex items-center gap-1">
-              <kbd className="px-1.5 py-0.5 bg-white border border-slate-200 rounded-md text-[9px] font-black text-slate-700 shadow-sm">Alt+←</kbd>
-              <span className="text-slate-600 font-semibold">Prev</span>
-            </div>
-            <div className="flex items-center gap-1">
-              <kbd className="px-1.5 py-0.5 bg-white border border-slate-200 rounded-md text-[9px] font-black text-slate-700 shadow-sm">Ctrl+Enter</kbd>
-              <span className="text-slate-600 font-semibold">Save</span>
-            </div>
-          </div>
 
           {statusMsg && (
             <span className="text-xs font-bold text-slate-500 bg-slate-100 px-3 py-1.5 rounded-full border border-slate-200/60 font-mono font-semibold animate-pulse">
@@ -337,16 +321,15 @@ export const Identification = () => {
         </div>
       </div>
 
-      {/* ROW 1: Dialogue Context & Guidelines (collapsible) */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
-        {/* Dialogue Context Card */}
+      {/* ROW 1: Dialogue Context */}
+      <div className="w-full">
         <div className="bg-white rounded-3xl border border-slate-200 p-5 shadow-sm flex flex-col transition-all">
           <button 
             onClick={() => setShowHistory(!showHistory)}
             className="w-full flex items-center justify-between text-xs font-bold text-slate-400 uppercase tracking-widest pb-2.5 border-b border-slate-100 hover:text-slate-600 transition-colors"
           >
             <div className="flex items-center gap-1.5">
-              <FileText className="h-4 w-4 text-slate-400" />
+              <FileText className="h-4 w-4 text-indigo-500" />
               <span className="text-slate-500">Dialogue Context</span>
             </div>
             {showHistory ? (
@@ -357,96 +340,41 @@ export const Identification = () => {
           </button>
           
           {showHistory && (
-            <div ref={contextContainerRef} className="flex-grow overflow-y-auto h-[220px] mt-3 pr-1 space-y-3 animate-fade-in">
-              {context.map((utt) => {
-                const isCurrent = utt.id === utterance.id;
-                const isSpeakerAssistant = utt.speaker === "LLM";
-                const isContextOnly = utt.should_annotate === false;
-                return (
-                  <div 
-                    key={utt.id}
-                    ref={isCurrent ? activeBubbleRef : null}
-                    className={`flex flex-col gap-1 rounded-xl p-3 text-xs transition-all ${
-                      isCurrent 
-                        ? "bg-indigo-50/40 border border-indigo-100 ring-2 ring-indigo-50/10"
-                        : isContextOnly
-                          ? "bg-slate-50/40 border border-dashed border-slate-200 opacity-60"
-                          : "bg-slate-50 border border-slate-100"
-                    }`}
-                  >
-                    <div className="flex items-center justify-between text-[10px] font-bold">
-                      <span className={`capitalize ${isSpeakerAssistant ? "text-indigo-600" : "text-emerald-600"} ${isContextOnly ? "text-slate-400" : ""}`}>
-                        {utt.speaker} {isContextOnly && <span className="text-[9px] font-normal text-slate-400 font-sans lowercase tracking-normal italic ml-1">(context only)</span>}
-                      </span>
-                      {isCurrent && (
-                        <span className="text-[8px] bg-indigo-600 text-white px-1.5 py-0.25 rounded-full font-bold uppercase tracking-wider font-mono">
-                          Active
+            <div className="mt-3 animate-fade-in flex flex-col h-[260px]">
+              <div ref={contextContainerRef} className="flex-grow overflow-y-auto pr-1 space-y-3">
+                {context.map((utt) => {
+                  const isCurrent = utt.id === utterance.id;
+                  const isSpeakerAssistant = utt.speaker === "LLM";
+                  const isContextOnly = utt.should_annotate === false;
+                  return (
+                    <div 
+                      key={utt.id}
+                      ref={isCurrent ? activeBubbleRef : null}
+                      className={`flex flex-col gap-1 rounded-xl p-3 text-xs transition-all ${
+                        isCurrent 
+                          ? "bg-indigo-50/40 border border-indigo-100 ring-2 ring-indigo-50/10"
+                          : isContextOnly
+                            ? "bg-slate-50/40 border border-dashed border-slate-200 opacity-60"
+                            : "bg-slate-50 border border-slate-100"
+                      }`}
+                    >
+                      <div className="flex items-center justify-between text-[10px] font-bold">
+                        <span className={`capitalize ${isSpeakerAssistant ? "text-indigo-600" : "text-emerald-600"} ${isContextOnly ? "text-slate-400" : ""}`}>
+                          {utt.speaker} {isContextOnly && <span className="text-[9px] font-normal text-slate-400 font-sans lowercase tracking-normal italic ml-1">(context only)</span>}
                         </span>
-                      )}
+                        {isCurrent && (
+                          <span className="text-[8px] bg-indigo-600 text-white px-1.5 py-0.25 rounded-full font-bold uppercase tracking-wider font-mono">
+                            Active
+                          </span>
+                        )}
+                      </div>
+                      <p className={`mt-0.5 text-slate-700 leading-relaxed ${isCurrent ? "font-semibold text-slate-900" : ""}`}>
+                        {utt.text}
+                      </p>
                     </div>
-                    <p className={`mt-0.5 text-slate-700 leading-relaxed ${isCurrent ? "font-semibold text-slate-900" : ""}`}>
-                      {utt.text}
-                    </p>
-                  </div>
-                );
-              })}
-            </div>
-          )}
-        </div>
-
-        {/* Guidelines Card */}
-        <div className="bg-white rounded-3xl border border-slate-200 p-5 shadow-sm flex flex-col transition-all">
-          <button 
-            onClick={() => setShowMIP(!showMIP)}
-            className="w-full flex items-center justify-between text-xs font-bold text-slate-400 uppercase tracking-widest pb-2.5 border-b border-slate-100 hover:text-slate-600 transition-colors"
-          >
-            <div className="flex items-center gap-1.5">
-              <BookOpen className="h-4 w-4 text-indigo-500" />
-              <span className="text-slate-500">Guidelines</span>
-            </div>
-            {showMIP ? (
-              <ChevronUp className="h-4 w-4 text-slate-400" />
-            ) : (
-              <ChevronDown className="h-4 w-4 text-slate-400" />
-            )}
-          </button>
-          
-          {showMIP && (
-            <div className="flex-grow overflow-y-auto h-[220px] mt-3 pr-1 text-xs text-slate-600 space-y-3 leading-relaxed animate-fade-in">
-              <ol className="space-y-2.5 list-none pl-0">
-                <li className="flex gap-2 items-start">
-                  <span className="font-bold text-slate-400 shrink-0 select-none w-5 text-right">1.</span>
-                  <span>Read the entire text to understand its overall meaning.</span>
-                </li>
-                <li className="flex gap-2 items-start">
-                  <span className="font-bold text-slate-400 shrink-0 select-none w-5 text-right">2.</span>
-                  <span>Identify the lexical units.</span>
-                </li>
-                <li className="flex gap-2 items-start">
-                  <span className="font-bold text-slate-400 shrink-0 select-none w-5 text-right">3.</span>
-                  <span>Determine the contextual meaning of each lexical unit.</span>
-                </li>
-                <li className="flex gap-2 items-start">
-                  <span className="font-bold text-slate-400 shrink-0 select-none w-5 text-right">4.</span>
-                  <span>Determine whether the lexical unit has a more basic contemporary meaning in another context.</span>
-                </li>
-                <li className="pl-7">
-                  <div className="text-[10px] text-slate-400 font-medium leading-normal">
-                    (Basic meanings tend to be more concrete, related to bodily action, more precise, or historically older. Basic meanings are not necessarily the most frequent meanings.)
-                  </div>
-                </li>
-                <li className="font-medium text-slate-700 bg-slate-50 border border-slate-100 p-2.5 rounded-xl text-left leading-normal my-1">
-                  <div className="font-bold mb-1">Ask:</div>
-                  <ul className="list-disc pl-4 space-y-1">
-                    <li>Does the contextual meaning contrast with the basic meaning?</li>
-                    <li>Can the contextual meaning be understood in comparison with the basic meaning?</li>
-                  </ul>
-                </li>
-                <li className="flex gap-2 items-start mt-2">
-                  <span className="text-indigo-600 font-bold shrink-0 select-none w-5 text-right">→</span>
-                  <span className="font-medium text-slate-700">If the answer to both questions is yes, annotate the lexical unit as metaphorical.</span>
-                </li>
-              </ol>
+                  );
+                })}
+              </div>
             </div>
           )}
         </div>
@@ -508,10 +436,13 @@ export const Identification = () => {
           <div className="bg-white rounded-3xl border border-slate-200 p-6 shadow-sm space-y-4">
             <div>
               <span className="text-xs font-bold text-slate-400 uppercase tracking-widest block">
-                Workflow Phase 1
+                MIP
               </span>
-              <p className="text-sm font-bold text-slate-850 mt-1">
+              <p className="text-sm font-bold text-slate-850 mt-1.5">
                 Does this utterance contain metaphorical expressions?
+              </p>
+              <p className="text-[11px] text-slate-500 mt-1">
+                Identify all metaphorical expressions in the active utterance based on the MIP guidelines.
               </p>
             </div>
 

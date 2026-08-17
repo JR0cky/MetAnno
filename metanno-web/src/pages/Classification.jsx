@@ -92,7 +92,7 @@ export const Classification = () => {
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const [statusMsg, setStatusMsg] = useState("");
-  const [showHistory, setShowHistory] = useState(true);
+  const [showHistory, setShowHistory] = useState(false);
   const [activeTooltip, setActiveTooltip] = useState(null);
 
 
@@ -447,26 +447,6 @@ export const Classification = () => {
           <h1 className="text-2xl font-black text-slate-950 mt-0.5">Classify Identified Metaphors</h1>
         </div>
         <div className="flex items-center gap-3.5 flex-wrap">
-          {/* Shortcuts Panel */}
-          <div className="flex items-center gap-3 text-[11px] text-slate-500 font-bold bg-slate-50 border border-slate-200/80 rounded-xl px-3.5 py-1.5 shadow-sm font-mono select-none">
-            <span className="text-slate-400 uppercase text-[9px] tracking-wider font-extrabold mr-1">Shortcuts:</span>
-            <div className="flex items-center gap-1">
-              <kbd className="px-1.5 py-0.5 bg-white border border-slate-200 rounded-md text-[9px] font-black text-slate-700 shadow-sm">Alt+→</kbd>
-              <span className="text-slate-600 font-semibold">Next</span>
-            </div>
-            <div className="flex items-center gap-1">
-              <kbd className="px-1.5 py-0.5 bg-white border border-slate-200 rounded-md text-[9px] font-black text-slate-700 shadow-sm">Alt+←</kbd>
-              <span className="text-slate-600 font-semibold">Prev</span>
-            </div>
-            <div className="flex items-center gap-1">
-              <kbd className="px-1.5 py-0.5 bg-white border border-slate-200 rounded-md text-[9px] font-black text-slate-700 shadow-sm">Ctrl+Enter</kbd>
-              <span className="text-slate-600 font-semibold">Save</span>
-            </div>
-            <div className="flex items-center gap-1 border-l border-slate-200 pl-3">
-              <kbd className="px-1.5 py-0.5 bg-white border border-slate-200 rounded-md text-[9px] font-black text-slate-700 shadow-sm">1-5</kbd>
-              <span className="text-slate-600 font-semibold">Confidence</span>
-            </div>
-          </div>
 
           {statusMsg && (
             <span className="text-xs font-bold text-slate-500 bg-slate-100 px-3 py-1.5 rounded-full border border-slate-200/60 font-mono font-semibold animate-pulse">
@@ -656,16 +636,14 @@ export const Classification = () => {
 
                     {/* Section 2: Metaphor Intention */}
                     <div className="bg-slate-50 border border-slate-200/60 rounded-2xl p-4.5 space-y-4 shadow-sm animate-fade-in">
-                      <span className="block text-[10px] font-black uppercase tracking-wider text-slate-400 border-b border-slate-200/40 pb-1.5 mb-1">Section 2: Metaphor Intention</span>
                       
                       {/* Step 1: Avoidability */}
                       <div className={`p-2.5 rounded-xl transition-all ${isFieldMissing("lexicalized") ? "border border-rose-255 bg-rose-50/20 shadow-sm" : "border border-transparent"}`}>
-                        <span className={`block text-xs font-bold uppercase tracking-widest mb-1.5 flex items-center justify-between ${isFieldMissing("lexicalized") ? "text-rose-600 font-bold" : "text-slate-500 font-semibold"}`}>
-                          <span>Step 1: Avoidability</span>
-                          {isFieldMissing("lexicalized") && <span className="text-[10px] lowercase font-black text-rose-505 bg-rose-50 border border-rose-100 rounded-md px-1.5 py-0.5 animate-pulse">required</span>}
+                        <span className="block text-sm font-black text-black mb-1.5">
+                          Step 1
                         </span>
                         <p className="text-[11px] text-slate-500 mb-3.5 leading-relaxed font-medium">
-                          Decide if the metaphoric expression could be avoided. If there are (literal) paraphrases that would convey roughly the same message in the given context, please continue the annotation and proceed with Step 2. If you cannot think of any paraphrase that avoids the metaphor and would work just fine, then mark the metaphor as <strong>Lexicalized metaphor</strong> and skip Step 2.
+                          Decide if the metaphoric expression could be avoided.
                         </p>
                         <div className="grid grid-cols-2 gap-2">
                           <label 
@@ -721,18 +699,13 @@ export const Classification = () => {
                         <div className={`p-2.5 rounded-xl transition-all ${isFieldMissing("intentions") ? "border border-rose-250 bg-rose-50/20 shadow-sm" : "border border-transparent"}`}>
                           <div className="flex items-start justify-between gap-2 mb-3">
                             <div>
-                              <span className={`block text-xs font-bold uppercase tracking-widest mb-1.5 ${isFieldMissing("intentions") ? "text-rose-600 font-bold" : "text-slate-500 font-semibold"}`}>
-                                Step 2: Communicative Functions
+                              <span className="block text-sm font-black text-black mb-1.5">
+                                Step 2
                               </span>
                               <p className="text-[11px] text-slate-500 leading-relaxed font-medium">
-                                Select categories from the taxonomy of intentions. In this step, you are asked to select a possible intention behind the metaphor you are analyzing. The list of categories that you should use is the following one: Artistic metaphor, Visualization, Persuasiveness, Explanation, Argumentative metaphor, Social interaction, Humour, Heuristic reasoning. If you think that more intentions might play a role, feel free to select multiple categories–up to a maximum of 3.
+                                Select categories from the taxonomy of intentions (max 3).
                               </p>
                             </div>
-                            {isFieldMissing("intentions") && (
-                              <span className="text-[10px] lowercase font-black text-rose-500 bg-rose-50 border border-rose-100 rounded-md px-1.5 py-0.5 shrink-0 animate-pulse mt-0.5">
-                                select at least 1
-                              </span>
-                            )}
                           </div>
                           
                           <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-2 relative">
@@ -741,9 +714,9 @@ export const Classification = () => {
                               const isMaxed = !isChecked && ((activeSpan.intentions || []).length >= 3);
                               
                               return (
-                                <div key={intent} className="relative flex items-center justify-between p-2 border rounded-xl bg-white hover:bg-slate-50 transition-all text-xs font-semibold">
+                                <div key={intent} className="flex items-center p-2 border rounded-xl bg-white hover:bg-slate-50 transition-all text-xs font-semibold">
                                   <label 
-                                    className={`flex items-center gap-2 cursor-pointer flex-grow truncate ${
+                                    className={`flex items-center gap-2 cursor-pointer w-full ${
                                       isChecked 
                                         ? "text-indigo-955 font-bold" 
                                         : isMaxed 
@@ -758,46 +731,8 @@ export const Classification = () => {
                                       onChange={() => handleIntentionToggle(intent)}
                                       className="h-3.5 w-3.5 rounded text-indigo-600 focus:ring-indigo-500 border-slate-300 disabled:opacity-50"
                                     />
-                                    <span className="truncate" title={intent}>{intent}</span>
+                                    <span>{intent}</span>
                                   </label>
-                                  
-                                  <button
-                                    type="button"
-                                    onClick={() => setActiveTooltip(activeTooltip === intent ? null : intent)}
-                                    className="h-5 w-5 flex items-center justify-center rounded-full hover:bg-slate-200 text-slate-400 hover:text-indigo-600 shrink-0 transition-colors ml-1"
-                                    title="Show details"
-                                  >
-                                    <HelpCircle className="h-3.5 w-3.5" />
-                                  </button>
-                                  
-                                  {/* Floating Tooltip Card */}
-                                  {activeTooltip === intent && (
-                                    <div className="absolute left-0 right-0 top-full mt-1.5 z-30 bg-white border border-indigo-100 p-4 rounded-2xl shadow-xl space-y-2.5 animate-fade-in max-h-[180px] overflow-y-auto">
-                                      <div className="flex items-center justify-between border-b border-slate-50 pb-1.5">
-                                        <span className="font-extrabold text-indigo-900 uppercase tracking-wide text-[10px]">{intent} Description</span>
-                                        <button 
-                                          type="button" 
-                                          onClick={() => setActiveTooltip(null)} 
-                                          className="text-slate-450 hover:text-slate-600 text-xs font-bold font-mono"
-                                        >
-                                          ✕
-                                        </button>
-                                      </div>
-                                      <p className="text-[11px] text-slate-600 leading-normal font-medium whitespace-normal">
-                                        {INTENTION_EXPLANATIONS[intent]?.description}
-                                      </p>
-                                      <div className="space-y-1">
-                                        <span className="text-[9px] font-extrabold uppercase tracking-wider text-slate-400 block">Paradigmatic Examples</span>
-                                        <ul className="list-disc pl-3 text-[10px] text-slate-500 space-y-1 whitespace-normal">
-                                          {INTENTION_EXPLANATIONS[intent]?.examples.map((ex, idx) => (
-                                            <li key={idx} className="leading-relaxed">
-                                              {ex}
-                                            </li>
-                                          ))}
-                                        </ul>
-                                      </div>
-                                    </div>
-                                  )}
                                 </div>
                               );
                             })}
@@ -808,13 +743,11 @@ export const Classification = () => {
 
                     {/* Section 3: Confidence & Comments */}
                     <div className="bg-slate-50 border border-slate-200/60 rounded-2xl p-4.5 space-y-4 shadow-sm animate-fade-in">
-                      <span className="block text-[10px] font-black uppercase tracking-wider text-slate-400 border-b border-slate-200/40 pb-1.5 mb-1">Section 3: Confidence & Notes</span>
                       
                       {/* Confidence 5-point rating */}
                       <div className={`p-2.5 rounded-xl transition-all ${isFieldMissing("confidence") ? "border border-rose-250 bg-rose-50/20 shadow-sm" : "border border-transparent"}`}>
-                        <span className={`block text-xs font-bold uppercase tracking-widest mb-2 flex items-center justify-between ${isFieldMissing("confidence") ? "text-rose-600 font-bold" : "text-slate-500 font-semibold"}`}>
-                          <span>Confidence Rating</span>
-                          {isFieldMissing("confidence") && <span className="text-[10px] lowercase font-black text-rose-500 bg-rose-50 border border-rose-100 rounded-md px-1.5 py-0.5 animate-pulse">required</span>}
+                        <span className="block text-sm font-black text-black mb-2">
+                          Confidence Rating
                         </span>
                         <div className="flex gap-2">
                           {[1, 2, 3, 4, 5].map((val) => {
@@ -850,7 +783,7 @@ export const Classification = () => {
                             setCompleted(true);
                             triggerAutosave(spans, true, metaphorPresent);
                           }}
-                          placeholder="Optional details..."
+                          placeholder=""
                           rows="2.5"
                           className="block w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-sm placeholder-slate-400 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
                         />
