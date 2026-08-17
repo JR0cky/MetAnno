@@ -23,6 +23,7 @@ export const Admin = () => {
   const [projDesc, setProjDesc] = useState("");
   const [selectedDatasetId, setSelectedDatasetId] = useState("");
   const [annotatorsInput, setAnnotatorsInput] = useState("annotator1@example.com, annotator2@example.com");
+  const [interactionFunctionsInput, setInteractionFunctionsInput] = useState("Problem framing, Explanation, Evaluation, Persuasion, Rapport building, Humor, Mitigation, Other, Artistic metaphor, Visualization, Argumentative metaphor, Social interaction, Heuristic reasoning");
   
 
 
@@ -163,6 +164,7 @@ export const Admin = () => {
     }
 
     const annotatorEmails = annotatorsInput.split(",").map(s => s.trim().toLowerCase()).filter(Boolean);
+    const interactionFunctions = interactionFunctionsInput.split(",").map(s => s.trim()).filter(Boolean);
 
     setLoading(true);
     try {
@@ -172,7 +174,9 @@ export const Admin = () => {
         description: projDesc,
         dataset_id: selectedDatasetId,
         annotator_ids: annotatorEmails,
-        schema_config: {}
+        schema_config: {
+          interaction_functions: interactionFunctions
+        }
       };
 
       await api.createProject(projectData);
@@ -403,6 +407,27 @@ export const Admin = () => {
           </div>
 
 
+
+          <div className="border-t border-slate-100 pt-4 space-y-4">
+            <span className="text-xs font-bold text-slate-400 uppercase tracking-wider block">
+              Dynamic Schema Configuration (Comma Separated Lists)
+            </span>
+
+            <div className="grid grid-cols-1 gap-4">
+              <div>
+                <label htmlFor="schema-interaction" className="block text-[11px] font-bold text-slate-500 uppercase mb-1">
+                  Communicative Functions (Taxonomy of Intentions)
+                </label>
+                <textarea
+                  id="schema-interaction"
+                  rows="2"
+                  value={interactionFunctionsInput}
+                  onChange={(e) => setInteractionFunctionsInput(e.target.value)}
+                  className="block w-full rounded-lg border border-slate-200 bg-slate-50/50 p-2 text-xs focus:border-blue-500 focus:bg-white focus:outline-none focus:ring-1 focus:ring-blue-500"
+                />
+              </div>
+            </div>
+          </div>
 
           <div className="flex justify-end pt-4">
             <button

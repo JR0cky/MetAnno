@@ -74,7 +74,6 @@ export const api = {
         if (appData_v4.schemas) {
           Object.values(appData_v4.schemas).forEach(schema => {
             delete schema.conceptual_metaphors;
-            delete schema.interaction_functions;
             delete schema.source_frames;
             delete schema.target_frames;
           });
@@ -85,7 +84,6 @@ export const api = {
             if (ann.metaphors) {
               ann.metaphors.forEach(m => {
                 delete m.conceptual_metaphor;
-                delete m.interaction_function;
                 delete m.source_frame;
                 delete m.target_frame;
               });
@@ -345,7 +343,9 @@ async function saveToDisk(appData_v4) {
 }
 
 async function initializeFreshData(datasetChoice = "both") {
-  const shared_schema = {};
+  const shared_schema = {
+    interaction_functions: ["Problem framing", "Explanation", "Evaluation", "Persuasion", "Rapport building", "Humor", "Mitigation", "Other", "Artistic metaphor", "Visualization", "Argumentative metaphor", "Social interaction", "Heuristic reasoning"]
+  };
 
   const appData_v4 = {
     projects: {},

@@ -126,6 +126,7 @@ export const Identification = () => {
           text: selectedText,
           source_frame: "",
           target_frame: "",
+          interaction_function: "",
           confidence: null,
           comment: ""
         };

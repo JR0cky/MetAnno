@@ -83,7 +83,8 @@ export const Classification = () => {
   const [utterancesList, setUtterancesList] = useState([]);
   const [schema, setSchema] = useState({
     source_frames: [],
-    target_frames: []
+    target_frames: [],
+    interaction_functions: []
   });
   
   const [activeIndex, setActiveIndex] = useState(-1);
@@ -295,6 +296,7 @@ export const Classification = () => {
     if (!span) return false;
     if (span.confidence === null || span.confidence === undefined) return false;
     if (span.lexicalized === null || span.lexicalized === undefined || span.lexicalized === "") return false;
+    if (span.lexicalized === false && (!span.intentions || span.intentions.length === 0)) return false;
     return true;
   };
 
@@ -302,6 +304,7 @@ export const Classification = () => {
     if (!activeSpan) return false;
     if (field === "confidence") return activeSpan.confidence === null || activeSpan.confidence === undefined;
     if (field === "lexicalized") return activeSpan.lexicalized === null || activeSpan.lexicalized === undefined;
+    if (field === "intentions") return activeSpan.lexicalized === false && (!activeSpan.intentions || activeSpan.intentions.length === 0);
     return false;
   };
 
@@ -682,6 +685,72 @@ export const Classification = () => {
                         </div>
                       </div>
 
+                      {/* Step 2: Taxonomy of Intentions (Only if non-lexicalized) */}
+                      {activeSpan.lexicalized === false && (
+                        <div className={`p-2.5 rounded-xl transition-all ${isFieldMissing("intentions") ? "border border-rose-250 bg-rose-50/20 shadow-sm" : "border border-transparent"}`}>
+                          <div className="flex items-center gap-2 mb-2">
+                            <span className="text-sm font-black text-black">Taxonomy of Intentions</span>
+                            <span className="px-1.5 py-0.5 rounded-md bg-indigo-50 text-[9px] font-bold text-indigo-500 uppercase tracking-widest border border-indigo-100">
+                              {(activeSpan.intentions || []).length}/3 Max
+                            </span>
+                          </div>
+                          
+                          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 max-h-[220px] overflow-y-auto pr-2 custom-scrollbar">
+                            {(schema.interaction_functions || []).map(func => {
+                              const isSelected = (activeSpan.intentions || []).includes(func);
+                              const details = INTENTION_EXPLANATIONS[func] || { description: "Select to classify the communicative purpose." };
+                              
+                              return (
+                                <div 
+                                  key={func}
+                                  className="relative group"
+                                  onMouseEnter={() => setActiveTooltip(func)}
+                                  onMouseLeave={() => setActiveTooltip(null)}
+                                >
+                                  <label 
+                                    className={`flex items-start gap-2.5 p-2.5 border rounded-xl hover:bg-slate-50 transition-all cursor-pointer h-full ${
+                                      isSelected 
+                                        ? "bg-indigo-50/50 border-indigo-200 text-indigo-950 font-bold" 
+                                        : "bg-white border-slate-200 text-slate-650"
+                                    } ${(activeSpan.intentions || []).length >= 3 && !isSelected ? "opacity-50 grayscale cursor-not-allowed" : ""}`}
+                                  >
+                                    <div className="pt-0.5">
+                                      <input
+                                        type="checkbox"
+                                        checked={isSelected}
+                                        disabled={(activeSpan.intentions || []).length >= 3 && !isSelected}
+                                        onChange={() => handleIntentionToggle(func)}
+                                        className="h-3.5 w-3.5 rounded-sm text-indigo-600 focus:ring-indigo-500 border-slate-300 transition-colors"
+                                      />
+                                    </div>
+                                    <div className="flex-1 min-w-0">
+                                      <span className="block text-[11px] font-semibold leading-tight">{func}</span>
+                                      <span className="block text-[9px] font-medium text-slate-400 mt-0.5 line-clamp-1">{details.description}</span>
+                                    </div>
+                                  </label>
+
+                                  {activeTooltip === func && (
+                                    <div className="absolute z-[100] left-full top-0 ml-2 w-64 bg-slate-900 text-white text-xs rounded-xl shadow-xl p-3 animate-fade-in pointer-events-none before:content-[''] before:absolute before:top-3 before:-left-1 before:w-2 before:h-2 before:bg-slate-900 before:rotate-45">
+                                      <span className="block font-bold text-indigo-300 mb-1">{func}</span>
+                                      <p className="text-slate-300 leading-relaxed mb-2">{details.description}</p>
+                                      {details.examples && details.examples.length > 0 && (
+                                        <div className="space-y-1.5 mt-2 pt-2 border-t border-slate-700/50">
+                                          <span className="block text-[9px] uppercase tracking-wider text-slate-400 font-bold">Examples:</span>
+                                          {details.examples.map((ex, i) => (
+                                            <p key={i} className="text-slate-300 italic text-[10px] leading-tight flex gap-1">
+                                              <span className="text-indigo-400 font-bold opacity-50">&bull;</span> {ex}
+                                            </p>
+                                          ))}
+                                        </div>
+                                      )}
+                                    </div>
+                                  )}
+                                </div>
+                              );
+                            })}
+                          </div>
+                        </div>
+                      )}
 
                     </div>
 
