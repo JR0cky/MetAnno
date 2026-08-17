@@ -5,7 +5,7 @@ import { User, FileJson, ArrowRight, Sparkles, FolderOpen } from "lucide-react";
 
 export const Login = () => {
   const [annotatorName, setAnnotatorName] = useState("");
-  const [datasetChoice, setDatasetChoice] = useState("both");
+  const [datasetChoice, setDatasetChoice] = useState("main");
   const [loading, setLoading] = useState(false);
   const [localErr, setLocalErr] = useState("");
   const { login } = useAuth();
@@ -96,7 +96,6 @@ export const Login = () => {
                 onChange={(e) => setDatasetChoice(e.target.value)}
                 className="block w-full rounded-xl border border-slate-200 bg-slate-50/50 py-3 px-4 text-sm text-slate-800 transition-all focus:border-indigo-500 focus:bg-white focus:outline-none focus:ring-1 focus:ring-indigo-500"
               >
-                <option value="both">Both (Main & Pilot)</option>
                 <option value="main">Main Dataset Only</option>
                 <option value="pilot">Pilot Dataset Only</option>
               </select>
