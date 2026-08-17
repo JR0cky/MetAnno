@@ -23,7 +23,7 @@ export const Admin = () => {
   const [projDesc, setProjDesc] = useState("");
   const [selectedDatasetId, setSelectedDatasetId] = useState("");
   const [annotatorsInput, setAnnotatorsInput] = useState("annotator1@example.com, annotator2@example.com");
-  const [interactionFunctionsInput, setInteractionFunctionsInput] = useState("Problem framing, Explanation, Evaluation, Persuasion, Rapport building, Humor, Mitigation, Other, Artistic metaphor, Visualization, Argumentative metaphor, Social interaction, Heuristic reasoning");
+  const [interactionFunctionsInput, setInteractionFunctionsInput] = useState("Artistic metaphor, Visualization, Persuasiveness, Explanation, Argumentative metaphor, Social interaction, Humour, Heuristic reasoning");
   
 
 

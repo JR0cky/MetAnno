@@ -101,8 +101,6 @@ export const ConversationAnnotation = () => {
     const payload = {
       project_id: projectId,
       conversation_id: conversationId,
-      source_domain: "",
-      target_domain: "",
       comment: "",
       completed: true
     };

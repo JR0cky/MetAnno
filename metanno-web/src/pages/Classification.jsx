@@ -703,18 +703,16 @@ export const Classification = () => {
                               return (
                                 <div 
                                   key={func}
-                                  className="relative group"
-                                  onMouseEnter={() => setActiveTooltip(func)}
-                                  onMouseLeave={() => setActiveTooltip(null)}
+                                  className="relative"
                                 >
                                   <label 
-                                    className={`flex items-start gap-2.5 p-2.5 border rounded-xl hover:bg-slate-50 transition-all cursor-pointer h-full ${
+                                    className={`flex items-center gap-2.5 p-2.5 border rounded-xl hover:bg-slate-50 transition-all cursor-pointer ${
                                       isSelected 
                                         ? "bg-indigo-50/50 border-indigo-200 text-indigo-950 font-bold" 
                                         : "bg-white border-slate-200 text-slate-650"
                                     } ${(activeSpan.intentions || []).length >= 3 && !isSelected ? "opacity-50 grayscale cursor-not-allowed" : ""}`}
                                   >
-                                    <div className="pt-0.5">
+                                    <div>
                                       <input
                                         type="checkbox"
                                         checked={isSelected}
@@ -725,26 +723,8 @@ export const Classification = () => {
                                     </div>
                                     <div className="flex-1 min-w-0">
                                       <span className="block text-[11px] font-semibold leading-tight">{func}</span>
-                                      <span className="block text-[9px] font-medium text-slate-400 mt-0.5 line-clamp-1">{details.description}</span>
                                     </div>
                                   </label>
-
-                                  {activeTooltip === func && (
-                                    <div className="absolute z-[100] left-full top-0 ml-2 w-64 bg-slate-900 text-white text-xs rounded-xl shadow-xl p-3 animate-fade-in pointer-events-none before:content-[''] before:absolute before:top-3 before:-left-1 before:w-2 before:h-2 before:bg-slate-900 before:rotate-45">
-                                      <span className="block font-bold text-indigo-300 mb-1">{func}</span>
-                                      <p className="text-slate-300 leading-relaxed mb-2">{details.description}</p>
-                                      {details.examples && details.examples.length > 0 && (
-                                        <div className="space-y-1.5 mt-2 pt-2 border-t border-slate-700/50">
-                                          <span className="block text-[9px] uppercase tracking-wider text-slate-400 font-bold">Examples:</span>
-                                          {details.examples.map((ex, i) => (
-                                            <p key={i} className="text-slate-300 italic text-[10px] leading-tight flex gap-1">
-                                              <span className="text-indigo-400 font-bold opacity-50">&bull;</span> {ex}
-                                            </p>
-                                          ))}
-                                        </div>
-                                      )}
-                                    </div>
-                                  )}
                                 </div>
                               );
                             })}

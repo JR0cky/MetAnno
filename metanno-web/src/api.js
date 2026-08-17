@@ -86,6 +86,7 @@ export const api = {
                 delete m.conceptual_metaphor;
                 delete m.source_frame;
                 delete m.target_frame;
+                delete m.interaction_function;
               });
             }
           });
@@ -344,7 +345,7 @@ async function saveToDisk(appData_v4) {
 
 async function initializeFreshData(datasetChoice = "both") {
   const shared_schema = {
-    interaction_functions: ["Problem framing", "Explanation", "Evaluation", "Persuasion", "Rapport building", "Humor", "Mitigation", "Other", "Artistic metaphor", "Visualization", "Argumentative metaphor", "Social interaction", "Heuristic reasoning"]
+    interaction_functions: ["Artistic metaphor", "Visualization", "Persuasiveness", "Explanation", "Argumentative metaphor", "Social interaction", "Humour", "Heuristic reasoning"]
   };
 
   const appData_v4 = {
