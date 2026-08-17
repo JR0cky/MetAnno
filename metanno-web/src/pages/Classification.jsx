@@ -109,7 +109,7 @@ export const Classification = () => {
           const scrollPos = bubble.offsetTop - container.offsetTop - (container.clientHeight / 2) + (bubble.clientHeight / 2);
           container.scrollTo({ top: scrollPos, behavior: 'smooth' });
         }
-      }, 80);
+      }, 150);
       return () => clearTimeout(timer);
     }
   }, [utteranceId, context, showHistory]);
@@ -138,7 +138,15 @@ export const Classification = () => {
         setActiveIndex(-1);
       }
       
-      window.scrollTo(0, 0);
+      // Scroll down to focus on the active content (Active Utterance / Classification Form)
+      setTimeout(() => {
+        if (activeCardRef.current) {
+          const y = activeCardRef.current.getBoundingClientRect().top + window.scrollY - 100;
+          window.scrollTo({ top: y, behavior: "smooth" });
+        } else {
+          window.scrollTo(0, 0);
+        }
+      }, 50);
     } catch (err) {
       console.error("Error loading classification data:", err);
     } finally {
@@ -182,7 +190,6 @@ export const Classification = () => {
     setSpans(updatedSpans);
     if (!skipAutosave) {
       setCompleted(true);
-      triggerAutosave(updatedSpans, true, metaphorPresent);
     }
   };
 
@@ -218,14 +225,8 @@ export const Classification = () => {
       await triggerAutosave([], true, false);
       setStatusMsg("Revoked successfully");
       
-      // Auto-navigate to skip the intermediate literal page
-      if (isLastTurnOfConversation()) {
-        navigate(`/conversation-annotation/${utterance.conversation_id}`);
-      } else if (next) {
-        navigate(`/identification/${next}`);
-      } else {
-        navigate("/dashboard");
-      }
+      // Go back to the identification stage for the current utterance
+      navigate(`/identification/${utteranceId}`);
     } catch (err) {
       console.error("Error revoking metaphor decision:", err);
       setStatusMsg("Revoke failed");
@@ -251,14 +252,8 @@ export const Classification = () => {
         setCompleted(true);
         await triggerAutosave([], true, false);
         
-        // Auto-navigate next
-        if (isLastTurnOfConversation()) {
-          navigate(`/conversation-annotation/${utterance.conversation_id}`);
-        } else if (next) {
-          navigate(`/identification/${next}`);
-        } else {
-          navigate("/dashboard");
-        }
+        // Go back to the identification stage for the current utterance
+        navigate(`/identification/${utteranceId}`);
       } else {
         // If there are still spans left, keep them on the page
         // Set activeIndex to the first remaining span
@@ -685,7 +680,6 @@ export const Classification = () => {
                                 };
                                 setSpans(updatedSpans);
                                 setCompleted(true);
-                                triggerAutosave(updatedSpans, true, metaphorPresent);
                               }}
                               className="h-3.5 w-3.5 text-indigo-600 focus:ring-indigo-500 border-slate-300"
                             />
@@ -781,7 +775,6 @@ export const Classification = () => {
                           onChange={(e) => handleFieldChange("comment", e.target.value, true)}
                           onBlur={(e) => {
                             setCompleted(true);
-                            triggerAutosave(spans, true, metaphorPresent);
                           }}
                           placeholder=""
                           rows="2.5"

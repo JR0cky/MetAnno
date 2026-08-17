@@ -35,7 +35,7 @@ export const Identification = () => {
           const scrollPos = bubble.offsetTop - container.offsetTop - (container.clientHeight / 2) + (bubble.clientHeight / 2);
           container.scrollTo({ top: scrollPos, behavior: 'smooth' });
         }
-      }, 80);
+      }, 150);
       return () => clearTimeout(timer);
     }
   }, [utteranceId, context, showHistory]);
@@ -54,7 +54,15 @@ export const Identification = () => {
       const list = await api.getUtterances(projectId);
       setUtterancesList(list);
       
-      window.scrollTo(0, 0);
+      // Scroll down to focus on the active content (Active Utterance / Yes No buttons)
+      setTimeout(() => {
+        if (activeCardRef.current) {
+          const y = activeCardRef.current.getBoundingClientRect().top + window.scrollY - 100;
+          window.scrollTo({ top: y, behavior: "smooth" });
+        } else {
+          window.scrollTo(0, 0);
+        }
+      }, 50);
     } catch (err) {
       console.error("Error loading identification data:", err);
     } finally {
@@ -125,7 +133,6 @@ export const Identification = () => {
         };
         const newSpans = [...spans, newSpan].sort((a, b) => a.start - b.start);
         setSpans(newSpans);
-        triggerAutosave(newSpans, completed, metaphorPresent);
       }
       
       selection.removeAllRanges();
@@ -137,18 +144,14 @@ export const Identification = () => {
   const handleDeleteSpan = (indexToDelete) => {
     const newSpans = spans.filter((_, idx) => idx !== indexToDelete);
     setSpans(newSpans);
-    triggerAutosave(newSpans, completed, metaphorPresent);
   };
 
   // Yes/No workflows
   const handleSelectMetaphorPresent = (isPresent) => {
     setMetaphorPresent(isPresent);
     setCompleted(true);
-    if (isPresent) {
-      triggerAutosave(spans, true, true);
-    } else {
+    if (!isPresent) {
       setSpans([]);
-      triggerAutosave([], true, false);
     }
   };
 
@@ -156,7 +159,6 @@ export const Identification = () => {
     setMetaphorPresent(null);
     setCompleted(false);
     setSpans([]);
-    triggerAutosave([], false, null);
   };
 
   const getNavIds = () => {
