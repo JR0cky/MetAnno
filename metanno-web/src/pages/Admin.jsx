@@ -24,9 +24,7 @@ export const Admin = () => {
   const [selectedDatasetId, setSelectedDatasetId] = useState("");
   const [annotatorsInput, setAnnotatorsInput] = useState("annotator1@example.com, annotator2@example.com");
   
-  // Custom schema inputs
-  const [sourceFramesInput, setSourceFramesInput] = useState("journey, container, war, building, machine, biological, nature");
-  const [targetFramesInput, setTargetFramesInput] = useState("problem_solving, organization, time, argument, relationship, mind");
+
 
   const loadAdminData = async () => {
     setLoading(true);
@@ -165,8 +163,6 @@ export const Admin = () => {
     }
 
     const annotatorEmails = annotatorsInput.split(",").map(s => s.trim().toLowerCase()).filter(Boolean);
-    const sourceFrames = sourceFramesInput.split(",").map(s => s.trim()).filter(Boolean);
-    const targetFrames = targetFramesInput.split(",").map(s => s.trim()).filter(Boolean);
 
     setLoading(true);
     try {
@@ -176,10 +172,7 @@ export const Admin = () => {
         description: projDesc,
         dataset_id: selectedDatasetId,
         annotator_ids: annotatorEmails,
-        schema_config: {
-          source_frames: sourceFrames,
-          target_frames: targetFrames
-        }
+        schema_config: {}
       };
 
       await api.createProject(projectData);
@@ -409,41 +402,7 @@ export const Admin = () => {
             />
           </div>
 
-          <div className="border-t border-slate-100 pt-4 space-y-4">
-            <span className="text-xs font-bold text-slate-400 uppercase tracking-wider block">
-              Dynamic Schema Configuration (Comma Separated Lists)
-            </span>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div>
-                <label htmlFor="schema-source" className="block text-[11px] font-bold text-slate-500 uppercase mb-1">
-                  Source Frames
-                </label>
-                <textarea
-                  id="schema-source"
-                  rows="2"
-                  value={sourceFramesInput}
-                  onChange={(e) => setSourceFramesInput(e.target.value)}
-                  className="block w-full rounded-lg border border-slate-200 bg-slate-50/50 p-2 text-xs focus:border-blue-500 focus:bg-white focus:outline-none focus:ring-1 focus:ring-blue-500"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="schema-target" className="block text-[11px] font-bold text-slate-500 uppercase mb-1">
-                  Target Frames
-                </label>
-                <textarea
-                  id="schema-target"
-                  rows="2"
-                  value={targetFramesInput}
-                  onChange={(e) => setTargetFramesInput(e.target.value)}
-                  className="block w-full rounded-lg border border-slate-200 bg-slate-50/50 p-2 text-xs focus:border-blue-500 focus:bg-white focus:outline-none focus:ring-1 focus:ring-blue-500"
-                />
-              </div>
-
-
-            </div>
-          </div>
 
           <div className="flex justify-end pt-4">
             <button

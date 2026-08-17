@@ -83,9 +83,7 @@ export const Classification = () => {
   const [utterancesList, setUtterancesList] = useState([]);
   const [schema, setSchema] = useState({
     source_frames: [],
-    target_frames: [],
-    conceptual_metaphors: [],
-    interaction_functions: []
+    target_frames: []
   });
   
   const [activeIndex, setActiveIndex] = useState(-1);

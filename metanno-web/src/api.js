@@ -69,6 +69,36 @@ export const api = {
 
       if (text && text.trim().length > 0) {
         appData_v4 = JSON.parse(text);
+        
+        // Clean up deprecated schema fields from existing files
+        if (appData_v4.schemas) {
+          Object.values(appData_v4.schemas).forEach(schema => {
+            delete schema.conceptual_metaphors;
+            delete schema.interaction_functions;
+            delete schema.source_frames;
+            delete schema.target_frames;
+          });
+        }
+        // Clean up deprecated annotation fields from existing files
+        if (appData_v4.annotations) {
+          Object.values(appData_v4.annotations).forEach(ann => {
+            if (ann.metaphors) {
+              ann.metaphors.forEach(m => {
+                delete m.conceptual_metaphor;
+                delete m.interaction_function;
+                delete m.source_frame;
+                delete m.target_frame;
+              });
+            }
+          });
+        }
+        if (appData_v4.conversation_annotations) {
+          Object.values(appData_v4.conversation_annotations).forEach(ann => {
+            delete ann.conceptual_metaphor;
+            delete ann.source_domain;
+            delete ann.target_domain;
+          });
+        }
       } else {
         // Initialize fresh data by reading CSVs from /public
         appData_v4 = await initializeFreshData(datasetChoice);
@@ -315,10 +345,7 @@ async function saveToDisk(appData_v4) {
 }
 
 async function initializeFreshData(datasetChoice = "both") {
-  const shared_schema = {
-    source_frames: ["Human Body", "Health and Illness", "Animals", "Machines and Tools", "Buildings and Construction", "Plants", "Games and Sport", "Cooking and Food", "Economic Transactions", "Forces", "Light and Darkness", "Heat and Cold", "Movement and Direction"],
-    target_frames: ["Emotion", "Desire", "Morality", "Thought", "Society", "Religion", "Politics", "Economy", "Human Relationships", "Communication", "Events and Actions", "Time", "Life and Death"]
-  };
+  const shared_schema = {};
 
   const appData_v4 = {
     projects: {},
