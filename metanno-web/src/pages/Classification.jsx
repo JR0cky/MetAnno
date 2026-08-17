@@ -297,7 +297,6 @@ export const Classification = () => {
     if (!span) return false;
     if (span.confidence === null || span.confidence === undefined) return false;
     if (span.lexicalized === null || span.lexicalized === undefined || span.lexicalized === "") return false;
-    if (span.lexicalized === false && (!span.intentions || span.intentions.length === 0)) return false;
     return true;
   };
 
@@ -305,9 +304,6 @@ export const Classification = () => {
     if (!activeSpan) return false;
     if (field === "confidence") return activeSpan.confidence === null || activeSpan.confidence === undefined;
     if (field === "lexicalized") return activeSpan.lexicalized === null || activeSpan.lexicalized === undefined;
-    if (field === "intentions") {
-      return activeSpan.lexicalized === false && (!activeSpan.intentions || activeSpan.intentions.length === 0);
-    }
     return false;
   };
 
@@ -635,7 +631,7 @@ export const Classification = () => {
                       {/* Step 1: Avoidability */}
                       <div className={`p-2.5 rounded-xl transition-all ${isFieldMissing("lexicalized") ? "border border-rose-255 bg-rose-50/20 shadow-sm" : "border border-transparent"}`}>
                         <span className="block text-sm font-black text-black mb-1.5">
-                          Step 1
+                          Classification Step
                         </span>
                         <p className="text-[11px] text-slate-500 mb-3.5 leading-relaxed font-medium">
                           Decide if the metaphoric expression could be avoided.
@@ -644,7 +640,7 @@ export const Classification = () => {
                           <label 
                             className={`flex items-center gap-2 p-2.5 border rounded-xl hover:bg-slate-50 transition-all cursor-pointer text-xs font-semibold ${
                               activeSpan.lexicalized === false 
-                                ? "bg-indigo-50/50 border-indigo-200 text-indigo-950 font-bold" 
+                                ? "bg-indigo-50/50 border-indigo-200 text-indigo-955 font-bold" 
                                 : "bg-white border-slate-200 text-slate-650"
                             }`}
                           >
@@ -663,7 +659,7 @@ export const Classification = () => {
                           <label 
                             className={`flex items-center gap-2 p-2.5 border rounded-xl hover:bg-slate-50 transition-all cursor-pointer text-xs font-semibold ${
                               activeSpan.lexicalized === true 
-                                ? "bg-indigo-50/50 border-indigo-200 text-indigo-950 font-bold" 
+                                ? "bg-indigo-50/50 border-indigo-200 text-indigo-955 font-bold" 
                                 : "bg-white border-slate-200 text-slate-650"
                             }`}
                           >
@@ -683,56 +679,12 @@ export const Classification = () => {
                               }}
                               className="h-3.5 w-3.5 text-indigo-600 focus:ring-indigo-500 border-slate-300"
                             />
-                            <span>Lexicalized (skip Step 2)</span>
+                            <span>Lexicalized</span>
                           </label>
                         </div>
                       </div>
 
-                      {/* Step 2: Taxonomy of Intentions */}
-                      {activeSpan.lexicalized === false && (
-                        <div className={`p-2.5 rounded-xl transition-all ${isFieldMissing("intentions") ? "border border-rose-250 bg-rose-50/20 shadow-sm" : "border border-transparent"}`}>
-                          <div className="flex items-start justify-between gap-2 mb-3">
-                            <div>
-                              <span className="block text-sm font-black text-black mb-1.5">
-                                Step 2
-                              </span>
-                              <p className="text-[11px] text-slate-500 leading-relaxed font-medium">
-                                Select categories from the taxonomy of intentions (max 3).
-                              </p>
-                            </div>
-                          </div>
-                          
-                          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-2 relative">
-                            {schema.interaction_functions?.map((intent) => {
-                              const isChecked = (activeSpan.intentions || []).includes(intent);
-                              const isMaxed = !isChecked && ((activeSpan.intentions || []).length >= 3);
-                              
-                              return (
-                                <div key={intent} className="flex items-center p-2 border rounded-xl bg-white hover:bg-slate-50 transition-all text-xs font-semibold">
-                                  <label 
-                                    className={`flex items-center gap-2 cursor-pointer w-full ${
-                                      isChecked 
-                                        ? "text-indigo-955 font-bold" 
-                                        : isMaxed 
-                                          ? "text-slate-300 cursor-not-allowed" 
-                                          : "text-slate-650"
-                                    }`}
-                                  >
-                                    <input
-                                      type="checkbox"
-                                      checked={isChecked}
-                                      disabled={isMaxed}
-                                      onChange={() => handleIntentionToggle(intent)}
-                                      className="h-3.5 w-3.5 rounded text-indigo-600 focus:ring-indigo-500 border-slate-300 disabled:opacity-50"
-                                    />
-                                    <span>{intent}</span>
-                                  </label>
-                                </div>
-                              );
-                            })}
-                          </div>
-                        </div>
-                      )}
+
                     </div>
 
                     {/* Section 3: Confidence & Comments */}

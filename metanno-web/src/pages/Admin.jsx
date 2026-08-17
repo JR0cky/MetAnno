@@ -27,8 +27,6 @@ export const Admin = () => {
   // Custom schema inputs
   const [sourceFramesInput, setSourceFramesInput] = useState("journey, container, war, building, machine, biological, nature");
   const [targetFramesInput, setTargetFramesInput] = useState("problem_solving, organization, time, argument, relationship, mind");
-  const [conceptualMetaphorsInput, setConceptualMetaphorsInput] = useState("LIFE IS A JOURNEY, ARGUMENT IS WAR, TIME IS MONEY, THE MIND IS A CONTAINER");
-  const [interactionFunctionsInput, setInteractionFunctionsInput] = useState("Problem framing, Explanation, Evaluation, Persuasion, Rapport building, Humor, Mitigation, Other");
 
   const loadAdminData = async () => {
     setLoading(true);
@@ -169,8 +167,6 @@ export const Admin = () => {
     const annotatorEmails = annotatorsInput.split(",").map(s => s.trim().toLowerCase()).filter(Boolean);
     const sourceFrames = sourceFramesInput.split(",").map(s => s.trim()).filter(Boolean);
     const targetFrames = targetFramesInput.split(",").map(s => s.trim()).filter(Boolean);
-    const conceptualMetaphors = conceptualMetaphorsInput.split(",").map(s => s.trim()).filter(Boolean);
-    const interactionFunctions = interactionFunctionsInput.split(",").map(s => s.trim()).filter(Boolean);
 
     setLoading(true);
     try {
@@ -182,9 +178,7 @@ export const Admin = () => {
         annotator_ids: annotatorEmails,
         schema_config: {
           source_frames: sourceFrames,
-          target_frames: targetFrames,
-          conceptual_metaphors: conceptualMetaphors,
-          interaction_functions: interactionFunctions
+          target_frames: targetFrames
         }
       };
 
@@ -447,31 +441,7 @@ export const Admin = () => {
                 />
               </div>
 
-              <div>
-                <label htmlFor="schema-metaphors" className="block text-[11px] font-bold text-slate-500 uppercase mb-1">
-                  Conceptual Metaphor Inventory
-                </label>
-                <textarea
-                  id="schema-metaphors"
-                  rows="2"
-                  value={conceptualMetaphorsInput}
-                  onChange={(e) => setConceptualMetaphorsInput(e.target.value)}
-                  className="block w-full rounded-lg border border-slate-200 bg-slate-50/50 p-2 text-xs focus:border-blue-500 focus:bg-white focus:outline-none focus:ring-1 focus:ring-blue-500"
-                />
-              </div>
 
-              <div>
-                <label htmlFor="schema-functions" className="block text-[11px] font-bold text-slate-500 uppercase mb-1">
-                  Communicative Functions
-                </label>
-                <textarea
-                  id="schema-functions"
-                  rows="2"
-                  value={interactionFunctionsInput}
-                  onChange={(e) => setInteractionFunctionsInput(e.target.value)}
-                  className="block w-full rounded-lg border border-slate-200 bg-slate-50/50 p-2 text-xs focus:border-blue-500 focus:bg-white focus:outline-none focus:ring-1 focus:ring-blue-500"
-                />
-              </div>
             </div>
           </div>
 

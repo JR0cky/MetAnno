@@ -46,13 +46,17 @@ export const api = {
       
       let text = "";
       if (fileHandle) {
-        const file = await fileHandle.getFile();
-        text = await file.text();
+        if (!createNewFile) {
+          const file = await fileHandle.getFile();
+          text = await file.text();
+        }
       } else {
         // Fallback: check if we already have data in IndexedDB for this user
-        const existingData = await db.getItem("appData_v4");
-        if (existingData) {
-            text = JSON.stringify(existingData);
+        if (!createNewFile) {
+          const existingData = await db.getItem("appData_v4");
+          if (existingData) {
+              text = JSON.stringify(existingData);
+          }
         }
       }
       
@@ -313,9 +317,7 @@ async function saveToDisk(appData_v4) {
 async function initializeFreshData(datasetChoice = "both") {
   const shared_schema = {
     source_frames: ["Human Body", "Health and Illness", "Animals", "Machines and Tools", "Buildings and Construction", "Plants", "Games and Sport", "Cooking and Food", "Economic Transactions", "Forces", "Light and Darkness", "Heat and Cold", "Movement and Direction"],
-    target_frames: ["Emotion", "Desire", "Morality", "Thought", "Society", "Religion", "Politics", "Economy", "Human Relationships", "Communication", "Events and Actions", "Time", "Life and Death"],
-    conceptual_metaphors: ["LIFE IS A JOURNEY", "ARGUMENT IS WAR", "TIME IS MONEY", "THE MIND IS A CONTAINER", "A PROBLEM IS A LOOP", "CREATIVITY IS A SEED", "A STORY IS A BRICK WALL", "EMOTIONAL RAPPROCHEMENT IS BREAKING THE ICE"],
-    interaction_functions: ["Artistic metaphor", "Visualization", "Persuasiveness", "Explanation", "Argumentative metaphor", "Social interaction", "Humour", "Heuristic reasoning"]
+    target_frames: ["Emotion", "Desire", "Morality", "Thought", "Society", "Religion", "Politics", "Economy", "Human Relationships", "Communication", "Events and Actions", "Time", "Life and Death"]
   };
 
   const appData_v4 = {

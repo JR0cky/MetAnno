@@ -103,7 +103,6 @@ export const ConversationAnnotation = () => {
       conversation_id: conversationId,
       source_domain: "",
       target_domain: "",
-      conceptual_metaphor: "",
       comment: "",
       completed: true
     };
