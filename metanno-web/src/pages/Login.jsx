@@ -5,6 +5,7 @@ import { User, FileJson, ArrowRight, Sparkles, FolderOpen } from "lucide-react";
 
 export const Login = () => {
   const [annotatorName, setAnnotatorName] = useState("");
+  const [datasetChoice, setDatasetChoice] = useState("both");
   const [loading, setLoading] = useState(false);
   const [localErr, setLocalErr] = useState("");
   const { login } = useAuth();
@@ -19,7 +20,7 @@ export const Login = () => {
     setLoading(true);
     setLocalErr("");
     try {
-      await login(annotatorName.trim(), createNewFile);
+      await login(annotatorName.trim(), createNewFile, datasetChoice);
       navigate("/dashboard");
     } catch (err) {
       // If the user cancelled the file picker, it throws an AbortError
@@ -84,6 +85,23 @@ export const Login = () => {
           </div>
 
           <div className="space-y-3 pt-2">
+            <div className="mb-4">
+              <label htmlFor="datasetChoice" className="block text-[11px] font-bold text-slate-500 uppercase tracking-wider mb-2">
+                Dataset Selection (For New Files)
+              </label>
+              <select
+                id="datasetChoice"
+                name="datasetChoice"
+                value={datasetChoice}
+                onChange={(e) => setDatasetChoice(e.target.value)}
+                className="block w-full rounded-xl border border-slate-200 bg-slate-50/50 py-3 px-4 text-sm text-slate-800 transition-all focus:border-indigo-500 focus:bg-white focus:outline-none focus:ring-1 focus:ring-indigo-500"
+              >
+                <option value="both">Both (Main & Pilot)</option>
+                <option value="main">Main Dataset Only</option>
+                <option value="pilot">Pilot Dataset Only</option>
+              </select>
+            </div>
+
             <button
               onClick={() => handleAction(true)}
               disabled={loading || !annotatorName.trim()}

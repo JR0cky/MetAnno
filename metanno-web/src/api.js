@@ -13,7 +13,7 @@ let activeFileHandle = null;
 
 export const api = {
   // Authentication & File Setup
-  login: async (annotatorName, createNewFile = true) => {
+  login: async (annotatorName, createNewFile = true, datasetChoice = "both") => {
     try {
       let fileHandle = null;
       
@@ -67,7 +67,7 @@ export const api = {
         appData_v4 = JSON.parse(text);
       } else {
         // Initialize fresh data by reading CSVs from /public
-        appData_v4 = await initializeFreshData();
+        appData_v4 = await initializeFreshData(datasetChoice);
       }
 
       await db.setItem("appData_v4", appData_v4);
@@ -209,6 +209,7 @@ export const api = {
       last_modified: new Date().toISOString()
     };
     await db.setItem("appData_v4", data);
+    await saveToDisk(data);
     return true;
   },
   updateMetaphorPresence: async (projectId, utteranceId, metaphorPresent) => {
@@ -309,7 +310,7 @@ async function saveToDisk(appData_v4) {
   }
 }
 
-async function initializeFreshData() {
+async function initializeFreshData(datasetChoice = "both") {
   const shared_schema = {
     source_frames: ["Human Body", "Health and Illness", "Animals", "Machines and Tools", "Buildings and Construction", "Plants", "Games and Sport", "Cooking and Food", "Economic Transactions", "Forces", "Light and Darkness", "Heat and Cold", "Movement and Direction"],
     target_frames: ["Emotion", "Desire", "Morality", "Thought", "Society", "Religion", "Politics", "Economy", "Human Relationships", "Communication", "Events and Actions", "Time", "Life and Death"],
@@ -318,21 +319,29 @@ async function initializeFreshData() {
   };
 
   const appData_v4 = {
-    projects: {
-      "proj_01": { id: "proj_01", name: "Main Dataset", dataset_id: "dataset_main" },
-      "proj_pilot": { id: "proj_pilot", name: "Pilot Dataset", dataset_id: "dataset_pilot" }
-    },
-    schemas: {
-      "proj_01": shared_schema,
-      "proj_pilot": shared_schema
-    },
+    projects: {},
+    schemas: {},
     utterances: {},
     annotations: {}
   };
 
+  if (datasetChoice === "main" || datasetChoice === "both") {
+    appData_v4.projects["proj_01"] = { id: "proj_01", name: "Main Dataset", dataset_id: "dataset_main" };
+    appData_v4.schemas["proj_01"] = shared_schema;
+  }
+  
+  if (datasetChoice === "pilot" || datasetChoice === "both") {
+    appData_v4.projects["proj_pilot"] = { id: "proj_pilot", name: "Pilot Dataset", dataset_id: "dataset_pilot" };
+    appData_v4.schemas["proj_pilot"] = shared_schema;
+  }
+
   // Load and parse CSVs
-  await loadCSVToAppData(`${import.meta.env.BASE_URL}main_anno.csv`, 'dataset_main', appData_v4);
-  await loadCSVToAppData(`${import.meta.env.BASE_URL}pilot_anno.csv`, 'dataset_pilot', appData_v4);
+  if (datasetChoice === "main" || datasetChoice === "both") {
+    await loadCSVToAppData(`${import.meta.env.BASE_URL}main_anno.csv`, 'dataset_main', appData_v4);
+  }
+  if (datasetChoice === "pilot" || datasetChoice === "both") {
+    await loadCSVToAppData(`${import.meta.env.BASE_URL}pilot_anno.csv`, 'dataset_pilot', appData_v4);
+  }
   
   return appData_v4;
 }

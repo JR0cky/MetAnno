@@ -21,10 +21,10 @@ export const AuthProvider = ({ children }) => {
     checkSession();
   }, []);
 
-  const login = async (annotatorName, createNewFile) => {
+  const login = async (annotatorName, createNewFile, datasetChoice) => {
     setError(null);
     try {
-      const data = await api.login(annotatorName, createNewFile);
+      const data = await api.login(annotatorName, createNewFile, datasetChoice);
       setUser(data.user);
       return data.user;
     } catch (err) {
