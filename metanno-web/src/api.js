@@ -24,14 +24,20 @@ export const api = {
             suggestedName: `metanno_${annotatorName.replace(/\\s+/g, '_')}_data.json`,
             types: [{
               description: 'JSON Files',
-              accept: { 'application/json': ['.json'] },
+              accept: { 
+                'application/json': ['.json'],
+                'text/plain': ['.json']
+              },
             }],
           });
         } else {
           const [handle] = await window.showOpenFilePicker({
             types: [{
               description: 'JSON Files',
-              accept: { 'application/json': ['.json'] },
+              accept: { 
+                'application/json': ['.json'],
+                'text/plain': ['.json']
+              },
             }],
           });
           fileHandle = handle;
